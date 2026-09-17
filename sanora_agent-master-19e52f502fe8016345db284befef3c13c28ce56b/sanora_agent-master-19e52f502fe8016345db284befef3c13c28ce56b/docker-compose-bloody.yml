@@ -1,0 +1,30 @@
+services:
+  bloody_rooyee_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile-bloody
+    container_name: bloody_rooyee_agent
+    ports:
+      - "${ROOYEE_AGENT_HOST_PORT:-28821}:8000"
+    volumes:
+      - ./:/app
+    working_dir: /app
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - UVICORN_HOST=0.0.0.0
+      - UVICORN_PORT=8000
+      - UVICORN_RELOAD=${DEBUG:-false}
+      - UVICORN_LOG_LEVEL=${LOG_LEVEL:-info}
+      - UVICORN_ACCESS_LOG=${ACCESS_LOG:-true}
+    command:
+      - bash
+      - -c
+      - |
+        uvicorn src.main:app \
+          --host $${UVICORN_HOST:-0.0.0.0} \
+          --port $${UVICORN_PORT:-8000} \
+          $$(if [ "$${UVICORN_RELOAD:-false}" = "true" ]; then echo '--reload'; fi) \
+          --log-level $${UVICORN_LOG_LEVEL:-info} \
+          $$(if [ "$${UVICORN_ACCESS_LOG:-true}" = "true" ]; then echo '--access-log'; else echo '--no-access-log'; fi)

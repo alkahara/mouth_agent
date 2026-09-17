@@ -1,0 +1,85 @@
+# LangGraph 核心
+langgraph==1.0.1
+langgraph-checkpoint==3.0.0
+langgraph-sdk==0.2.3
+langgraph-prebuilt==1.0.1
+
+# LangChain 核心
+langchain==1.0.1
+langchain-core==1.0.0
+langchain-community==0.4
+
+# LLM 服务客户端
+anthropic==0.71.0
+openai==2.6.0
+langchain-anthropic==1.0.0
+langchain-openai==1.0.0
+
+langchain-mcp-adapters==0.1.13
+# API 框架
+fastapi==0.116.1
+uvicorn==0.35.0
+sse-starlette==3.0.2
+
+# 数据处理
+pydantic==2.11.7
+pydantic-settings==2.11.0
+dataclasses-json==0.6.7
+openpyxl==3.1.5
+
+# HTTP 客户端
+httpx==0.28.1
+requests==2.32.5
+
+# 实用工具
+python-dotenv==1.1.1
+PyYAML==6.0.2
+tiktoken==0.11.0
+tenacity==9.1.2
+
+# 数据库 (如果需要持久化)
+SQLAlchemy==2.0.43
+psycopg>=3.0.0,<4.0.0  # PostgreSQL 支持
+langgraph-checkpoint-postgres==3.0.0
+
+# JSON 处理
+orjson==3.11.3
+jsonschema==4.25.1
+
+psycopg[binary]
+
+# 测试
+pytest==8.4.2
+psycopg==3.2.13
+psycopg-binary==3.2.13
+dashscope==1.25.2
+
+# RAG
+aiohttp
+beautifulsoup4
+click
+dashscope
+docx2txt
+faiss-cpu
+json-repair
+langchain-text-splitters
+numpy
+pandas
+pyprojroot
+pypdf
+rank-bm25
+requests
+tabulate
+tenacity
+tiktoken
+tqdm
+
+# OpenTelemetry 支持
+opentelemetry-api>=1.39.1
+opentelemetry-sdk>=1.39.1
+opentelemetry-exporter-otlp-proto-grpc>=1.39.1
+opentelemetry-instrumentation-fastapi>=0.60b1
+opentelemetry-instrumentation-sqlalchemy>=0.50b2
+openinference-instrumentation-openai
+openinference-instrumentation-langchain
+arize-phoenix-otel>=0.14.0

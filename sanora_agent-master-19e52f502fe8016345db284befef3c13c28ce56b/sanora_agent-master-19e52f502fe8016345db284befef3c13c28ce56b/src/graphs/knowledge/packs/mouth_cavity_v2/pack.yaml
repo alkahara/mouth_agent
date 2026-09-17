@@ -1,0 +1,39 @@
+metadata:
+  pack_id: mouth_cavity_v2
+  display_name: "口腔术后问答V2"
+  description: "针对口腔手术术后出血、护理的常见问题提供结构化指导。"
+
+# 注意：mouth_cavity_v2 采用 Manager-Operator 架构
+# 生成式模型推理已全面接入 config/nodes.json，以下 generate_response 仅作父类初始化占位，实际不再使用
+# RAG 查询使用 prompts/rag_query.md，由 rag_operator.py 直接调用
+preprocess:
+
+generate_response:
+  response_model_key: "qwen3-flash"
+  system_prompt: "prompts/rag_query.md"  # 占位配置，实际不使用
+  user_prompt: ""  # 占位配置，实际不使用
+grader_rewrite:
+  enabled: false
+  grader_model: "qwen3-flash"
+  rewrite_model: "qwen3-flash"
+  rewrite_prompt: "prompts/rewrite.md"
+  grade_prompt: "prompts/grade.md"
+embedding:
+  model_key: "text-embedding-v4"
+  path:
+    knowledge_base: "knowledge_base"
+    cache: "vector_cache"
+retrieval:
+  llm_intent_query_retrieval: false
+  tool:
+    name: "mouth_cavity_retriever"
+    description: "检索口腔术后护理建议与注意事项。"
+  search_kwargs:
+    k: 5
+  hybrid:
+    enable_bm25: false
+    enable_parent_pages: false
+chunking:
+  size: 500
+  overlap: 70
+rerank: null

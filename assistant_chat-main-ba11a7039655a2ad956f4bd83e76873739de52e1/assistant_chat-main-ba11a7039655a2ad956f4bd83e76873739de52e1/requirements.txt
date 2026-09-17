@@ -1,0 +1,10 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+requests==2.31.0
+python-docx==0.8.11
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.0
+SQLAlchemy==2.0.36
+PyMySQL==1.1.1
+alembic==1.14.0
+bcrypt==5.0.0

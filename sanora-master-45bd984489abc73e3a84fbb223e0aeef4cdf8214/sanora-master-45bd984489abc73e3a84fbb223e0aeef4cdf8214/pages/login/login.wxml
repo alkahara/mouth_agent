@@ -1,0 +1,62 @@
+<view class="login-page">
+  <view class="login-content">
+    <view class="login-title">口腔智能体</view>
+    <view class="login-subtitle">{{mode === 'login' ? '登录平台患者账号' : '创建平台患者账号'}}</view>
+
+    <view class="mode-switch">
+      <view class="mode-option {{mode === 'login' ? 'mode-option--active' : ''}}" data-mode="login" bindtap="switchMode">登录</view>
+      <view class="mode-option {{mode === 'register' ? 'mode-option--active' : ''}}" data-mode="register" bindtap="switchMode">注册</view>
+    </view>
+
+    <block wx:if="{{mode === 'login'}}">
+      <view class="field">
+        <text class="field-label">8 位登录识别码</text>
+        <input class="field-input" value="{{loginCode}}" placeholder="请输入登录识别码" type="number" maxlength="8" disabled="{{isLoading}}" data-field="loginCode" bindinput="handleInput" />
+      </view>
+    </block>
+    <block wx:else>
+      <view class="field">
+        <text class="field-label">身份证后 4 位</text>
+        <input class="field-input" value="{{idCardLast4}}" placeholder="4 位数字" type="number" maxlength="4" disabled="{{isLoading}}" data-field="idCardLast4" bindinput="handleInput" />
+      </view>
+      <view class="field">
+        <text class="field-label">手机号后 4 位</text>
+        <input class="field-input" value="{{phoneLast4}}" placeholder="4 位数字" type="number" maxlength="4" disabled="{{isLoading}}" data-field="phoneLast4" bindinput="handleInput" />
+      </view>
+      <view class="code-preview" wx:if="{{idCardLast4.length === 4 && phoneLast4.length === 4}}">登录识别码：{{idCardLast4}}{{phoneLast4}}</view>
+    </block>
+
+    <view class="field">
+      <text class="field-label">密码</text>
+      <view class="password-field">
+        <input class="field-input password-input" value="{{password}}" password="{{!showPassword}}" placeholder="{{mode === 'register' ? '至少 8 位' : '请输入密码'}}" maxlength="128" disabled="{{isLoading}}" data-field="password" bindinput="handleInput" bindconfirm="handleSubmit" />
+        <view class="password-toggle" role="button" aria-label="{{showPassword ? '隐藏密码' : '显示密码'}}" catchtap="togglePasswordVisibility">{{showPassword ? '隐藏' : '显示'}}</view>
+      </view>
+    </view>
+
+    <block wx:if="{{mode === 'register'}}">
+      <view class="field">
+        <text class="field-label">确认密码</text>
+        <input class="field-input" value="{{passwordConfirmation}}" password="{{!showPassword}}" placeholder="请再次输入密码" maxlength="128" disabled="{{isLoading}}" data-field="passwordConfirmation" bindinput="handleInput" bindconfirm="handleSubmit" />
+      </view>
+      <view class="consent-row">
+        <checkbox-group bindchange="handleConsentChange"><label><checkbox value="agree" checked="{{privacyConsent}}" color="#20a88a" />我已阅读并同意</label></checkbox-group>
+        <text class="policy-link" bindtap="showPrivacy">隐私政策</text>
+        <text>和</text>
+        <text class="policy-link" bindtap="showMedicalNotice">医疗资料处理说明</text>
+      </view>
+    </block>
+
+    <view class="login-error" wx:if="{{error}}">{{error}}</view>
+    <button class="login-button" type="primary" loading="{{isLoading}}" disabled="{{isLoading}}" bindtap="handleSubmit">{{mode === 'login' ? '登录' : '创建账号'}}</button>
+    <view class="forgot-link" wx:if="{{mode === 'login'}}" bindtap="showForgotPassword">忘记密码？</view>
+  </view>
+</view>
+
+<view class="document-overlay" wx:if="{{documentTitle}}" bindtap="closeDocument">
+  <view class="document-panel" catchtap="noop">
+    <view class="document-title">{{documentTitle}}</view>
+    <view class="document-text">{{documentText}}</view>
+    <button class="document-close" bindtap="closeDocument">知道了</button>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view wx:if="{{loadError}}" class="error-state">
+  <view class="error-text">视频加载失败，请稍后重试</view>
+  <button class="error-back" bindtap="handleBack">返回聊天</button>
+</view>
+<web-view wx:elif="{{videoUrl}}" src="{{videoUrl}}" bindload="onWebviewLoad" binderror="onWebviewError"></web-view>
+<view wx:else class="error-state">
+  <view class="error-text">视频地址无效</view>
+  <button class="error-back" bindtap="handleBack">返回聊天</button>
+</view>

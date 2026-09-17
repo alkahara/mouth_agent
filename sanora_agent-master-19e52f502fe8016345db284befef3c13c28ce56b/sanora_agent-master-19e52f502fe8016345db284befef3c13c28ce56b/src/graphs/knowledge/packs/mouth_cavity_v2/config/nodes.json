@@ -1,0 +1,30 @@
+{
+    "default": {
+        "model_provider": "qwen3-flash",
+        "temperature": 0.7,
+        "max_tokens": 8096,
+        "top_p": 0.7
+    },
+    "nodes": {
+        "intent_router_node": {
+            "model_provider": "qwen3-flash",
+            "temperature": 0.1
+        },
+        "manager_node": {
+            "model_provider": "qwen3-flash",
+            "temperature": 0.1
+        },
+        "rag_operator": {
+            "model_provider": "qwen3-flash",
+            "temperature": 0.7
+        },
+        "final_operator": {
+            "model_provider": "qwen3-flash",
+            "temperature": 0.7
+        },
+        "general_responder_operator": {
+            "model_provider": "qwen3-flash",
+            "temperature": 0.8
+        }
+    }
+}

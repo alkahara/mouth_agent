@@ -1,0 +1,4 @@
+*.pyc
+.env
+agent.stdout.log
+agent.stderr.log

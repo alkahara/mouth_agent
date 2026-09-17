@@ -1,0 +1,49 @@
+metadata:
+  pack_id: sheld_qa
+  display_name: "神盾问答助手知识库"
+  description: "针对签证相关问题的问答助手"
+preprocess:
+
+generate_response:
+  response_model_key: "deepseek-v4-flash"
+  system_prompt: "prompts/system.md"
+  user_prompt: "prompts/user.md"
+grader_rewrite:
+  enabled: false
+  grader_model: "deepseek-v4-flash"
+  rewrite_model: "deepseek-v4-flash"
+  rewrite_prompt: "prompts/rewrite.md"
+  grade_prompt: "prompts/grade.md"
+embedding:
+  model_key: "text-embedding-v4"
+  path:
+    # ⭐ storage_root: 存储根目录，支持环境变量语法 ${ENV_VAR}
+    # 在 .env 或系统环境中设置 SHELD_EMBEDDING_STORAGE_ROOT
+    # 本地开发：SHELD_EMBEDDING_STORAGE_ROOT=/Users/hogetsu/agent_dev/repos/SheldServer
+    # 生产环境：SHELD_EMBEDDING_STORAGE_ROOT=/app
+    storage_root: "${SHELD_EMBEDDING_STORAGE_ROOT}"
+    # dataset_path: 数据集相对路径（相对于 storage_root，可被 rebuild API 动态覆盖）
+    dataset_path: null  # 空知识库，等待 rebuild 时动态指定
+    cache: "vector_cache"
+retrieval:
+  tool:
+    name: "sheld_qa_retriever"
+    description: "检索签证相关问答"
+  search_kwargs:
+    k: 10
+  hybrid:
+    enable_bm25: false
+    enable_parent_pages: true
+  qa_pairs:
+    enabled: true
+    prompt: "prompts/qa_pair.md"
+chunking:
+  size: 800
+  overlap: 80
+# rerank: 
+#   provider: "bge"
+#   model: "bge-reranker-v2-m3"
+#   endpoint: "http://47.93.78.21:28800/v1/rerank"
+#   top_k: 10
+#   candidate_k: 20
+rerank: null

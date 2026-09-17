@@ -1,0 +1,27 @@
+page { min-height: 100%; background: #0f172a; }
+.login-page { box-sizing: border-box; min-height: 100vh; padding: 104rpx 40rpx 64rpx; color: #f8fafc; }
+.login-content { max-width: 680rpx; margin: 0 auto; }
+.login-title { font-size: 52rpx; font-weight: 700; }
+.login-subtitle { margin: 14rpx 0 46rpx; font-size: 28rpx; color: #94a3b8; }
+.mode-switch { display: flex; width: 100%; margin-bottom: 38rpx; border-bottom: 1rpx solid #334155; }
+.mode-option { box-sizing: border-box; flex: 1; height: 78rpx; text-align: center; line-height: 76rpx; color: #94a3b8; font-size: 29rpx; }
+.mode-option--active { color: #5eead4; font-weight: 600; border-bottom: 4rpx solid #20a88a; }
+.field { margin-top: 26rpx; }
+.field-label { display: block; margin-bottom: 12rpx; font-size: 26rpx; color: #cbd5e1; }
+.field-input { box-sizing: border-box; width: 100%; height: 88rpx; padding: 0 24rpx; border: 1rpx solid #475569; border-radius: 12rpx; background: #1e293b; color: #f8fafc; font-size: 28rpx; }
+.password-field { display: flex; align-items: center; border: 1rpx solid #475569; border-radius: 12rpx; background: #1e293b; }
+.password-input { flex: 1; min-width: 0; border: 0; background: transparent; }
+.password-toggle { flex: none; padding: 20rpx 24rpx; color: #5eead4; font-size: 26rpx; }
+.code-preview { margin-top: 18rpx; color: #5eead4; font-size: 26rpx; }
+.consent-row { display: flex; align-items: center; flex-wrap: wrap; margin-top: 30rpx; color: #cbd5e1; font-size: 23rpx; line-height: 44rpx; }
+.consent-row checkbox { transform: scale(.72); transform-origin: left center; }
+.policy-link { color: #5eead4; }
+.login-error { margin-top: 24rpx; color: #fda4af; font-size: 25rpx; }
+.login-button { margin-top: 42rpx; background: #127b68 !important; border-radius: 12rpx; }
+.login-button[disabled] { background: #a7c4bc !important; color: #fff !important; }
+.forgot-link { margin-top: 30rpx; text-align: center; color: #5eead4; font-size: 25rpx; }
+.document-overlay { position: fixed; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; padding: 40rpx; background: rgba(14, 36, 31, .56); }
+.document-panel { box-sizing: border-box; width: 100%; max-width: 680rpx; padding: 38rpx; border-radius: 12rpx; background: #fff; }
+.document-title { color: #17312d; font-size: 32rpx; font-weight: 600; }
+.document-text { margin-top: 22rpx; color: #38524c; font-size: 26rpx; line-height: 1.7; }
+.document-close { margin-top: 32rpx; background: #127b68 !important; color: #fff !important; border-radius: 12rpx; }

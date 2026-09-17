@@ -1,0 +1,999 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>口腔种植术后管理产品需求与系统设计</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --paper: #ffffff;
+      --ink: #172033;
+      --muted: #64748b;
+      --line: #d8e0ea;
+      --brand: #0f766e;
+      --brand-dark: #0b4f4a;
+      --blue: #2563eb;
+      --green: #16803c;
+      --amber: #b7791f;
+      --red: #b42318;
+      --soft-green: #e9f7ef;
+      --soft-blue: #eef5ff;
+      --soft-amber: #fff7e6;
+      --soft-red: #fff0ee;
+      --code: #f1f5f9;
+      --table-head: #edf7f5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.72;
+      letter-spacing: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b4f4a 0%, #126f68 54%, #1d4f7a 100%);
+      color: #fff;
+      padding: 46px 24px 36px;
+      border-bottom: 5px solid #8dd3c7;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: 34px;
+      line-height: 1.25;
+      font-weight: 780;
+    }
+
+    header p {
+      max-width: 930px;
+      margin: 0;
+      color: #e5f3f1;
+      font-size: 16px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+    }
+
+    nav .wrap {
+      display: flex;
+      gap: 14px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: var(--brand-dark);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 4px 2px;
+    }
+
+    main {
+      padding: 28px 0 64px;
+    }
+
+    section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 26px;
+      margin: 20px 0;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 24px;
+      line-height: 1.35;
+      color: #102033;
+    }
+
+    h3 {
+      margin: 22px 0 10px;
+      font-size: 18px;
+      color: #203047;
+    }
+
+    p {
+      margin: 9px 0;
+    }
+
+    ul, ol {
+      margin: 8px 0 14px 24px;
+      padding: 0;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    code {
+      background: var(--code);
+      border: 1px solid #dfe7f0;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 9px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--table-head);
+      font-weight: 700;
+    }
+
+    .note {
+      border-left: 4px solid var(--brand);
+      background: #edf8f6;
+      padding: 12px 14px;
+      margin: 14px 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .warning {
+      border-left: 4px solid var(--amber);
+      background: var(--soft-amber);
+      padding: 12px 14px;
+      margin: 14px 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin: 16px 0;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 15px;
+      background: #fff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .tag {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 2px 9px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 6px;
+    }
+
+    .tag.green { color: var(--green); background: var(--soft-green); }
+    .tag.blue { color: var(--blue); background: var(--soft-blue); }
+    .tag.amber { color: var(--amber); background: var(--soft-amber); }
+    .tag.red { color: var(--red); background: var(--soft-red); }
+
+    .flow-figure {
+      margin: 18px 0 4px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdff;
+      overflow-x: auto;
+      padding: 12px;
+    }
+
+    .flow-figure svg {
+      width: 100%;
+      min-width: 980px;
+      height: auto;
+      display: block;
+    }
+
+    .caption {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 8px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      h1 {
+        font-size: 27px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      .grid,
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>口腔种植术后管理产品需求与系统设计</h1>
+      <p>围绕种植患者术后恢复期的宣教、随访、问题识别、风险分级和医护干预，设计患者端、医护端、Server、知识库与智能对话系统的协同方案。当前智能对话核心以 <code>mouth_cavity_v2_graph</code> 为基础扩展。</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap">
+      <a href="#scope">定位</a>
+      <a href="#prd">产品需求</a>
+      <a href="#reference-features">参考产品补充</a>
+      <a href="#knowledge">知识库设计</a>
+      <a href="#systems">系统设计</a>
+      <a href="#workflow">业务流程图</a>
+      <a href="#risk">风险与干预</a>
+      <a href="#data">数据与接口</a>
+      <a href="#roadmap">落地路线</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="scope">
+      <h2>一、产品定位与设计假设</h2>
+      <p><strong>产品目标：</strong>对种植患者术后阶段进行持续、分层、可追踪的恢复管理，帮助患者理解正常愈合过程，完成用药、饮食、伤口维护、口腔维护和复诊随访，并在出现异常症状时完成问题识别、风险分级和医护干预。</p>
+      <p><strong>核心判断：</strong>这是一个“医疗安全边界强”的术后管理系统，不应把所有判断都交给自由对话模型。AI 负责理解患者表达、补全信息、生成通俗解释；风险路径、紧急情况、医护预警和前端交互协议应由确定性规则兜底。</p>
+      <div class="note">
+        <strong>设计假设：</strong>患者已在院内完成种植相关治疗，系统可以从病例/治疗计划系统读取术式、术区、手术时间、医嘱、复诊计划和联系人等基础信息；患者端为微信小程序，医护端可为小程序或 Web 工作台；智能对话沿用现有 <code>mouth_cavity_v2_graph</code> 的 Manager-Operator 架构。
+      </div>
+      <h3>成功指标</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>指标类型</th>
+            <th>建议指标</th>
+            <th>意义</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>患者管理</td>
+            <td>术后宣教触达率、随访完成率、复诊提醒确认率、患者自评填写率</td>
+            <td>衡量主动管理是否覆盖到恢复期关键节点。</td>
+          </tr>
+          <tr>
+            <td>风险识别</td>
+            <td>异常问题识别率、高风险预警响应时长、医护确认率、误报/漏报复盘数</td>
+            <td>衡量系统能否及时发现并推动干预。</td>
+          </tr>
+          <tr>
+            <td>体验与纠纷预防</td>
+            <td>患者焦虑问题处理满意度、重复咨询下降率、争议会话可追溯率</td>
+            <td>降低患者不确定感，沉淀可审计证据链。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="prd">
+      <h2>二、产品需求</h2>
+      <h3>2.1 用户角色</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>角色</th>
+            <th>核心诉求</th>
+            <th>系统能力</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>患者</td>
+            <td>知道术后什么是正常、遇到异常时怎么做、是否需要联系医生。</td>
+            <td>健康宣教、阶段提醒、图片/视频辅助判断、AI 问答、风险建议、医护接管提示。</td>
+          </tr>
+          <tr>
+            <td>医生/护士</td>
+            <td>及时发现风险患者，按优先级处理，减少重复解释和遗漏。</td>
+            <td>预警列表、患者恢复档案、会话摘要、风险等级、接管对话、随访任务。</td>
+          </tr>
+          <tr>
+            <td>运营/质控</td>
+            <td>维护知识内容、查看随访效果、复盘高风险事件。</td>
+            <td>知识库管理、问答对管理、版本发布、指标看板、风险事件审计。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2.2 患者端小程序</h3>
+      <div class="grid">
+        <div class="card">
+          <h3>健康宣教 Guidance</h3>
+          <p>按术后阶段展示短文本、图片和视频，覆盖用药、饮食、伤口维护、口腔清洁、复诊提醒、正常愈合现象和常见误区。文案使用患者能理解的话，少用术语。</p>
+        </div>
+        <div class="card">
+          <h3>智能问答</h3>
+          <p>患者可输入“现在还在出血怎么办”等自然语言问题。系统先判断是否进入问题识别路径，按需追问槽位，再给出风险等级对应建议。</p>
+        </div>
+        <div class="card">
+          <h3>图片/视频辅助判断</h3>
+          <p>对出血、肿胀、口底异常等场景提供标准图片、示例视频和上传入口，辅助患者确认“轻微渗血、活动性出血、其他表现”等选项。</p>
+        </div>
+      </div>
+
+      <h3>2.3 医护端小程序/工作台</h3>
+      <ul>
+        <li><strong>风险队列：</strong>按高、中、低风险展示患者，支持筛选术式、医生、术后天数、预警类型。</li>
+        <li><strong>会话接管：</strong>中高风险或患者明确要求人工时，医护可接管对话；接管后 AI 停止自动回复或只做辅助摘要。</li>
+        <li><strong>患者恢复档案：</strong>展示手术信息、医嘱、历史随访、AI 槽位、图片视频、风险等级变化和处理记录。</li>
+        <li><strong>干预闭环：</strong>预警必须有“已查看、已联系、建议复诊、建议急诊、误报、关闭”等处理状态。</li>
+      </ul>
+
+      <h3>2.4 主动 Push 与智能对话的关系</h3>
+      <div class="warning">
+        <strong>结论：</strong>主动 push 不是和 AI 聊天重复。Push 解决“患者没有主动提问时也要被管理”的问题；智能对话解决“患者已经出现问题，需要实时判断”的问题。二者应共享病例阶段和知识库，但触发机制不同。
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>模块</th>
+            <th>触发方式</th>
+            <th>适用内容</th>
+            <th>是否需要医护预警</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>主动 Push</td>
+            <td>按术后时间、术式、医生计划和未完成随访自动触发。</td>
+            <td>用药提醒、饮食提醒、伤口维护、复诊提醒、随访问卷、正常愈合科普。</td>
+            <td>问卷异常、患者未读多次、患者自评异常时触发。</td>
+          </tr>
+          <tr>
+            <td>智能对话</td>
+            <td>患者主动提问、上传图片视频、点击“我有异常”。</td>
+            <td>并发症识别、异常情况分诊、知识库问答、即时处理建议。</td>
+            <td>由风险等级、关键词、患者情绪和人工请求共同触发。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="reference-features">
+      <h2>三、参考医疗智能体 App 补充功能</h2>
+      <p>以下能力根据参考产品截图整理，并结合口腔种植术后管理场景完成取舍。补充能力必须服务于术后管理主流程，不改变“系统不替代医生诊断、处方和急诊处置”的边界。</p>
+
+      <h3>3.1 对话式首页与快捷入口</h3>
+      <div class="grid">
+        <div class="card">
+          <h3>对话式首页</h3>
+          <p>以智能体对话为主入口，展示问候语、当前术后阶段、恢复概览和待办提醒。患者无需离开会话即可查看任务、宣教、随访、复诊和异常求助。</p>
+        </div>
+        <div class="card">
+          <h3>恢复数据卡片</h3>
+          <p>以卡片或趋势图展示疼痛、肿胀、体温和任务完成率；数据不足时提示患者补充自评或任务，并说明个性化分析的数据来源。</p>
+        </div>
+        <div class="card">
+          <h3>推荐问题与服务卡片</h3>
+          <p>根据术后阶段推荐常见问题、护理知识和下一步操作，支持点击问题直接咨询、卡片展开收起及跳转到对应任务。</p>
+        </div>
+        <div class="card">
+          <h3>多模态快捷输入</h3>
+          <p>会话输入区支持文字、语音、拍照、相册和附件，提供拍摄提示、预览、重拍和静音播报设置。</p>
+        </div>
+        <div class="card">
+          <h3>会话快捷菜单</h3>
+          <p>提供新建对话、扫一扫、产品介绍和分享入口。分享默认排除患者身份、病历、图片和会话内容，仅允许公开产品页或已脱敏科普内容。</p>
+        </div>
+      </div>
+
+      <h3>3.2 智能体与专家服务</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>功能模块</th>
+            <th>功能要求</th>
+            <th>完成结果</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>智能体切换、搜索与分类</td>
+            <td>支持在术后管理、报告解读、用药助手和就医服务等已审核智能体间切换；可按服务、机构、科室和主题搜索，并始终保留返回术后主智能体的入口。</td>
+            <td>不同任务由明确服务承接，患者知道当前由谁提供回复。</td>
+          </tr>
+          <tr>
+            <td>专家/团队服务卡</td>
+            <td>展示名称、医院、科室、擅长领域、资质标签、服务量和可用服务；资质、机构和统计数据必须可验证。</td>
+            <td>患者能够理解服务主体并作出选择。</td>
+          </tr>
+          <tr>
+            <td>医生 AI 分身</td>
+            <td>明确标识 AI 服务及其知识来源、适用范围和与人工医生的关系；涉及诊断、处方、病情恶化或高风险症状时转人工或线下就医。</td>
+            <td>避免患者把 AI 回复误认为医生本人实时诊疗。</td>
+          </tr>
+          <tr>
+            <td>就医服务聚合</td>
+            <td>按城市查看我的医生、我的医院、挂号记录、复诊计划和订单，并提供拨打医院、路线和到院准备。</td>
+            <td>线上咨询能够衔接线下就医和复诊。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>3.3 健康档案、就诊人与家庭管理</h3>
+      <ul>
+        <li><strong>健康档案入口：</strong>集中查看基础资料、手术记录、报告、随访、自评、处方医嘱、图片资料和复诊结果，并支持按就诊人切换。</li>
+        <li><strong>就诊人管理：</strong>支持添加、编辑和切换本人及家属；每次咨询、上传、预约和订单必须绑定明确就诊人。</li>
+        <li><strong>家人档案权限：</strong>按就诊人和数据类型授权家属查看、代填、代咨询或接收提醒，授权可查看、修改和撤回。</li>
+        <li><strong>实名认证：</strong>仅在挂号、订单或医疗机构明确要求的场景核验实名，日常科普浏览不强制认证。</li>
+        <li><strong>个性化回答：</strong>由患者决定是否允许系统结合档案、术后阶段和历史会话回答；关闭后使用通用回答并说明能力差异。</li>
+        <li><strong>长辈模式：</strong>支持大字号、高对比度、简化首页、语音播报和家属协助入口，高风险提示不得被简化模式隐藏。</li>
+      </ul>
+
+      <h3>3.4 会话、消息、任务与个人中心</h3>
+      <div class="two-col">
+        <div class="card">
+          <h3>会话与待办</h3>
+          <ul>
+            <li>历史会话按时间展示，支持搜索、修改标题、多选归档和删除。</li>
+            <li>删除前二次确认，并说明关联图片、附件和医疗记录的保留策略。</li>
+            <li>消息中心聚合医护回复、风险通知和系统消息。</li>
+            <li>任务中心区分待完成、逾期和已完成任务。</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>个人与服务</h3>
+          <ul>
+            <li>展示挂号记录、复诊安排、服务订单和处理状态。</li>
+            <li>提供客服咨询、产品反馈、医疗内容举报和投诉进度。</li>
+            <li>集中展示用户协议、隐私政策、医疗服务说明、公告、产品介绍和版本号。</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>3.5 隐私保护与安全提示</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>能力</th>
+            <th>设计要求</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>首次隐私授权</td>
+            <td>说明必要信息、使用目的、保存方式和第三方提供范围，提供“同意并继续”“不同意”和隐私政策全文入口；非必要权限不得与基础服务捆绑。</td>
+          </tr>
+          <tr>
+            <td>隐私保护中心</td>
+            <td>集中查看会话保护状态、设备权限、个性化回答、家属授权和账号注销入口，并允许撤回非必要授权。</td>
+          </tr>
+          <tr>
+            <td>位置与设备权限</td>
+            <td>定位仅用于医院推荐、路线或城市服务；相机、麦克风和相册在使用时申请，并提供拒绝后的替代方式。</td>
+          </tr>
+          <tr>
+            <td>安全认证展示</td>
+            <td>仅展示机构实际取得且仍在有效期内的安全、隐私或人工智能管理认证，并提供认证范围或查询说明。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>3.6 优先级与范围</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>优先级</th>
+            <th>补充范围</th>
+            <th>验收重点</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="tag red">P0</span></td>
+            <td>对话式首页、推荐问题、多模态输入、新建与历史会话、消息与任务中心、就诊人绑定、首次隐私授权和隐私中心。</td>
+            <td>患者可从统一会话入口完成咨询与术后关键任务，并能查看和管理授权。</td>
+          </tr>
+          <tr>
+            <td><span class="tag amber">P1</span></td>
+            <td>智能体切换与搜索、专家服务卡、健康档案、家属细粒度权限、实名认证、个性化回答、长辈模式、挂号和复诊记录。</td>
+            <td>患者能按人、按场景获得可识别的服务，老年及家庭照护场景可顺利使用。</td>
+          </tr>
+          <tr>
+            <td><span class="tag blue">P2</span></td>
+            <td>可穿戴设备数据、综合报告解读、药事服务、医保商保和通用健康目标。减重、拍皮肤等入口不纳入当前范围。</td>
+            <td>扩展能力不干扰术后任务、异常求助和医护干预主链路。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="knowledge">
+      <h2>四、知识库设计</h2>
+      <h3>模块一：种植术后管理宣教知识</h3>
+      <p>面向患者“随时查看”和“按阶段推送”，内容应拆成小颗粒，避免长篇医学说明。建议按以下结构维护：</p>
+      <table>
+        <thead>
+          <tr>
+            <th>内容域</th>
+            <th>示例内容</th>
+            <th>推荐呈现</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>正常愈合过程</td>
+            <td>少量渗血、轻度肿胀、疼痛峰值、拆线前注意事项。</td>
+            <td>短文卡片 + 时间轴 + 常见问答。</td>
+          </tr>
+          <tr>
+            <td>不同时期观察</td>
+            <td>术后 2 小时、24 小时、3 天、5 天、7 天、拆线前后。</td>
+            <td>按术后天数自动推送，支持“我已完成”。</td>
+          </tr>
+          <tr>
+            <td>并发症和特殊情况识别</td>
+            <td>出血、疼痛加重、发热、口臭、肿胀、义齿压迫、缝线松动。</td>
+            <td>图文对照 + 视频指导 + 异常入口。</td>
+          </tr>
+          <tr>
+            <td>应对措施</td>
+            <td>压迫止血、纱布替代、避免诱因、联系医生、急诊/120。</td>
+            <td>步骤卡片 + 风险提示 + 一键联系。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>模块二：问题识别路径</h3>
+      <p>问题识别路径不是普通 FAQ，而是“按需收集信息”的推理路径。当前 <code>mouth_cavity_v2_graph</code> 已具备这个骨架：<code>intent_router</code> 判断是否进入流程，<code>manager</code> 用 LLM 抽取槽位，决策树决定下一问，<code>ask_slot/rag/final/emergency</code> 执行不同响应。</p>
+      <p>建议继续采用“策略模式 + 注册表模式”：每一种术后问题是一条 Flow，如出血、感染、疼痛、肿胀、义齿压迫、药物不良反应等；每条 Flow 定义自己的触发词、槽位、风险评估和护理方案。</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Flow</th>
+            <th>核心槽位</th>
+            <th>输出</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>术后出血</td>
+            <td>是否手术区域、诱因、术后时间、术式、出血表现、能否压迫、压迫后是否复发。</td>
+            <td>风险等级、护理方案、图片/视频、医护预警。</td>
+          </tr>
+          <tr>
+            <td>疑似感染</td>
+            <td>发热、疼痛变化、口臭/脓液、伤口裂开、全身乏力、术后天数。</td>
+            <td>复诊建议、用药提醒、医护确认任务。</td>
+          </tr>
+          <tr>
+            <td>疼痛/肿胀</td>
+            <td>疼痛评分、肿胀范围、是否加重、是否影响吞咽/呼吸、用药情况。</td>
+            <td>正常恢复解释、警示条件、是否升级处理。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>模块三：问题风险等级</h3>
+      <p>风险等级是系统联动医护干预的核心字段。建议保持四级：无风险、低风险、中风险、高风险，并将每一级绑定响应时限、患者话术、医护任务和审计要求。</p>
+    </section>
+
+    <section id="systems">
+      <h2>五、系统设计与运转方式</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>患者端小程序</h3>
+          <ul>
+            <li>首页展示当前术后阶段、今日任务、异常提问入口。</li>
+            <li>Guidance 中心按术式和时间展示宣教内容。</li>
+            <li>AI 对话支持文字、选项、图片、视频和结构化卡片。</li>
+            <li>高风险时展示“立即联系/急诊/拨打 120”等操作入口。</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>医护端小程序/工作台</h3>
+          <ul>
+            <li>预警队列按风险等级和处理时限排序。</li>
+            <li>进入患者详情后查看病例、会话、槽位和图片。</li>
+            <li>可接管对话、补充医嘱、创建复诊/电话任务。</li>
+            <li>所有干预动作进入审计日志。</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Server 与中台服务</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>系统</th>
+            <th>职责</th>
+            <th>关键设计</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>API Gateway / Chat Server</td>
+            <td>统一接入小程序请求，鉴权、限流、SSE/流式响应、会话管理。</td>
+            <td>患者端和医护端使用不同权限；高风险响应不能被客户端静默吞掉。</td>
+          </tr>
+          <tr>
+            <td>智能体编排服务</td>
+            <td>调用 <code>mouth_cavity_v2_graph</code>，管理 thread_id、模型、上下文和状态恢复。</td>
+            <td>保留 Postgres checkpoint，确保多轮槽位不会串线。</td>
+          </tr>
+          <tr>
+            <td>病例上下文服务</td>
+            <td>从 HIS/CRM/病例系统读取术区、术式、时间、医嘱、复诊计划。</td>
+            <td>只向模型暴露必要字段；关键字段需要结构化注入，不依赖患者自述。</td>
+          </tr>
+          <tr>
+            <td>知识库/RAG 服务</td>
+            <td>维护宣教知识、问答对、护理方案、图片视频、版本发布。</td>
+            <td>内容分为患者可见、医护可见和模型可检索三类。</td>
+          </tr>
+          <tr>
+            <td>随访与 Push 服务</td>
+            <td>按术后阶段生成任务和提醒，发送微信订阅消息或站内提醒。</td>
+            <td>基于术式、术后天数和未完成状态触发；异常问卷进入预警。</td>
+          </tr>
+          <tr>
+            <td>预警与接管服务</td>
+            <td>根据风险等级创建医护任务，支持接管、升级、关闭和复盘。</td>
+            <td>高风险即时通知，中风险限时处理，低风险可进入观察队列。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>推荐架构原则</h3>
+      <ul>
+        <li><strong>确定性优先：</strong>紧急情况、风险分级、医护预警和前端结构化协议用代码规则保证。</li>
+        <li><strong>AI 做理解与表达：</strong>模型负责槽位抽取、意图识别、患者友好表达和知识库问答。</li>
+        <li><strong>医护可接管：</strong>一旦进入人工模式，系统应明确标记，避免 AI 与医护同时给出冲突建议。</li>
+        <li><strong>知识可版本化：</strong>每次风险建议都记录命中的 Flow、护理方案版本和知识来源，便于复盘。</li>
+      </ul>
+    </section>
+
+    <section id="workflow">
+      <h2>六、患者提问后的系统业务流程图</h2>
+      <p>下图以“患者在小程序中提问：术后出血怎么办”为例，说明请求从患者端进入、经过 Server、病例上下文、智能体、知识库、风险分级和医护预警的完整运转路径。</p>
+      <figure class="flow-figure" aria-label="患者提问后的业务流程图">
+        <svg viewBox="0 0 1400 880" role="img" aria-labelledby="flowTitle flowDesc" xmlns="http://www.w3.org/2000/svg">
+          <title id="flowTitle">口腔术后智能对话业务流程</title>
+          <desc id="flowDesc">患者提问后，系统从小程序到 Server、病例系统、mouth_cavity_v2_graph、知识库、风险分级、患者反馈和医护预警的流程。</desc>
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+            </marker>
+            <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+              <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/>
+            </filter>
+          </defs>
+
+          <rect x="0" y="0" width="1400" height="880" rx="18" fill="#f8fbff"/>
+          <text x="42" y="46" font-size="26" font-weight="760" fill="#102033">患者提问式业务流程：从异常咨询到风险分级与医护干预</text>
+          <text x="42" y="76" font-size="15" fill="#64748b">AI 负责理解和追问，风险路径、紧急拦截、医护预警由规则与状态机兜底。</text>
+
+          <g filter="url(#shadow)">
+            <rect x="42" y="118" width="190" height="92" rx="8" fill="#ffffff" stroke="#b7c5d6"/>
+            <text x="137" y="151" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">患者小程序</text>
+            <text x="137" y="178" text-anchor="middle" font-size="13" fill="#475569">文字 / 选项 / 图片</text>
+            <text x="137" y="198" text-anchor="middle" font-size="13" fill="#475569">“术后还出血”</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="300" y="118" width="190" height="92" rx="8" fill="#ffffff" stroke="#b7c5d6"/>
+            <text x="395" y="151" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">Chat Server</text>
+            <text x="395" y="178" text-anchor="middle" font-size="13" fill="#475569">鉴权 / SSE / 会话</text>
+            <text x="395" y="198" text-anchor="middle" font-size="13" fill="#475569">thread_id 隔离</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="558" y="118" width="210" height="92" rx="8" fill="#ffffff" stroke="#b7c5d6"/>
+            <text x="663" y="151" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">病例上下文服务</text>
+            <text x="663" y="178" text-anchor="middle" font-size="13" fill="#475569">术式 / 术区 / 医嘱</text>
+            <text x="663" y="198" text-anchor="middle" font-size="13" fill="#475569">术后天数 / 复诊计划</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="835" y="112" width="255" height="104" rx="8" fill="#effaf8" stroke="#2a9188"/>
+            <text x="962" y="145" text-anchor="middle" font-size="16" font-weight="700" fill="#0b4f4a">mouth_cavity_v2_graph</text>
+            <text x="962" y="172" text-anchor="middle" font-size="13" fill="#315d59">Intent Router + Manager</text>
+            <text x="962" y="194" text-anchor="middle" font-size="13" fill="#315d59">槽位抽取 + 决策树</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="1155" y="118" width="195" height="92" rx="8" fill="#ffffff" stroke="#b7c5d6"/>
+            <text x="1252" y="151" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">知识库 / RAG</text>
+            <text x="1252" y="178" text-anchor="middle" font-size="13" fill="#475569">宣教 / 问答对</text>
+            <text x="1252" y="198" text-anchor="middle" font-size="13" fill="#475569">护理方案 / 素材</text>
+          </g>
+
+          <line x1="232" y1="164" x2="300" y2="164" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="490" y1="164" x2="558" y2="164" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="768" y1="164" x2="835" y2="164" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="1090" y1="164" x2="1155" y2="164" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="1155" y1="204" x2="1090" y2="204" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+
+          <g filter="url(#shadow)">
+            <rect x="82" y="298" width="252" height="92" rx="8" fill="#fff" stroke="#b7c5d6"/>
+            <text x="208" y="331" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">1. 意图识别</text>
+            <text x="208" y="358" text-anchor="middle" font-size="13" fill="#475569">普通宣教 / 流程相关</text>
+            <text x="208" y="378" text-anchor="middle" font-size="13" fill="#475569">重新评估 / 人工请求</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="407" y="298" width="252" height="92" rx="8" fill="#fff8ed" stroke="#dfb268"/>
+            <text x="533" y="331" text-anchor="middle" font-size="16" font-weight="700" fill="#7a4d09">2. 紧急拦截</text>
+            <text x="533" y="358" text-anchor="middle" font-size="13" fill="#6b4b18">口底血肿 / 呼吸困难</text>
+            <text x="533" y="378" text-anchor="middle" font-size="13" fill="#6b4b18">持续大量出血</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="732" y="298" width="252" height="92" rx="8" fill="#eef5ff" stroke="#8bb5ef"/>
+            <text x="858" y="331" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4f91">3. 槽位追问</text>
+            <text x="858" y="358" text-anchor="middle" font-size="13" fill="#365c8d">术后时间 / 诱因 / 术式</text>
+            <text x="858" y="378" text-anchor="middle" font-size="13" fill="#365c8d">出血程度 / 能否压迫</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="1057" y="298" width="252" height="92" rx="8" fill="#f0fdf4" stroke="#80bf8c"/>
+            <text x="1183" y="331" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">4. 生成建议</text>
+            <text x="1183" y="358" text-anchor="middle" font-size="13" fill="#315d40">护理方案 + 风险提示</text>
+            <text x="1183" y="378" text-anchor="middle" font-size="13" fill="#315d40">图片/视频/操作步骤</text>
+          </g>
+
+          <path d="M 962 216 C 962 258 208 248 208 298" fill="none" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="334" y1="344" x2="407" y2="344" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="659" y1="344" x2="732" y2="344" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="984" y1="344" x2="1057" y2="344" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+
+          <g filter="url(#shadow)">
+            <rect x="86" y="494" width="206" height="98" rx="8" fill="#edf9f0" stroke="#63ad74"/>
+            <text x="189" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">无风险 / 低风险</text>
+            <text x="189" y="555" text-anchor="middle" font-size="13" fill="#315d40">患者端解释 + 观察</text>
+            <text x="189" y="575" text-anchor="middle" font-size="13" fill="#315d40">进入随访观察队列</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="352" y="494" width="206" height="98" rx="8" fill="#fff7e6" stroke="#d69b36"/>
+            <text x="455" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#8a5a0a">中风险</text>
+            <text x="455" y="555" text-anchor="middle" font-size="13" fill="#68440a">建议联系医生</text>
+            <text x="455" y="575" text-anchor="middle" font-size="13" fill="#68440a">医护限时确认</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="618" y="494" width="206" height="98" rx="8" fill="#fff0ee" stroke="#e18478"/>
+            <text x="721" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#b42318">高风险</text>
+            <text x="721" y="555" text-anchor="middle" font-size="13" fill="#7c2d24">急诊 / 120 指引</text>
+            <text x="721" y="575" text-anchor="middle" font-size="13" fill="#7c2d24">即时通知医护</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="884" y="494" width="206" height="98" rx="8" fill="#eef5ff" stroke="#8bb5ef"/>
+            <text x="987" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4f91">人工接管</text>
+            <text x="987" y="555" text-anchor="middle" font-size="13" fill="#365c8d">医护进入会话</text>
+            <text x="987" y="575" text-anchor="middle" font-size="13" fill="#365c8d">AI 停止自动回复</text>
+          </g>
+
+          <g filter="url(#shadow)">
+            <rect x="1150" y="494" width="206" height="98" rx="8" fill="#ffffff" stroke="#b7c5d6"/>
+            <text x="1253" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#172033">审计与复盘</text>
+            <text x="1253" y="555" text-anchor="middle" font-size="13" fill="#475569">槽位 / 知识版本</text>
+            <text x="1253" y="575" text-anchor="middle" font-size="13" fill="#475569">处理记录 / 质控</text>
+          </g>
+
+          <path d="M 1183 390 C 1183 448 189 434 189 494" fill="none" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <path d="M 1183 390 C 1183 456 455 434 455 494" fill="none" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <path d="M 1183 390 C 1183 464 721 434 721 494" fill="none" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="558" y1="543" x2="618" y2="543" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="824" y1="543" x2="884" y2="543" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+          <line x1="1090" y1="543" x2="1150" y2="543" stroke="#64748b" stroke-width="2.2" marker-end="url(#arrow)"/>
+
+          <g>
+            <rect x="90" y="682" width="1220" height="114" rx="8" fill="#ffffff" stroke="#d8e0ea"/>
+            <text x="118" y="716" font-size="16" font-weight="700" fill="#172033">输出到患者端</text>
+            <text x="118" y="746" font-size="14" fill="#475569">1. 文本解释：说明可能原因、正常/异常边界和下一步处理。</text>
+            <text x="118" y="772" font-size="14" fill="#475569">2. 结构化卡片：选项、图片、视频、压迫止血步骤、风险等级、联系医生入口。</text>
+            <text x="720" y="716" font-size="16" font-weight="700" fill="#172033">输出到医护端</text>
+            <text x="720" y="746" font-size="14" fill="#475569">1. 预警任务：患者、术式、术后天数、槽位摘要、风险等级、建议处理时限。</text>
+            <text x="720" y="772" font-size="14" fill="#475569">2. 接管上下文：原始会话、图片视频、AI 判断路径、知识库版本和处理记录。</text>
+          </g>
+        </svg>
+      </figure>
+      <p class="caption">图中绿色/黄色/红色分别对应低风险、中风险、高风险处理路径。实际产品中应把“高风险”设计成强提示和强通知，而不是普通聊天气泡。</p>
+    </section>
+
+    <section id="risk">
+      <h2>七、风险等级与医护干预策略</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>等级</th>
+            <th>患者端响应</th>
+            <th>医护端动作</th>
+            <th>处理时限建议</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="tag green">无风险</span></td>
+            <td>解释正常愈合现象，推送日常维护和观察要点。</td>
+            <td>不进入预警，仅记录到恢复档案。</td>
+            <td>无需实时处理。</td>
+          </tr>
+          <tr>
+            <td><span class="tag blue">低风险</span></td>
+            <td>给出护理建议、避免诱因、提醒继续观察。</td>
+            <td>进入观察队列，可在日常随访中查看。</td>
+            <td>下一次随访前查看。</td>
+          </tr>
+          <tr>
+            <td><span class="tag amber">中风险</span></td>
+            <td>建议联系医生或尽快复诊，解释为什么需要进一步确认。</td>
+            <td>创建预警任务，推送给责任医生/护士，可接管对话。</td>
+            <td>建议 2 小时内确认，门诊时间外按机构规则处理。</td>
+          </tr>
+          <tr>
+            <td><span class="tag red">高风险</span></td>
+            <td>明确提示急诊/120/立即就医，避免继续等待 AI 回复。</td>
+            <td>即时强通知医护，自动升级为高优先级事件，必须闭环。</td>
+            <td>即时处理，未响应需升级通知。</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="note">
+        <strong>医护介入规则建议：</strong>高风险必须介入；中风险默认创建任务并建议人工确认；低风险在患者连续追问、上传异常图片、情绪焦虑或重复触发同类问题时升级到人工关注。
+      </div>
+    </section>
+
+    <section id="data">
+      <h2>八、数据与接口设计</h2>
+      <h3>8.1 对话输入上下文</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>字段</th>
+            <th>来源</th>
+            <th>用途</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>patient_id</code> / <code>thread_id</code></td>
+            <td>小程序登录态</td>
+            <td>隔离会话、恢复槽位、关联患者档案。</td>
+          </tr>
+          <tr>
+            <td><code>surgery_type</code> / <code>surgery_area</code></td>
+            <td>病例系统</td>
+            <td>辅助风险判断，减少患者重复填写。</td>
+          </tr>
+          <tr>
+            <td><code>postop_day</code> / <code>surgery_time</code></td>
+            <td>病例系统</td>
+            <td>匹配恢复阶段和宣教内容。</td>
+          </tr>
+          <tr>
+            <td><code>messages</code> / <code>media</code></td>
+            <td>患者端</td>
+            <td>进入意图识别、槽位抽取和图片/视频辅助判断。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>8.2 对话输出协议</h3>
+      <p>建议继续使用文本 + <code>additional_kwargs</code> 的方式，让前端渲染结构化组件。</p>
+      <table>
+        <thead>
+          <tr>
+            <th>输出字段</th>
+            <th>前端用途</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>options</code> / <code>multi_select</code></td>
+            <td>渲染患者可点击选项，减少自由输入造成的误解。</td>
+          </tr>
+          <tr>
+            <td><code>image_url</code> / <code>video_url</code></td>
+            <td>辅助患者确认出血、肿胀等情况，或学习压迫止血步骤。</td>
+          </tr>
+          <tr>
+            <td><code>slot_update</code></td>
+            <td>医护端展示槽位收集进度；患者端可选择不展示。</td>
+          </tr>
+          <tr>
+            <td><code>triage_result</code></td>
+            <td>渲染风险等级卡片，并触发医护预警服务。</td>
+          </tr>
+          <tr>
+            <td><code>handoff_required</code></td>
+            <td>提示患者等待医护确认，并切换到人工接管状态。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>8.3 知识库运营</h3>
+      <ul>
+        <li>问答对按场景维护：出血、疼痛、感染、用药、饮食、口腔清洁、复诊、义齿/保持器、特殊人群。</li>
+        <li>每条知识应有适用人群、术后阶段、风险等级、患者可见版本、医护可见版本和审核状态。</li>
+        <li>护理方案应版本化，AI 输出时记录 <code>care_plan_id</code> 和版本，便于追责与迭代。</li>
+        <li>高风险相关知识不允许只靠 RAG 自由生成，应由固定模板和规则优先输出。</li>
+      </ul>
+    </section>
+
+    <section id="roadmap">
+      <h2>九、落地路线</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>阶段</th>
+            <th>范围</th>
+            <th>验收标准</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>P0：出血流程闭环</td>
+            <td>基于现有 <code>mouth_cavity_v2_graph</code>，完成患者端问答、选项、图片/视频、风险卡片和医护预警。</td>
+            <td>出血常见路径可稳定完成槽位收集；高风险可强制预警；医护能查看完整上下文。</td>
+          </tr>
+          <tr>
+            <td>P1：主动随访与宣教</td>
+            <td>按术后时间和术式配置 push 任务，完成宣教内容库和随访问卷。</td>
+            <td>患者能收到阶段提醒；异常问卷可进入预警队列。</td>
+          </tr>
+          <tr>
+            <td>P2：扩展并发症 Flow</td>
+            <td>新增感染、疼痛/肿胀、药物不良反应、义齿压迫等问题识别路径。</td>
+            <td>每条 Flow 有槽位、风险等级、护理方案和回归测试用例。</td>
+          </tr>
+          <tr>
+            <td>P3：质控与运营</td>
+            <td>知识版本管理、预警复盘、医生响应看板、患者体验指标。</td>
+            <td>能追踪每次 AI 建议来源，支持误报/漏报复盘和知识迭代。</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="small">文档日期：2026-07-01。本文档为产品与系统设计草案，后续可继续拆分为接口文档、原型说明和测试用例。</p>
+    </section>
+  </main>
+</body>
+</html>

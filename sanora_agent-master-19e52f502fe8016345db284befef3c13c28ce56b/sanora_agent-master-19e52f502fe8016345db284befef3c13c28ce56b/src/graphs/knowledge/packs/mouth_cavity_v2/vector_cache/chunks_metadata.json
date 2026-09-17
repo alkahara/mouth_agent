@@ -1,0 +1,1777 @@
+{
+  "pack_id": "mouth_cavity_v2",
+  "generated_at": "2026-09-17T20:17:16.433864",
+  "chunking_config": {
+    "segmentation_rule": "自定义",
+    "chunk_size": 500,
+    "overlap": 70,
+    "separator": "\\n\\n"
+  },
+  "documents": {
+    "临床表现.docx": {
+      "file_path": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\临床表现.docx",
+      "total_chars": 516,
+      "total_chunks": 2,
+      "processed_at": "2026-09-17T20:17:16.433864",
+      "chunks": [
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\临床表现.docx::chunk-0",
+          "sequence": 1,
+          "content": "出血\n\n临床表现\n\n1. 伤口轻微渗血：术后24小时内患者可能会发现唾液中带有少量血丝或术后1~2天内伤口局部有无明显变化的小血凝块，均为正常现象，无需特殊处理。注意，个别患者因术后口内异味频繁漱口或口水较多，血液常与唾液混合，可自行从口角流出，颜色一般为淡红色，可造成大量出血假象，一般不需特殊处理，嘱患者及时吞咽口水，避免反复漱口，但若感觉难以吞咽，可及时就诊。\n\n\n\n2. 伤口持续性的活动性出血或明显的血块形成 ：需要引起足够重视、应立即处理止血。表现为口腔内持续有大量的新鲜血液流出，若损伤较大动脉主干，出血凶猛，甚至短时间内溢满口腔，血液颜色较为鲜红，与唾液混合后呈现明显的红色，血液从牙龈表面突出，或者在口腔内有明显的血液积聚；吐出的口水或痰中带有大量的血块，血液凝固成块并从口腔中吐出，可能是伤口缝合不够严密或牙龈上的微小血管未得到有效止血。",
+          "char_count": 379,
+          "start_pos": 0,
+          "end_pos": 379,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\临床表现.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\临床表现.docx::chunk-1",
+          "sequence": 2,
+          "content": "3. 口底血肿：下颌前/后牙区种植操作时不慎损伤口底血管，易形成血肿，口底发生肿胀，触之有波动感，血肿形成初期患者可能会感到局部疼痛或不适，血肿可向下扩散至颈部，导致颈部肿胀；若口底肿胀进行性加重，舌根抬高，患者会出现窒息，危及生命，应对口底血肿的患者给予高度重视。",
+          "char_count": 133,
+          "start_pos": 383,
+          "end_pos": 516,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\临床表现.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        }
+      ]
+    },
+    "出血原因.docx": {
+      "file_path": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\出血原因.docx",
+      "total_chars": 337,
+      "total_chunks": 1,
+      "processed_at": "2026-09-17T20:17:16.433864",
+      "chunks": [
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\出血原因.docx::chunk-0",
+          "sequence": 1,
+          "content": "出血\n\n外科手术出血涉及多种因素，如未被控制的炎症，翻瓣的范围、方法，软组织缝合，局部的解剖结构，凝血功能异常等。所以，在牙种植术中及术后，难免会出现出血，文献报道中，出血是牙种植术最常见的并发症。根据出血的程度，临床上可有不同的表现。\n\n原因\n\n1. 局部因素：（1）术中创伤过大或止血不彻底；（2）可能累及血管等解剖结构的术式：如下牙槽血管神经束、上颌窦上牙槽动脉分支、鼻底黏膜血管等；（3）缝合不严密或牙龈组织缺乏相应张力；（4）术后护理不当或口腔卫生不佳：如漱口力度过大或过于频繁、术后经常用舌头舔舐创缘等；进食较硬食物；术后伤口感染。\n\n2. 全身因素：患者有出血性倾向疾病以及服用抗凝血药物（如阿司匹林、华法林、波立维、利伐沙班等），高血压、糖尿病等全身性疾病。",
+          "char_count": 337,
+          "start_pos": 0,
+          "end_pos": 337,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\出血原因.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        }
+      ]
+    },
+    "发生时间.docx": {
+      "file_path": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\发生时间.docx",
+      "total_chars": 183,
+      "total_chunks": 1,
+      "processed_at": "2026-09-17T20:17:16.433864",
+      "chunks": [
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\发生时间.docx::chunk-0",
+          "sequence": 1,
+          "content": "出血\n\n发生时间\n\n1. 术后24小时内，一般属于术后持续出血，与患者因素（如高血压、饮食不当、凝血功能异常等）及术中因素相关性大；\n\n2. 术后24小时后~5天，属于术后再次出血，多合并诱因，如缝线脱落/伤口裂开、佩戴过渡义齿/保持器等。\n\n3. 术后5天以上，再次出血同时多伴有伤口疼痛，裂开，或合并全身症状（如发热、淋巴结肿大），考虑感染可能性大，需立即就诊。",
+          "char_count": 183,
+          "start_pos": 0,
+          "end_pos": 183,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\发生时间.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        }
+      ]
+    },
+    "处理方法.docx": {
+      "file_path": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+      "total_chars": 2315,
+      "total_chunks": 6,
+      "processed_at": "2026-09-17T20:17:16.433864",
+      "chunks": [
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx::chunk-0",
+          "sequence": 1,
+          "content": "出血\n\n外科手术出血涉及多种因素，如未被控制的炎症，翻瓣的范围、方法，软组织缝合，局部的解剖结构，凝血功能异常等。所以，在牙种植术中及术后，难免会出现出血，文献报道中，出血是牙种植术最常见的并发症。根据出血的程度，临床上可有不同的表现。\n\n一、原因\n\n1. 局部因素：（1）术中创伤过大或止血不彻底；（2）可能累及血管等解剖结构的术式：如下牙槽血管神经束、上颌窦上牙槽动脉分支、鼻底黏膜血管等；（3）缝合不严密或牙龈组织缺乏相应张力；（4）术后护理不当或口腔卫生不佳：如漱口力度过大或过于频繁、术后经常用舌头舔舐创缘等；进食较硬食物；术后伤口感染。\n\n2. 全身因素：患者有出血性倾向疾病以及服用抗凝血药物（如阿司匹林、华法林、波立维、利伐沙班等），高血压、糖尿病等全身性疾病。\n\n\n\n二、发生时间\n\n1. 术后24小时内，一般属于术后持续出血，与患者因素（如高血压、饮食不当、凝血功能异常等）及术中因素相关性大；\n\n2. 术后24小时后~5天，属于术后再次出血，多合并诱因，如缝线脱落/伤口裂开、佩戴过渡义齿/保持器等。",
+          "char_count": 461,
+          "start_pos": 0,
+          "end_pos": 461,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx::chunk-1",
+          "sequence": 2,
+          "content": "2. 术后24小时后~5天，属于术后再次出血，多合并诱因，如缝线脱落/伤口裂开、佩戴过渡义齿/保持器等。\n\n3. 术后5天以上，再次出血同时多伴有伤口疼痛，裂开，或合并全身症状（如发热、淋巴结肿大），考虑感染可能性大，需立即就诊。\n\n\n\n三、临床表现\n\n1. 伤口轻微渗血：术后24小时内患者可能会发现唾液中带有少量血丝或术后1~2天内伤口局部有无明显变化的小血凝块，部分血凝块掉落口内时，患者自觉像一块小肉球，均为正常现象，患者无需特殊处理。注意，个别患者因术后口内异味频繁漱口或口水较多，血液常与唾液混合，可自行从口角流出，颜色一般为淡红色/淡粉色，可造成大量出血假象，一般不需特殊处理，嘱患者及时吞咽口水，避免反复漱口，但若感觉难以吞咽，可及时就诊。",
+          "char_count": 328,
+          "start_pos": 409,
+          "end_pos": 737,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx::chunk-2",
+          "sequence": 3,
+          "content": "2. 伤口持续性的活动性出血或明显的血块形成 ：需要引起足够重视、应立即处理止血。表现为口腔内持续有大量的新鲜血液流出，若损伤较大动脉主干，出血凶猛，甚至短时间内溢满口腔，血液颜色较为鲜红，与唾液混合后呈现明显的红色，血液从牙龈表面突出，或者在口腔内有明显的血液积聚；吐出的口水或痰中带有大量的血块，血液凝固成块并从口腔中吐出，可能是伤口缝合不够严密或牙龈上的微小血管未得到有效止血。\n\n\n\n3. 口底血肿：下颌前/后牙区种植操作时不慎损伤口底血管，易形成血肿，口底发生肿胀，触之有波动感，血肿形成初期患者可能会感到局部疼痛或不适，血肿可向下扩散至颈部，导致颈部肿胀；若口底肿胀进行性加重，舌根抬高，患者会出现窒息，危及生命，应对口底血肿的患者给予高度重视。\n\n\n\n四、处理方法\n\n1.避免诱发因素：保持口腔清洁，具体参照术后注意事项。一旦发生出血后，2小时内不吃过热饮食，24小时内不刷牙、不漱口，避免吃过硬食物，不要舔舐和吸吮伤口，如果口水较多，尽量往下咽不能往外吐，以免破坏血凝块，导致再次出血。过渡义齿/保持器等可能会压迫伤口，应经医生调改后再佩戴。",
+          "char_count": 479,
+          "start_pos": 741,
+          "end_pos": 1220,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx::chunk-3",
+          "sequence": 4,
+          "content": "2.伤口轻微渗血：此时应继续观察，避免出血的诱发因素，注意，当口内伤口渗血较多时，嘱患者吞咽口水，并可进行压迫止血，24小时内可冰敷，并避免出血诱发因素；\n\n3.伤口持续性活动出血：应立即进行压迫止血，吐出纱布后，观察伤口出血情况，若压迫止血后再次出血，应重复以上措施，并立即寻求医疗服务；\n\n4.伤口无法压迫止血：由于解剖位置特殊（上颌窦区域、腭部等）、深部出血（出血点位于骨内及深部软组织）、弥漫性出血（广泛性渗血，无单一出血点）或出血量迅猛等原因，无法进行压迫止血时，应保持镇定，评估患者是否意识清醒、是否存在血压下降、呼吸困难或口唇发绀等症状，若可下地行走，应使用纱布压迫术区，并立即在家属陪同下到就近急诊科就诊，若无法下地活动，需立即侧卧，可将口内大量液体吐出，避免产生呛咳、窒息，并立即拨打120急救电话；\n\n\n\n五、相关操作方法",
+          "char_count": 371,
+          "start_pos": 1222,
+          "end_pos": 1593,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx::chunk-4",
+          "sequence": 5,
+          "content": "五、相关操作方法\n\n1. 压迫止血：打开纱布包装后，清洁双手或佩戴手套，将纱布折叠成卷状，大小适应伤口尺寸，确保纱布与伤口紧密贴合，压迫止血时应避免过度用力，牙齿上下咬合后微微用力即可，以免损伤周围组织，放在伤口处咬40分钟后，吐出纱布，观察伤口出血情况，一般可自行停止，详细操作可参照：https://v.youku.com/v_show/id_XNjM4OTI1NjYwOA==.html 密码：123456。若不能改善，需及时就诊。若患者家中无纱布时，可选择干净、柔软、吸水性好的棉质物品替代，如干净的毛巾、洗脸巾、手帕等，不要选择粗糙的卫生纸（含荧光剂/添加剂）、松散的棉花（易留纤维）。\n\n\n\n2. 冰敷的方法\n\n（1）准备冰袋：首先，准备一个冰袋。确保冰袋是干净，并且没有破损。\n\n（2）填充冰块：将适量的冰块放入冰袋中。不要装得太满，以免冰块在冰敷过程中破裂。\n\n（3）包裹毛巾：在冰袋外面包裹一层干净的毛巾或厚布（至少2层口罩厚度）。这样做是为了防止冰块直接接触皮肤，避免冻伤。",
+          "char_count": 447,
+          "start_pos": 1585,
+          "end_pos": 2032,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx::chunk-5",
+          "sequence": 6,
+          "content": "（3）包裹毛巾：在冰袋外面包裹一层干净的毛巾或厚布（至少2层口罩厚度）。这样做是为了防止冰块直接接触皮肤，避免冻伤。\n\n（4）确定冰敷位置：根据术区位置，确定冰敷的位置。例如，如果术区在左下方，那么你应该冰敷左边下方的脸颊位置。\n\n（5）开始冰敷：将包裹了毛巾的冰袋轻轻敷在确定的位置上。确保冰袋与皮肤紧密接触，但不要过紧。\n\n（6）控制冰敷时间：每次冰敷的时间通常为15-20分钟，不要过长时间持续冰敷，以免对皮肤造成损伤。\n\n（7）间隔休息：两次冰敷之间应至少间隔15分钟，让皮肤有时间恢复。\n\n（8）监测皮肤状况：在冰敷过程中，要密切关注皮肤的状况。如果皮肤出现发红、疼痛或其他不适，应立即停止冰敷。\n\n注意安全：确保冰敷过程中不要使冰块或冰袋接触到眼睛、鼻子或其他敏感区域。",
+          "char_count": 341,
+          "start_pos": 1974,
+          "end_pos": 2315,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\处理方法.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        }
+      ]
+    },
+    "常用术后问答对(更新至12月11日).docx": {
+      "file_path": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+      "total_chars": 11278,
+      "total_chunks": 27,
+      "processed_at": "2026-09-17T20:17:16.433864",
+      "chunks": [
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-0",
+          "sequence": 1,
+          "content": "术后居家维护：\n\n1. 饮食指导：\n\n（1）我现在能吃饭吗？\n\n术2小时后无明显出血即可进食，具体饮食要求请在文档中提取。\n\n（2）吃烧烤火锅能行吗？\n\n术后2周内属于愈合的早期，应避免进食过热、刺激性过强的食物，如火锅、烧烤、麻辣烫等食物。\n\n（3）能不能吃辣椒？\n\n术后2周内属于愈合的早期，应避免进食过热、刺激性过强的食物，如火锅、烧烤、麻辣烫等食物。\n\n（4）我是不是只能喝粥呀？\n\n术后应根据恢复时间选择饮食类型，并不是只能喝粥，具体饮食建议可根据术式、术后时间在文档中提取。\n\n（5）种植手术后是不是不能吃饭？\n\n术2小时后无明显出血即可进食，具体饮食要求请在文档中提取。\n\n（6）我回家是不是只能喝流食？\n\n术后应根据恢复时间选择饮食类型，并不是只能喝流食，具体饮食建议可根据术式、术后时间在文档中提取。\n\n（7）我能用手术那侧的牙吃饭吗？\n\n在种植修复前，应尽量避免用手术侧吃饭，术后6周避免用手术侧吃饭或只能进食软质食物。\n\n（8）我昨天做完内提升手术，可以吃芥末吗？",
+          "char_count": 443,
+          "start_pos": 0,
+          "end_pos": 443,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-1",
+          "sequence": 2,
+          "content": "在种植修复前，应尽量避免用手术侧吃饭，术后6周避免用手术侧吃饭或只能进食软质食物。\n\n（8）我昨天做完内提升手术，可以吃芥末吗？\n\n不建议吃芥末。因芥末辛辣刺激，可能引发局部充血肿胀、疼痛加剧或出血，甚至增加感染风险；术后饮食应以温和软食（如粥、面条、蒸蛋）为主，避开辛辣、过烫/冷、坚硬等食物，同时注意口腔清洁（遵医嘱用漱口水）、避免擤鼻打喷嚏以防压力增高致移植物移位，若肿胀出血加重或发热需及时就诊。具体需以主刀医生指导为准。\n\n\n\n2. 口腔卫生指导：\n\n（1）术后何时能刷术区的牙齿？可以用电动牙刷吗？\n\n术后24小时后即可开始刷牙，使用小头软毛牙刷，但必须严格避开手术区域，勿触及伤口，仅清洁非手术区的其他天然牙。术后7~10天伤口初步愈合，可开始轻柔的清洁手术区域的牙龈和暴露的愈合基台。但软组织移植术后患者在术后1~2周内，禁止使用牙刷直接刷拭软组织移植区域及缝线部位，过早的机械刺激会破坏脆弱的血凝块和新生毛细血管，导致移植失败。电动牙刷在2周内不建议使用。\n\n（2）我可以用电动牙刷吗？\n\n可以使用电动牙刷清洁非术区的天然牙，但清洁手术区域目前不推荐使用电动牙刷。",
+          "char_count": 491,
+          "start_pos": 379,
+          "end_pos": 870,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-2",
+          "sequence": 3,
+          "content": "（2）我可以用电动牙刷吗？\n\n可以使用电动牙刷清洁非术区的天然牙，但清洁手术区域目前不推荐使用电动牙刷。\n\n（3）嘴里面的金属帽子能刷吗？小帽子怎么清洁呀？ \n\n口内的金属帽子需要清洁，拆线前进食后漱口或可使用棉签或湿棉球轻轻擦拭掉表面食物残渣或软垢，拆线后，可使用牙刷、牙缝刷等工具清洁口内金属帽子，具体方法如下：\n\n1）使用牙刷：将牙刷放在温水下稍微湿润，不需要使用牙膏或其他含有酒精、氟化物等刺激性成分的口腔清洁产品，避免刺激到手术区域。从金属帽的外部开始，用牙刷轻轻刷洗，确保刷毛与金属帽表面垂直。注意力度要轻，避免对金属帽或周围组织造成损伤。\n\n2）使用牙缝刷：如果金属帽周围有难以触及的缝隙，可以使用牙缝刷轻轻插入缝隙中，旋转刷头以清除食物残渣和细菌。\n\n注意，在整个清洁过程中，都要避免用力过猛，以免对金属帽和周围组织造成损伤。严禁使用任何金属或尖锐的工具（如牙签、牙线棒尖锐端）去刮擦愈合基台表面，这会划伤其高度抛光的表面，使其更易附着菌斑。\n\n（4）嘴里怎么总有味儿？",
+          "char_count": 443,
+          "start_pos": 818,
+          "end_pos": 1261,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-3",
+          "sequence": 4,
+          "content": "（4）嘴里怎么总有味儿？\n\n术后口腔有异味是常见现象，主要和这几个原因有关：一是伤口少量渗血会有血腥味；二是术后进食后容易残留食物碎屑，没及时清洁就容易发酵；三是创口轻微肿胀时，唾液流动变慢也可能加重异味。建议您术后保持口腔卫生，使用牙刷清洁非术区的天然牙，饭后用医生开的漱口水含漱，避免吃辛辣/过烫的食物。一般3~5天会明显减轻。\n\n（5）嘴里好臭呀？\n\n术后嘴里感觉有臭味，主要是伤口少量渗血带点血腥味，或食物残渣没及时清洁发酵导致的。建议您术后保持口腔卫生，使用牙刷清洁非术区的天然牙，饭后用医生开的漱口水含漱，避免吃辛辣/过烫的食物。一般3~5天会明显减轻。\n\n（6）我可以使用冲牙器冲手术区域吗？\n\n拆线前不建议使用牙线或冲牙器等工具对种植体区域进行邻间清洁，此阶段牙龈袖口尚未完全成熟，过早的侵入性清洁可能破坏正在形成的生物学屏障，建议术后4~6周愈合后在低强度下使用。\n\n\n\n3. 消炎药服用相关\n\n（1）消炎药怎么吃？消炎药吃完了还需要再吃吗？",
+          "char_count": 430,
+          "start_pos": 1249,
+          "end_pos": 1679,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-4",
+          "sequence": 5,
+          "content": "3. 消炎药服用相关\n\n（1）消炎药怎么吃？消炎药吃完了还需要再吃吗？\n\n头孢呋辛酯片每天2次，间隔12h/次，每次0.25g（或阿莫西林胶囊每天3次，间隔8h/次，每次0.5g，如果青霉素、头孢类过敏患者可以服用罗红霉素片每天2次，间隔12h/次，每次0.15g）；替硝唑每天1次，每次1g。若无明确要求，按术后医嘱进行服用即可。\n\n（2）消炎药吃几天啊？\n\n抗菌药物的使用时间应该根据患者健康情况、手术复杂程度、手术并发症的风险和危害大小来综合考虑。单颗牙种植术后需要服用抗生素3天；多颗种植体植入术、简单植骨手术、GBR植骨术、位点保存术等中度复杂手术后需要服用3天抗生素，糖尿病患者需连续服用5天；在复杂种植手术中，如上颌窦外提升术、自体骨移植术、无牙颌手术后患者，需要服用5天抗生素，糖尿病患者需服用7天抗生素。特殊情况，如脸部肿胀、伤口红肿，抗生素可以加服至7天，若7天后仍然肿胀明显、疼痛加剧需及时就医。一切均以医嘱为准。\n\n（3）没有什么不舒服，是不是可以不用吃消炎药了\n\n不可以，消炎药的服用天数应根据医嘱进行，不应擅自停药。如情况特殊，需要咨询医生，一切以医嘱为准。",
+          "char_count": 493,
+          "start_pos": 1644,
+          "end_pos": 2137,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-5",
+          "sequence": 6,
+          "content": "不可以，消炎药的服用天数应根据医嘱进行，不应擅自停药。如情况特殊，需要咨询医生，一切以医嘱为准。\n\n（4）你们的消炎药是国产的还是进口的？\n\n目前，四门诊所有的药，包括消炎药、止疼药喝漱口水，均为国产品牌，非原研药，若您想要购买进口药品，需要自行到药店购买。\n\n\n\n4. 漱口水使用相关\n\n（1）术后可否用淡盐水漱口？\n\n进食后可用清水漱口后在应用漱口液漱口，不必使用淡盐水。\n\n（2）术后可否一直用漱口液，用多长时间？漱口水每次含多少？\n\n医用漱口水不建议长期使用，否则可能会对口腔黏膜造成刺激，引起口腔黏膜出现红肿、疼痛等不适症状。还可能导致口腔内的菌群平衡被破坏，引发真菌感染等不良反应。另外长期或过量使用可能会导致舌体/牙齿表面着色或味觉不敏感或丧失。具体使用时间和量应遵从医嘱。\n\n（3）超市买的漱口水可以用吧？",
+          "char_count": 361,
+          "start_pos": 2089,
+          "end_pos": 2450,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-6",
+          "sequence": 7,
+          "content": "（3）超市买的漱口水可以用吧？\n\n一般术后应用的漱口水为医用漱口水，超市购买的漱口水不建议使用。若想购买长期使用的漱口水，需满足以下两个条件：一是成分温和不破坏口腔菌群平衡，二是功能以基础清洁或预防为主，而非治疗疾病。在选择适合长期使用的漱口水时，需注意几点：遵循用量建议，避免过量；如遇口腔不适，应及时停用并咨询医生。\n\n（4）我吃不出咸淡了？我吃东西没味儿呀？\n\n长期或过量使用漱口水可能会导致味觉不敏感或丧失，出现此情况请及时停用漱口水，味觉丧失在停用漱口水后的恢复时间因人而异，但一般情况下，停用后12~24小时内味觉会逐渐恢复。如果发现味觉异常持续存在，建议及时就医以确定具体原因并接受相应治疗。\n\n\n\n5. 冰敷\n\n（1）冰袋要一直敷着吗？\n\n术后24小时内可进行冰敷，每次冰敷的时间通常为15-20分钟，不要过长时间持续冰敷，以免对皮肤造成损伤。两次冰敷之间应至少间隔15分钟，让皮肤有时间恢复。\n\n（2）冰敷的间隔时间是多久呀？\n\n两次冰敷之间应至少间隔15分钟。\n\n（3）如何冰敷？\n\n1）准备冰袋：首先，准备一个冰袋。确保冰袋是干净，并且没有破损。",
+          "char_count": 484,
+          "start_pos": 2435,
+          "end_pos": 2919,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-7",
+          "sequence": 8,
+          "content": "两次冰敷之间应至少间隔15分钟。\n\n（3）如何冰敷？\n\n1）准备冰袋：首先，准备一个冰袋。确保冰袋是干净，并且没有破损。\n\n2）填充冰块：将适量的冰块放入冰袋中。不要装得太满，以免冰块在冰敷过程中破裂。\n\n3）包裹毛巾：在冰袋外面包裹一层干净的毛巾或厚布（至少2层口罩厚度）。这样做是为了防止冰块直接接触皮肤，避免冻伤。\n\n4）确定冰敷位置：根据术区位置，确定冰敷的位置。例如，如果术区在左下方，那么你应该冰敷左边下方的脸颊位置。请注意，冰敷过程中不要使冰块或冰袋接触到眼睛、鼻子或其他敏感区域。\n\n5）开始冰敷：将包裹了毛巾的冰袋轻轻敷在确定的位置上。确保冰袋与皮肤紧密接触，但不要过紧。\n\n6）控制冰敷时间：每次冰敷的时间通常为15-20分钟，不要过长时间持续冰敷，以免对皮肤造成损伤。\n\n7）间隔休息：两次冰敷之间应至少间隔15分钟，让皮肤有时间恢复。\n\n8）监测皮肤状况：在冰敷过程中，要密切关注皮肤的状况。如果皮肤出现发红、疼痛或其他不适，应立即停止冰敷。\n\n\n\n6. 运动指导\n\n（1）什么算剧烈运动？为什么不能剧烈运动？",
+          "char_count": 467,
+          "start_pos": 2859,
+          "end_pos": 3326,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-8",
+          "sequence": 9,
+          "content": "6. 运动指导\n\n（1）什么算剧烈运动？为什么不能剧烈运动？\n\n剧烈运动是指让心跳明显加快、身体震动大或出汗多的运动，比如跑步、健身、游泳、跳绳、打球、快走、健身操等。术后24小时~48小时内应避免剧烈运动，以免血压上升增加出血或肿胀风险。可以轻微活动，如散步。\n\n（2）能练瑜伽吗？\n\n术后1~2周内可以低强度运动，如慢跑、舒缓瑜伽等。\n\n（3）能跑步吗？\n\n术后24小时~48小时内应避免剧烈运动，以免增加出血或肿胀风险。术后1~2周内可以低强度运动，如慢跑。术后4周后可视情况进行快跑等剧烈运动。\n\n（4）能健身吗？\n\n术后24小时~48小时内应避免剧烈的健身活动，以免增加出血或肿胀风险。术后1~2周内可以低强度运动，如慢跑。术后4周后可视情况恢复健身强度。\n\n（5）能游泳吗？\n\n术后24小时~48小时内应避免游泳，复杂手术后应延长至1周。做完上颌窦提升手术后的患者1个月内禁止游泳、潜水，避免水压对上颌窦黏膜产生影响。\n\n（6）我可以锻炼吗？\n\n术后可以进行适当的锻炼，不同术式对应的锻炼内容见文档内容。\n\n\n\n7. 过渡义齿及保持器指导",
+          "char_count": 475,
+          "start_pos": 3296,
+          "end_pos": 3771,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-9",
+          "sequence": 10,
+          "content": "（6）我可以锻炼吗？\n\n术后可以进行适当的锻炼，不同术式对应的锻炼内容见文档内容。\n\n\n\n7. 过渡义齿及保持器指导\n\n（1）术后为什么不能立刻带我的活动假牙？我啥时候能戴假牙呀？\n\n如果术前有局部义齿或总义齿，为了避免压迫伤口，必须由医生进行精确的调改，确保其基托与术区牙龈之间有足够的间隙，完全不接触、不压迫伤口。佩戴不当的活动假牙是导致植骨失败和伤口裂开的常见原因，过渡义齿的佩戴请务必遵从医嘱，一般在术后2周戴入。\n\n（2）保持器带不上了怎么办？\n\n种植手术后保持器戴不上千万不要强行佩戴，可能因为术后肿胀、愈合基台等因素所致，应立刻联系正畸医生，评估是否需要重新制作保持器或调整现有保持器，具体停戴和重新启用时间，务必遵从医嘱。\n\n（3）上午手术，下午去总院做保持器不影响吧？\n\n上午做完手术，下午不建议马上去做保持器，以免影响伤口愈合。种植术后当天，伤口还有存有血凝块，藻酸盐印模制取的过程中可能会摩擦、压迫伤口，导致渗血、疼痛，甚至干扰种植体早期愈合。建议待伤口消肿、初步愈合后，再联系正畸医生评估是否可以做保持器（或调整现有保持器）。\n\n\n\n8. 交通相关",
+          "char_count": 486,
+          "start_pos": 3713,
+          "end_pos": 4199,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-10",
+          "sequence": 11,
+          "content": "8. 交通相关\n\n（1）我现在可以坐飞机吗？多长时间不能坐飞机呀？\n\n上颌窦提升植骨术患者术后10天内避免乘坐飞机等引起压力变化的交通工具，避免对上颌窦黏膜造成压力。其他术式无影响。若进行长途飞行，部分患者可出现术区出血的情况，一般术后可给患者带一包无菌纱布，发现出血后可用咬住纱布压迫术区，下飞机后对症处理。\n\n（2）我术后可以自己开车回家吗？\n\n若术后无明显不适或服用特殊药物，可自行开车回家。术中服用镇静药（马来酸咪达唑仑片）的患者，因该药物可能引起顺行性遗忘，注意力不集中、肌肉功能受损对驾驶和机械操作能力产生不良影响等副作用，术后应避免驾车回家。\n\n（3）打麻药后可以开车吗？\n\n若术后无明显不适可自行开车回家。\n\n\n\n9. 伤口状态\n\n（1）我手术的地方有一层白膜，是发炎了吗？\n\n术后伤口会出现白膜，成为伪膜，是由坏死组织和渗出物形成，主要起到保护伤口，防止感染和促进愈合的作用，是一种正常的生理现象，不需要自行擦除，观察即可。\n\n（2）我伤口上有溃疡/我嘴里都是溃疡/我伤口旁边长溃疡了",
+          "char_count": 451,
+          "start_pos": 4192,
+          "end_pos": 4643,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-11",
+          "sequence": 12,
+          "content": "（2）我伤口上有溃疡/我嘴里都是溃疡/我伤口旁边长溃疡了\n\n术后口腔溃疡可由多种因素诱发，包括遗传、饮食、精神因素、自身免疫、物理创伤等，需根据不同原因进行针对治疗。常见因素有：① 缺少维生素：患者进行种植手术之后，需注意饮食均衡，少吃辛辣刺激性食物，多吃富含VC的食物。② 口腔卫生不良：建议患者养成良好的口腔卫生习惯，按时刷牙，也可遵医嘱使用复方氯己定含漱液漱口。③ 物理创伤：术中牵拉、器械损伤、缝线线头过长扎伤黏膜有关（此种情况应尽快复诊处理）。\n\n（3）我嘴里面怎么有白色的渣子/植骨术后骨粉漏到嘴里面了\n\n植骨手术中会用到骨粉材料，愈合过程中，可能会有极少量细沙样的骨粉颗粒从缝线间隙渗出，为正常现象。\n\n\n\n10.吸烟饮酒\n\n（1）术前能不能抽烟？\n\n建议在术前2~4周戒烟较为理想，以尽量减小吸烟对种植手术及术后骨结合过程产生的各种不利影响。不存在所谓的“安全吸烟量”。任何数量的烟草摄入都会对愈合产生负面影响。如果术前无法戒烟，尽最大努力将每日吸烟量降至最低（每日控制在1包以下）。\n\n（2）术后我想抽烟，不影响手术效果吧？",
+          "char_count": 471,
+          "start_pos": 4615,
+          "end_pos": 5086,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-12",
+          "sequence": 13,
+          "content": "（2）术后我想抽烟，不影响手术效果吧？\n\n术后2周内需完全禁烟。因该阶段是伤口愈合关键期，此时，种植体需要与牙槽骨形成稳定的结合，任何不良刺激都可能影响愈合过程。香烟中的尼古丁等有害物质会引起血管收缩，减少血液供应，阻碍伤口的愈合和组织修复，因此在这一阶段需要绝对禁止抽烟。\n\n（3）术前能不能喝酒？\n\n建议患者从术前至少24~72小时到至少1周戒酒，甚至对于长期大量饮酒者，建议提前4周或更长时间进行戒酒干预。酒精可能影响凝血功能，增加术中出血风险。酒精还可能降低麻醉效果，导致手术过程中疼痛加剧。酒精（包括酒精型饮料）会与某些抗生素如甲硝唑、头孢类药物发生双硫仑样反应，对身体产生严重的不良影响，可能引发胸闷、呕吐甚至休克。\n\n（4）种植后能喝酒吧？喝酒精型饮料没事吧？\n\n术后当日~2周术后尽量不吸烟饮酒，术后1~2天内应完全禁酒（包括酒精型饮料），酒精可能增加出血风险并延缓愈合，并可能与术后药物（如抗生素）产生不良反应。建议至少等待7~10天后再饮酒（包括酒精型饮料），以确保伤口稳定。\n\n\n\n11. 缝线相关\n\n（1）我嘴里面怎么有一根线？",
+          "char_count": 476,
+          "start_pos": 5067,
+          "end_pos": 5543,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-13",
+          "sequence": 14,
+          "content": "11. 缝线相关\n\n（1）我嘴里面怎么有一根线？\n\n缝线是用于关闭伤口、维持组织瓣稳定、辅助止血的外科材料。常规种植外科手术后通常使用缝线辅助关闭伤口。\n\n（2）我嘴里面的线头扎嘴怎么办？\n\n可联系医生看是否能将线尾剪得更短，或在不适处覆盖少量正畸保护蜡以作缓冲。\n\n（3）我把线头刷掉了，没事吧！\n\n缝线未到复诊时间被刷掉或提前脱落，这种情况较为常见，无需担心。首先应观察伤口。如果伤口边缘已经对合良好，没有明显裂开、无出血、无疼痛，则通常无需特殊处理，表明伤口已初步愈合。如果伤口明显裂开，可以看到下方的骨粉或组织，则需要及时联系医生复诊处理。\n\n（4）我现在在外地，可以在外面拆线吗？\n\n可咨询手术医生意见，通常可以在当地正规口腔诊所或医院寻求帮助进行拆线。不可长时间不拆，否则缝线周围会积聚大量菌斑，引起局部炎症红肿，甚至形成“缝线脓肿”。\n\n（5）我可以自己把线扯出来吗？\n\n术中使用不可吸收缝线通常不涉及此种情况。可吸收缝线在人体中被化学水解或蛋白酶降解过程中，可能会出现线头过长的现象，部分患者觉得碍事会自行将线揪出，并不建议此操作方法，可复诊由医生进行去除或等待其自行脱落。",
+          "char_count": 495,
+          "start_pos": 5519,
+          "end_pos": 6014,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-14",
+          "sequence": 15,
+          "content": "（6）我这个用拆线吗？\n\n可吸收缝线在植入体内后，能够通过化学水解或蛋白酶降解过程，逐渐失去强度并最终被身体吸收，理论上无需拆线。但有时为了避免线尾过长刺激或成为食物残渣附着点，医生也可能在伤口愈合后将其剪除。不可吸收缝线在体内不能被降解吸收，需要医生在伤口愈合后（通常为术后7~14天）手动拆除的缝线。\n\n（7）线外面是可以吸收的？缝在伤口里面的可以吸收吗？\n\n可吸收缝线在软组织内的部分可被吸收，在口内的部分最终会脱落或溶解。\n\n\n\n12. 过渡义齿使用指导\n\n（1）可以吃东西吗？能吃什么东西呀？饮食有什么需要注意的？\n\n1）可摘式过渡义齿：①压膜过渡义齿仅在术后起到美观作用，不能用其进食；②局部义齿或总义齿：应循序渐进从软质食物向正常食物过渡，由小块逐渐到较大块，双侧均匀进行咀嚼，避免单侧咀嚼，需要定期复查调改。注意，佩戴隐形义齿的患者，吃饭时应将义齿取下，不建议佩戴义齿进食。",
+          "char_count": 395,
+          "start_pos": 6016,
+          "end_pos": 6411,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-15",
+          "sequence": 16,
+          "content": "2）固定式过渡义齿：①种植体支持的临时修复体，前牙美学区临时修复体仅起到美观作用，后牙区临时修复体仅起到牙龈塑形作用，禁止使用其咀嚼，无牙颌即刻修复体应进食软食。②固定桥：切勿参与啃咬，勿咬硬物；③前牙粘接桥切勿参与啃咬，勿咬硬物。\n\n（2）可以正常刷牙吗？\n\n术后24小时后除术区外天然牙可正常清洁。\n\n（3）大概要戴多长时间才能换正式的？\n\n一般需要佩戴3个月左右，由于患者个体差异不同，具体时间应咨询医生。\n\n（4）为什么要戴临时牙？",
+          "char_count": 220,
+          "start_pos": 6413,
+          "end_pos": 6633,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-16",
+          "sequence": 17,
+          "content": "（3）大概要戴多长时间才能换正式的？\n\n一般需要佩戴3个月左右，由于患者个体差异不同，具体时间应咨询医生。\n\n（4）为什么要戴临时牙？\n\n种植过渡义齿，也称种植暂时性义齿，是指在种植治疗的某个阶段，为满足患者在最终修复体完成前的短期美观、发音和部分咀嚼功能需求而制作的临时性修复装置。其既能通过一定咀嚼功能暂时满足进食、修复前牙美观并恢复发音（尤其前牙区），又能维持缺牙间隙与咬合稳定，防止邻牙倾斜移位、对颌牙伸长，保持唇颊软组织丰满度及口颌系统平衡；还能重建新咬合关系或垂直距离，指导患者适应，并通过调改穿龈形态修整牙龈轮廓（美学区）；固定型临时牙（如单冠、桥）经高度抛光、边缘密合设计，还能保证种植体自洁作用。更重要的是，它提供美学、形态、位置等诊断信息，经多次调改至理想咬合后，可直接作为最终种植义齿制作的参考依据，助力实现理想修复效果，是保障种植体顺利愈合与最终修复质量的关键过渡环节。\n\n（6）后牙为什么不需要临时牙？",
+          "char_count": 414,
+          "start_pos": 6566,
+          "end_pos": 6980,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-17",
+          "sequence": 18,
+          "content": "（6）后牙为什么不需要临时牙？\n\n后牙区临时牙的核心作用是恢复咀嚼功能（暂时替代缺失后牙的咬合力）、维持牙列稳定（防止邻牙倾斜、对颌牙伸长），以及保持唇颊软组织丰满度（避免缺牙区塌陷）。只不过后牙对美观和发音影响小，因此，较少做临时牙。\n\n（7）压模过渡义齿和我的牙龈之间缝隙好大呀？我觉得不好看！\n\n压模过渡义齿制作时为了对种植术区不产生压力，需要在义齿组织面和术区之间留有一定的缝隙，该缝隙会让患者觉得缝隙过大，美观性差。\n\n（8）我做的过渡义齿（总义齿），我平时就把它干放着，可以吗？\n\n总义齿不使用时，应清洁后浸泡在冷水中，不能干放着，这样会加速义齿变形和老化。\n\n\n\n13. 疼痛控制\n\n（1）3天了，我怎么还疼呀？正常吗？\n\n大多数人在术后会经历疼痛，疼痛在术后1天时最严重，可持续至术后3天，是正常现象，如果您难以忍受，可通过服用医生开具的止疼药进行缓解。\n\n（2）术后疼痛多久可以消失？\n\n疼痛消失时间具有个体差异，一般来说，3~4天左右疼痛可消失。\n\n（3）种植牙会疼吗？",
+          "char_count": 445,
+          "start_pos": 6965,
+          "end_pos": 7410,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-18",
+          "sequence": 19,
+          "content": "（2）术后疼痛多久可以消失？\n\n疼痛消失时间具有个体差异，一般来说，3~4天左右疼痛可消失。\n\n（3）种植牙会疼吗？\n\n疼痛作为种植外科术后常见不适症状，发生率达68.5%，大多数人在术后会经历轻到中度疼痛，少数可能经历重度疼痛。疼痛在术后1天时最严重，可持续至术后3天。\n\n（4）我现在很疼，可以吃止疼药吗？\n\n可以服用医生开具的止疼药，若疼痛持续加重，止疼药无法缓解，或伤口处伴有异常分泌物和异味，请及时联系我们，尽快复诊处理。\n\n\n\n14. 肿胀控制\n\n（1）种牙后我的牙龈怎么红了？/我的手术区域怎么是红肿的？\n\n术后伤口红肿是正常的炎症反应，通常在术后48~72小时达到高峰，之后逐渐消退，肿胀程度与手术创伤范围成正比，多颗种植体植入、复杂骨增量手术后伤口红肿程度会更加明显。\n\n（2）脸都青了！/面部淤青何时能消除？/我半边脸都肿了怎么办呀？/术后肿胀多久能消失？/我肿到眼睛了都，但我不知道是否正常，查了小红书看，有人跟我一样，我想再问问你们？",
+          "char_count": 429,
+          "start_pos": 7352,
+          "end_pos": 7781,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-19",
+          "sequence": 20,
+          "content": "面部肿胀是植骨手术后的正常反应。通常表现为术区一侧面部肿胀、鼻唇沟变浅、有时伴随面部皮肤淤血，起初是局部发紫色，几天后变成黄色，随着时间会慢慢消退。肿胀伴随而来的是张口受限。这些都是正常反应，大概持续1周左右（淤血消解时间多在1周以上），不用担心。\n\n（3）1周前做的手术，现在脸还肿着，是否正常？\n\n术后肿胀多持续1周左右，如果1周后肿胀仍持续存在，且未缓解，则要及时复诊，请主刀医师检查后判断是正常反应还是术区感染表现。\n\n（4）我肿的嘴都张不开了，这个没事吧\n\n部分人肿胀过程中伴随而来的是张口受限，是正常反应，大概持续1周左右，不用担心。\n\n\n\n15. 其他\n\n（1）有表演能不能唱歌？\n\n建议术后3天内尽量避免长时间说话、唱歌，减少口腔肌肉活动对伤口的牵拉，避免肿胀或出血，这对于进行了复杂植骨和软组织移植的患者尤为重要。\n\n（2）做完手术后能说话吧？\n\n建议术后3天内尽量避免长时间说话、唱歌，减少口腔肌肉活动对伤口的牵拉，避免肿胀或出血，这对于进行了复杂植骨和软组织移植的患者尤为重要。\n\n（3）为什么要少说话？",
+          "char_count": 463,
+          "start_pos": 7783,
+          "end_pos": 8246,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-20",
+          "sequence": 21,
+          "content": "（3）为什么要少说话？\n\n建议术后3天内尽量避免长时间说话、唱歌，减少口腔肌肉活动对伤口的牵拉，避免肿胀或出血，这对于进行了复杂植骨和软组织移植的患者尤为重要。\n\n（4）我可以用手碰我的伤口吗？\n\n种植体植入后，其与骨组织结合（骨结合）的过程需要在绝对稳定的微环境下进行。因此，术后3~6个月内，应避免任何可能导致种植体微动的行为，如用舌头顶、用手指触碰伤口。手上附着大量细菌，频繁触碰伤口可能引发伤口感染。因此，在术后，切勿使用手触碰伤口。\n\n（5）什么是种植II期手术？\n\n种植体被植入牙槽骨后，有时会用牙龈组织完全覆盖封闭起来，使其在骨结合期间（通常3-6个月）处于一个封闭、无菌、不受干扰的环境中安心“扎根”。之后，需要再做一次小手术切开一个小口露出种植体，把一个叫做愈合基台的临时性金属小螺丝拧到种植体上。通常术后反应很小。\n\n（6）缝线/伤口裂开了怎么办？\n\n手术一般为可吸收缝线，术后会逐渐松脱，属于正常现象，不必惊慌。如医生告知为非可吸收线，如距离复查时间较短（1~2天）内，可待复查再处理。伤口裂开如无明显不适及出血，可观察，如伴有出血或明显疼痛，及时到医院复诊。",
+          "char_count": 491,
+          "start_pos": 8235,
+          "end_pos": 8726,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-21",
+          "sequence": 22,
+          "content": "（7）做完手术嘴里的那个金属帽子是什么？我觉得有点儿松动了/掉了怎么办？\n\n金属帽为愈合基台，可以对种植体周围的牙龈进行塑形。如自觉松动或脱落，尽快到医院复诊，根据情况重新固定或进行其他处理。\n\n（8）种植体掉下来了！/我的种植体掉了！\n\n请您不要紧张，请您观察一下掉下来的金属配件，是不是像一个螺丝帽，并且有颜色？这不是种植体，是拧在种植体上面的愈合基台，在使用过程中可能会发生松动、脱落，请您不要担心，妥善保存，及时联系医生复诊重新固定或进行其他处理。\n\n\n\n软组织移植术：\n\n（1）我术后2周内应注意什么？\n\n种植软组织移植术后应按医嘱使用漱口水及口服药物。术后24小时内应避免反复漱口及吐口水，预防出血。术后2周内手术涉及的牙齿应避免刷牙，手术区外的牙齿可正常刷牙；避免反复自行牵拉伤口观察，避免使用手术涉及的牙齿啃咬硬物。按时复查拆线。\n\n（2）我术后当天晚上嘴里还出血，怎么办？",
+          "char_count": 395,
+          "start_pos": 8728,
+          "end_pos": 9123,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-22",
+          "sequence": 23,
+          "content": "（2）我术后当天晚上嘴里还出血，怎么办？\n\n术后48小时内口水中有少量血液、伤口少量渗血、伤口附近血块凝结为正常现象。应及时吞咽口水，避免反复漱口及频繁吐口水，避免反复撕扯血凝块。若自觉口腔中持续性出血短时间内充满口腔，或反复吐出大量凝固血块，应咨询手术医生或前往口腔急诊处理。\n\n（3）我术后是否可以运动或游泳？\n\n口腔软组织移植术后由于供区和受植区需要稳定的凝血愈合环境，因此术后48小时应尽量避免剧烈运动。由于游泳可能增加口内感染风险，建议术后2周内尽量减少游泳。术后2周后可正常运动或游泳。\n\n（4）我术后面部淤血变色，需要处理吗？\n\n部分软组织移植术后面部淤血、发红、发青为正常现象，一般4-6周内可逐渐缓解，无需特殊处理。\n\n（5） 我取牙龈的位置术后不出血，但术后3-4天开始反复出血，是什么原因？怎么办？\n\n口腔软组织手术供区（取牙龈的位置）术后3-10天内由于血管逐渐再生，可能出现继发性出血的现象。一般患者可在家使用无菌纱布自行压迫出血点5-10分钟止血。如压迫后仍无法止血，出血量较大，亦无需过分紧张，可应联系手术医生复诊或前往口腔急诊处理。",
+          "char_count": 482,
+          "start_pos": 9103,
+          "end_pos": 9585,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-23",
+          "sequence": 24,
+          "content": "（6）我术后2周发现口内缝线松脱，怎么办？\n\n术后1-2周由于伤口愈合、缝线吸收等原因，可能出现部分缝合线变长、松脱等现象。若无异常感觉，不影响进食则无需处理。若存在拉扯感、疼痛或影响进食，则应联系手术医生预约复诊处理。应避免自行拉扯、修剪缝线。\n\n（7）我术后发现移植的牙龈暴露在外，怎么办？\n\n部分术式如游离龈移植术、龈颊沟加深、上皮下结缔组织移植、根面覆盖术的术式设计可能会将移植物暴露在外，属正常现象，无需特别处理。若术后无移植物暴露，而术后1-2周发现移植物暴露，一般不会影响手术效果，可待复查拆线时由手术医生评估是否需要处理。如发现移植物发白、发黄、移位、活动等现象，应尽快联系手术医生预约处理。\n\n\n\n上颌窦内外提升植骨术：\n\n1.我从鼻子里面往外流东西\n\n正常反应。无论是上颌窦内提升植骨还是上颌窦外提升植骨，因为手术均涉及上颌窦底黏膜，因此鼻塞、鼻出血、鼻部异常分泌物、植骨材料渗漏均是可能出现的。一般来讲一周内症状会逐渐减轻，可能有轻度疼痛、一过性体温升高、面部肿胀。建议放松心情。",
+          "char_count": 451,
+          "start_pos": 9587,
+          "end_pos": 10038,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-24",
+          "sequence": 25,
+          "content": "2.我做了内提升手术，现在是术后第3天，从鼻子里面已经流了2天黄颜色的水，清凉，间断流出，没什么影响吧？\n\n正常反应。无论是上颌窦内提升植骨还是上颌窦外提升植骨，因为手术均涉及上颌窦底黏膜，因此鼻塞、鼻出血、鼻部异常分泌物、植骨材料渗漏均是可能出现的。一般来讲一周内症状会逐渐减轻。若鼻塞、鼻出血、鼻部异常分泌物持续一周以上，并伴有疼痛、发烧、异味，要及时找主刀医生复查，早期识别术区感染，早期处理。\n\n3.术后我鼻子有时候会有血流出来\n\n正常反应。无论是上颌窦内提升植骨还是上颌窦外提升植骨，因为手术均涉及上颌窦底黏膜，因此鼻塞、鼻出血、鼻部异常分泌物、植骨材料渗漏均是可能出现的。一般来讲一周内症状会逐渐减轻。若鼻塞、鼻出血、鼻部异常分泌物持续一周以上，并伴有疼痛、发烧、异味，要及时找主刀医生复查，早期识别术区感染，早期处理。\n\n4.术后多长时间可以坐飞机？\n\n如果是上颌窦内提升植骨，术后坐飞机间隔时间可以缩短；如果是上颌窦外提升植骨，术后坐飞机间隔时间较长。一般来讲术后2周后是相对安全的。但由于手术具体情况复杂，需要咨询主刀医生，根据个体情况给出合理的建议。",
+          "char_count": 485,
+          "start_pos": 10040,
+          "end_pos": 10525,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-25",
+          "sequence": 26,
+          "content": "5.手术后我要是想打喷嚏怎么办？\n\n根据术后医嘱，2周内避免打喷嚏。如果实在难以忍受，可以张开口打喷嚏，从而减小口鼻腔之间的压力差。由于个体之间存在差异、手术复杂程度存在差异，建议咨询主刀医生后，给出最合理的建议。\n\n6.术后多久可以擤鼻涕？\n\n根据术后医嘱，1个月内避免用力擤鼻涕。如果术后鼻腔分泌物多，可以轻轻擦拭。如果鼻腔分泌物持续一周以上，与术前日常情况不同，则建议及时找主刀医生复诊。\n\n7.术后多久可以游泳？\n\n根据术后医嘱，1个月内避免游泳。因为担心游泳引起呛水、感冒等，引发鼻腔、鼻窦感染，进而引发术区植骨材料感染。由于上颌窦内提升或者外提升复杂程度存在较大的差异，每位患者的上颌窦黏膜条件存在差异，建议咨询主刀医生后，给出最合理的建议，希望平稳的度过围手术期。   \n\n8.术后有鼻塞的反应正常吗？\n\n正常反应。无论是上颌窦内提升植骨还是上颌窦外提升植骨，因为手术均涉及上颌窦底黏膜，因此鼻塞、鼻出血、鼻部异常分泌物、植骨材料渗漏均是可能出现的。一般来讲一周内症状会逐渐减轻，可能有轻度疼痛、一过性体温升高、面部肿胀。建议放松心情。",
+          "char_count": 475,
+          "start_pos": 10527,
+          "end_pos": 11002,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx::chunk-26",
+          "sequence": 27,
+          "content": "9.做完手术后我感冒了，对手术有影响吗？有鼻涕的话我应该怎么处理呀？\n\n根据术后医嘱，尽量1个月内避免感冒，轻度的感冒症状不会影响手术效果。但如果感冒控制不佳，引起了鼻炎、鼻窦炎，则可能引起植骨材料感染。如果术后鼻腔分泌物多，可以轻轻擦拭。建议积极控制感冒的症状。\n\n10.做完外提升手术后会肿吗？肿成什么程度呀？\n\n面部肿胀是上颌窦外提升植骨手术的正常反应。通常表现为术区一侧面部肿胀、鼻唇沟变浅、有时伴随面部皮肤淤血，起初是局部发紫色，几天后变成黄色，随着时间会慢慢消退。肿胀伴随而来的是张口受限。这些都是正常反应，大概持续1周左右，不用担心。",
+          "char_count": 274,
+          "start_pos": 11004,
+          "end_pos": 11278,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\常用术后问答对(更新至12月11日).docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        }
+      ]
+    },
+    "术后居家维护.docx": {
+      "file_path": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+      "total_chars": 27060,
+      "total_chunks": 64,
+      "processed_at": "2026-09-17T20:17:16.433864",
+      "chunks": [
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-0",
+          "sequence": 1,
+          "content": "一、术后居家维护要点\n\n1. 口腔卫生指导\n\n【刷牙】\n\n刷牙是机械性去除牙菌斑和软垢等局部刺激因子、保持口腔清洁卫生、预防龋病和牙周病等各种口腔疾病的重要有效的口腔自我保健方法之一。术后刷牙可预防感染，因为术后口腔有伤口细菌更容易滋生，刷牙可清除食物残渣和菌斑，降低伤口感染风险。同时清洁的口腔环境有利于软组织愈合，减少炎症（如种植体周围炎）的发生。另外术后刷牙可预防种植体周围牙龈和骨组织可能因菌斑堆积而发炎进而导致骨吸收或种植失败。术后刷牙的原则：种植体/伤口无干扰愈合；保持口腔卫生，预防感染。\n\n（1）不同阶段刷牙区域\n\n第一阶段：术后~第2周\n\n此阶段的目标是保护伤口、防止感染、控制出血和肿胀，为组织愈合创造最佳的初始环境。任何过早或不当的机械刺激都可能导致伤口裂开、感染或影响种植体的初期稳定性。\n\n1）术后24小时内：\n\n①单颗常规种植术：2小时内勿刷牙漱口，2小时后当日可正常刷除术区以外的口腔内其他区域（邱）；多数情况建议患者术后24小时内应避免刷牙和过频漱口（其他大夫）。",
+          "char_count": 448,
+          "start_pos": 0,
+          "end_pos": 448,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-1",
+          "sequence": 2,
+          "content": "②复杂多颗种植术、骨增量术（GBR、Onlay植骨、拔牙位点保存等）、种植+拔牙/种植体取出、上颌窦内/外提升植骨术、无牙颌种植术、软组织移植术：术后24小时内应避免刷牙和过频漱口，刷牙的机械力和漱口时口腔内形成的压力，极易引发术后创口再次出血、破坏血凝块的稳定性，从而增加感染风险并延迟愈合过程。可用医生推荐的漱口水（如氯己定、西吡氯胺含漱液）或无菌生理盐水（医用漱口水过敏患者）轻柔含漱（避免鼓漱）。\n\n2）术后24小时~1周： \n\n①单颗常规种植术、复杂多颗种植术、骨增量术（GBR、Onlay植骨、拔牙位点保存等）、种植+拔牙/种植体取出、上颌窦内/外提升手术：术后24小时后即可开始刷牙，使用小头软毛牙刷，但必须严格避开手术区域，勿触及伤口，仅清洁非手术区的其他天然牙。\n\n②无牙颌种植术：可用漱口水漱口来清洁口腔，保持口腔卫生。\n\n③软组织移植术：由于术后口内需佩戴腭护板，刷牙时可暂时取下，清洁后立即戴回。清洁非手术区的其他天然牙时需要避开软组织手术区域。\n\n3）术后1~2周",
+          "char_count": 445,
+          "start_pos": 450,
+          "end_pos": 895,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-2",
+          "sequence": 3,
+          "content": "3）术后1~2周\n\n①清洁范围的扩大：术后7~10天伤口初步愈合，可开始轻柔的清洁手术区域的牙龈和暴露的愈合基台。但软组织移植术后患者在术后1~2周内，禁止使用牙刷直接刷拭软组织移植区域及缝线部位，过早的机械刺激会破坏脆弱的血凝块和新生毛细血管，导致移植失败。\n\n②方法与力度：针对术区，可采用改良巴氏刷牙法的垂直拂刷或小范围打圈的方式，力度要比清洁天然牙时更轻，电动牙刷在此阶段仍不推荐使用。拆线前不建议使用牙线或冲牙器等工具对种植体区域进行邻间清洁，此阶段牙龈袖口尚未完全成熟，过早的侵入性清洁可能破坏正在形成的生物学屏障。对于冲牙器，多数观点认为应在拆线后再考虑使用，且必须从最低档压力开始。\n\n③食物挂在缝线上可按如下方法处理 ：考虑到多数患者家中无大号注射器，可使用冲牙器，将水压调低，轻轻冲走残渣，避免高压直冲伤口。禁止使用牙签或镊子挑拨缝线，以免撕裂伤口或导致缝线脱落。也可含漱温水并轻轻晃动头部，利用水流带走食物残渣。",
+          "char_count": 417,
+          "start_pos": 887,
+          "end_pos": 1304,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-3",
+          "sequence": 4,
+          "content": "④愈合过程中伤口内部有食物残渣可按如下方法处理 ：表浅残渣可用生理盐水或抗菌漱口水轻柔冲洗。深部残渣若冲洗无效，应尽快就医，医生可能使用无菌吸引器或刮匙清理，必要时放置碘仿纱条抗感染。如出现剧烈疼痛、脓液或异味，可能提示干槽症或感染，需立即复诊。一般来说，种植体植入术、骨增量术或软组织移植等术式一般会有缝线缝合伤口，不易残存食物残渣；拔牙窝内出现食物残渣是拔牙术后恢复期常见的问题，尤其是在术后的1~2周内（血凝块机化和软组织初步愈合阶段）。少量残渣通常无需过渡干预，身体会自然排出，但大量堆积或引起明显不适或异味时需要谨慎处理，以防感染或延迟愈合，此时应尽快就医。\n\n第二阶段：术后3周~种植修复前\n\n随着软组织初步愈合，此阶段的口腔卫生维护可以更加积极，但仍需保持谨慎。目标是逐步过渡到常规的口腔清洁习惯，同时为种植体周围创造一个健康的软组织环境。愈合基台的目的是引导牙龈组织形成理想的“穿龈形态”，为其后修复体的美观和功能打下基础。因此，保持愈合基台及其周围软组织的清洁至关重要。愈合基台的清洁方法如下（有视频）：\n\n1）使用牙刷：",
+          "char_count": 470,
+          "start_pos": 1308,
+          "end_pos": 1778,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-4",
+          "sequence": 5,
+          "content": "1）使用牙刷：\n\n将牙刷放在温水下稍微湿润，不需要使用牙膏或其他含有酒精、氟化物等刺激性成分的口腔清洁产品，避免刺激到手术区域。\n\n从金属帽的外部开始，用牙刷轻轻刷洗，确保刷毛与金属帽表面垂直。注意力度要轻，避免对金属帽或周围组织造成损伤。\n\n2）使用牙缝刷：如果金属帽周围有难以触及的缝隙，可以使用牙缝刷轻轻插入缝隙中，旋转刷头以清除食物残渣和细菌。\n\n3）冲洗：用清水冲洗口腔，确保将金属帽和周围区域冲洗干净。\n\n注意，在整个清洁过程中，都要避免用力过猛，以免对金属帽和周围组织造成损伤。严禁使用任何金属或尖锐的工具（如牙签、牙线棒尖锐端）去刮擦愈合基台表面，这会划伤其高度抛光的表面，使其更易附着菌斑。\n\n（2）天然牙刷牙方法\n\n水平颤动拂刷法（又称改良 Bass 刷牙法）是一种有效清除龈沟内和牙面菌斑的刷牙方法。每天2次,每次3~5 分钟,并且在饭后、睡前漱口,保持口腔清洁;对不易去除的食物碎屑、软垢、牙菌斑,要用牙线清洁。这里介绍除术区外余牙的刷牙方法。（有相应图片）",
+          "char_count": 441,
+          "start_pos": 1771,
+          "end_pos": 2212,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-5",
+          "sequence": 6,
+          "content": "操作要点为（下图）:①将刷头放于牙颈部,刷毛指向牙根方向(上颌牙向上下颌牙向下),与牙长轴约成 45°,轻微加压,使刷毛部分进人牙龈沟内,部分置于牙龈上。从后牙颊侧以 2~3 颗牙为一组开始刷牙,用短距离水平颤动的动作在同一个部位数次往返,然后将牙刷向牙冠方向转动, 拂刷颊面。刷完第一个部位之后,将牙刷移至下一组2~3 颗牙的位置重新放置,注意与前一部位保持有重叠的区域,继续刷下一部位,按顺序刷完上下牙齿的唇（颊）面。②用同样的方法刷后牙舌（腭）面。③刷上前牙舌面时,将刷头竖放在牙面上,使前部刷毛接触龈缘,自上而下拂刷。④刷下前牙舌面时,自下而上拂刷。⑤刷上前牙唇面时, 用①的方法水平颤动拂刷。⑥刷咬合面时,刷毛指向咬合面,稍用力做前后短距离来回刷。",
+          "char_count": 329,
+          "start_pos": 2214,
+          "end_pos": 2543,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-6",
+          "sequence": 7,
+          "content": "可选用不含研磨剂的牙膏，如齿达人植物牙膏、佐藤Acess L牙膏、ora2皓乐齿鲜桃薄荷牙膏、斯普雷特牙膏、再生硅牙膏等成人品牌，以及戴可思、克氏、Weleda维蕾德、little tree、Paul-dent等儿童专用品牌，这些产品通过温和配方减少对牙齿和牙龈的刺激，适合敏感口腔或特殊需求人群。也可以选择含低研磨剂的牙膏，例如儿童牙膏，其专为儿童柔软的牙釉质设计，其摩擦剂通常是最细腻、研磨度最低的。同时，它们大多不含刺激性的发泡剂（SLS），味道也更温和。也可以选择明确标注为“敏感牙龈”、“术后护理”或“温和低研磨”的成人牙膏。\n\n值得注意的是刷牙方法（使用软毛牙刷、动作轻柔）和清洁工具（牙间刷、冲牙器）的重要性，远远超过牙膏品牌本身。在您不确定时，请咨询您的牙医。\n\n（3）冲牙器的使用\n\n使用时机：关于何时可以安全使用冲牙器，目前存在不同观点。一般建议术后2周在低强度下使用，具体应酌情考虑，但更保守和普遍的建议是等待术后1个月甚至更久，待牙龈组织完全愈合、种植体具备一定稳定性后再开始使用。",
+          "char_count": 453,
+          "start_pos": 2545,
+          "end_pos": 2998,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-7",
+          "sequence": 8,
+          "content": "强度与方法：首次使用必须从最低压力档位开始，将喷头对准愈合基台与牙龈的交界处，以及牙缝区域，短暂停留数秒。冲牙器可以有效冲洗掉牙刷和牙线难以触及的区域的食物残渣和松散附着的菌斑，对于维持种植体周围健康非常有效。但需明确，冲牙器是刷牙和牙线/牙缝刷的补充，不能替代它们来去除粘附紧密的菌斑膜。\n\n\n\n【漱口】\n\n漱口大多是利用水在口内流动的冲击力去除滞留的食物残屑,能暂时减少口腔微生物的数量,使口腔保持清新。漱口可起到清洁口腔的作用，能去除口腔内的食物残渣、软垢及部分细菌，减少细菌滋生，保持口腔清洁，有助于降低种植体周围炎等并发症的发生风险。同时也可以促进伤口愈合，合适的漱口水可以为伤口提供清洁的环境，减少感染几率，同时一些含药物成分的漱口水还能促进伤口愈合。术后漱口应遵循以下轻柔、无创原则，既要保持口腔卫生的清洁，又要保护种植体、移植物、植骨材料和血凝块稳定。",
+          "char_count": 384,
+          "start_pos": 3000,
+          "end_pos": 3384,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-8",
+          "sequence": 9,
+          "content": "口腔种植术后可使用以下介质进行漱口：清水、淡盐水、生理盐水、复方氯己定含漱液、康复新液等。目前四门诊种植术后医生开具的漱口液为“西吡氯胺含漱液”（有图片）。它是口腔科用药类非处方药药品，其对多种口腔致病和非致病菌有抑制和杀灭作用，使用后能减少或抑制牙菌斑的形成，具有保持口腔清洁、消除口腔异味的作用。\n\n（1）不同阶段漱口的方法\n\n第一阶段：术后~第2周\n\n1）术后24小时内：\n\n①单颗常规种植术：术后2小时内勿刷牙漱口，之后可正常漱口，但避免过频用力漱口（邱主任的种植患者）；多数情况建议患者术后24小时内不要漱口，以免刺激伤口，可用医生推荐的漱口水（如氯己定、西吡氯胺含漱液）或无菌生理盐水（医用漱口水过敏患者）轻柔含漱（避免鼓漱）。\n\n②复杂多颗种植术、骨增量术（GBR、Onlay植骨、拔牙位点保存等）、种植+拔牙/种植体取出、上颌窦内/外提升植骨术、无牙颌种植术、软组织移植术：术后24小时内不要漱口，以免刺激伤口。可用无菌生理盐水或医生推荐的漱口水（如氯己定、西吡氯胺含漱液）轻柔含漱（避免鼓漱）。\n\n2）术后24小时~2周：",
+          "char_count": 470,
+          "start_pos": 3386,
+          "end_pos": 3856,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-9",
+          "sequence": 10,
+          "content": "2）术后24小时~2周：\n\n①单颗常规种植术、复杂多颗种植术、骨增量术（GBR、Onlay植骨、拔牙位点保存等）、种植+拔牙/种植体取出、上颌窦内/外提升植骨术、无牙颌种植术、软组织移植术：进食后用清水漱口，再用漱口液轻柔含漱（避免鼓漱）。佩戴腭护板的患者漱口时一般不需要将腭护板取下，但需要确保漱口水能接触腭护板边缘，避免食物残渣堆积。若医生允许暂时取下腭护板，需要在清洁后立即戴上。单纯常规种植术建议使用漱口水漱口1周，其他复杂术式可延长漱口时间至2～4周。\n\n第二阶段：术后3周~种植修复前\n\n①单颗常规种植术、复杂多颗种植术、骨增量术（GBR、Onlay植骨、拔牙位点保存等）、种植+拔牙/种植体取出、上颌窦内/外提升植骨术、无牙颌种植术、软组织移植术：通常在此阶段停止药用漱口水，以避免其长期副作用，并让口腔微生态恢复平衡。随着机械清洁的恢复，对药物漱口水的依赖性降低。如果患者希望使用，可以选择不含酒精和药物成分的日常含氟漱口水，或继续使用温盐水作为辅助。\n\n（2）涉及到特殊介质的漱口水使用方法\n\n1）西吡氯胺含漱液\n\n使用时机：餐后含漱",
+          "char_count": 476,
+          "start_pos": 3844,
+          "end_pos": 4320,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-10",
+          "sequence": 11,
+          "content": "（2）涉及到特殊介质的漱口水使用方法\n\n1）西吡氯胺含漱液\n\n使用时机：餐后含漱\n\n使用方法：每次10~15秒，每次15ml（1瓶盖约5ml，15ml约3瓶盖），每天3~4次。用5~10日。\n\n特殊注意事项：\n\n①漱口时应避免用力过猛，以免刺激手术区域，引起不适或出血。\n\n②使用漱口水时，应遵循医生的建议，按照说明书上的建议使用频率和剂量进行。如有特殊需求或口腔疾病，应在医生的指导下使用漱口水。\n\n③勿长期使用，否则可能会对口腔黏膜造成刺激，引起口腔黏膜出现红肿、疼痛等不适症状。还可能导致口腔内的菌群平衡被破坏，引发真菌感染等不良反应。另外长期或过量使用可能会导致舌体/牙齿表面着色（有图片）或味觉不敏感或丧失，出现此情况请及时停用漱口液并咨询医生。舌体着色或味觉丧失在停用漱口液后的恢复时间因人而异，但一般情况下，停用后12~24小时内味觉会逐渐恢复。如果发现味觉异常持续存在，建议及时就医以确定具体原因并接受相应治疗。\n\n④漱口水只能用作口腔含漱，不能吞服，否则可能引起不良反应或中毒。",
+          "char_count": 448,
+          "start_pos": 4280,
+          "end_pos": 4728,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-11",
+          "sequence": 12,
+          "content": "④漱口水只能用作口腔含漱，不能吞服，否则可能引起不良反应或中毒。\n\n⑤漱口液虽然具有清洁和杀菌作用，但不能替代刷牙。因此，在种植术后，仍需坚持每天早晚刷牙（注意保护术区），以彻底清洁口腔。如出现口腔不适或过敏症状，请立即停止使用漱口液，并咨询医生。过敏体质的者慎用。\n\n2）复方氯己定含漱液\n\n使用时机：饭后和早晚刷牙后含漱\n\n使用方法：每次10~20ml，每次2~5分钟，每天4~5次，用5~10日。\n\n特殊注意事项：同“西吡氯胺含漱液”的注意事项。\n\n3）可长期使用的漱口水\n\n适合长期使用的漱口水需满足两个条件：一是成分温和不破坏口腔菌群平衡，二是功能以基础清洁或预防为主，而非治疗疾病。在选择适合长期使用的漱口水时，需注意几点：遵循用量建议，避免过量；如遇口腔不适，应及时停用并咨询医生。可供选择的有：① Fresh Breath，天然成分，无酒精无糖，茶树油与薄荷油为口腔提供持久清新。② Oral-B专业口腔护理品牌，含氟化物预防龋齿，草本成分增强杀菌效果。\n\n综上所述，选择漱口水需考虑个人口腔状况，合理使用并配合良好口腔卫生习惯，以达到最佳效果。\n\n2. 术后饮食管理",
+          "char_count": 492,
+          "start_pos": 4696,
+          "end_pos": 5188,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-12",
+          "sequence": 13,
+          "content": "综上所述，选择漱口水需考虑个人口腔状况，合理使用并配合良好口腔卫生习惯，以达到最佳效果。\n\n2. 术后饮食管理\n\n（1）饮食的原则\n\n口腔种植手术后的饮食调整并非简单的“吃软不吃硬”，而是基于深刻的生物学原理，旨在为创口的顺利愈合创造最佳的生理环境。\n\n① 保障种植体无干扰愈合：口腔种植手术的最终目标是实现种植体与牙槽骨之间牢固的“骨结合”。在愈合初期，种植体与骨的结合尚未稳定。此时，任何来自咀嚼的微小动度都可能干扰成骨细胞的附着和生长，导致纤维组织包裹种植体，最终造成种植失败。因此，术后饮食的首要原则是避免用手术区域咀嚼食物，通过选择无需咀嚼或只需极少咀嚼的食物，为种植体提供一个“零负荷”的稳定愈合环境。",
+          "char_count": 307,
+          "start_pos": 5133,
+          "end_pos": 5440,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-13",
+          "sequence": 14,
+          "content": "② 避免伤口裂开与感染：手术区域的软组织（牙龈）需要约1~2周的时间来初步愈合和关闭。在此期间，任何过硬、过韧或边缘锐利的食物（如薯片、坚果、带骨肉类）可能直接机械性地撕裂伤口、导致缝线脱落和创口裂开。同时，过热的食物会扩张局部血管，增加术后渗血和水肿的风险，并可能烫伤娇嫩的创面。辛辣刺激性食物则会化学性地刺激伤口，引发疼痛和炎症反应。因此，选择质地柔软、温度适宜（温凉）且性质温和的食物，是保护软组织愈合的基本要求。\n\n③ 保护骨移植材料：对于进行了骨增量手术（如引导骨再生术、块状骨移植术、上颌窦提升术等）的患者，这一原则尤为重要。移植的骨粉或骨块在初期仅由生物膜或钛钉初步固定，需要数月时间才能与自体骨整合、血管化。任何可能对术区的压迫都有可能导致骨移植材料的移位，严重者则导致骨增量手术的失败。因此，这类患者需要比常规种植手术患者更严格、更长时间地遵守软食甚至流食原则，避免对骨移植区区产生压力。\n\n④ 保障全面均衡营养：组织的修复和再生是一个高能量、高营养消耗的过程。充足的营养是身体“修复工厂”的原料。术后饮食不仅要考虑食物的物理形态，更要注重其营养价值，保障关键营养素的足量摄入。",
+          "char_count": 498,
+          "start_pos": 5442,
+          "end_pos": 5940,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-14",
+          "sequence": 15,
+          "content": "（2）不同术式的分阶段饮食指导\n\n不同种植手术的创伤大小、复杂程度和愈合需求各不相同，因此其饮食指导也应个体化。以下针对各类常见术式提供分阶段的饮食建议。\n\n1）常规简单种植手术：\n\n①单侧种植\n\n原则：患侧休息，健侧工作。\n\n术后1~3天：饮食以温凉的软食为主，不宜进食太热、太硬、辛辣、刺激的食物, 避免患侧咀嚼, 以免引起创口出血。\n\n术后4~14天：可在健侧逐渐恢复正常饮食，仍需避免患侧咀嚼。\n\n术后2周~种植修复：健侧正常饮食，患侧可逐步过渡软食，但注意避免用患侧啃咬任何硬物。待医生评估骨结合完成、戴入牙冠后，可开始用患侧进行循序渐进的咀嚼功能锻炼，逐步增加硬度。\n\n②双侧种植\n\n原则：由于双侧均有创口，无法进行偏侧咀嚼，因此对食物的质地要求更为严格。\n\n术后1~2周：必须严格遵循软食，避免使用术区进食，此阶段营养保障尤为重要，可考虑使用高蛋白营养补充剂。\n\n术后第3周~种植修复前：可逐渐过渡到正常饮食，整个骨结合期间，都应避免任何需要牙齿撕咬或研磨的食物。\n\n2）复杂种植手术：多颗种植体植入、无牙颌种植术",
+          "char_count": 464,
+          "start_pos": 5942,
+          "end_pos": 6406,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-15",
+          "sequence": 16,
+          "content": "2）复杂种植手术：多颗种植体植入、无牙颌种植术 \n\n原则：手术范围广，创伤大，术后肿胀反应可能更重，对饮食的要求类似于双侧种植，甚至更严格。\n\n术后1~2周：半流食或软食。对于全口无牙颌即刻负重修复的患者，虽然戴上了临时牙，但其主要起美观和支撑作用，绝对不能用于咀嚼。任何咀嚼力都可能导致整个修复体受力不均，影响所有种植体的愈合。\n\n术后第3~4周：可过渡到软食。\n\n术后1~3个月：保持软食。即使是即刻负重的临时牙，术后2个月内为危险期，在此期间也仅建议接触非常柔软的食物（软食可以跟患者说是没有牙都可进食的食物），避免任何需要用力咬合的动作。营养补充是此阶段的重点。\n\n3）同期伴有骨增量手术：\n\n引导骨再生术、拔牙位点保存术、块状骨移植术、上颌窦提升术\n\n原则：保护生物膜和骨快/骨粉的稳定。\n\n术后1~2周：半流食或极软的软食，避免任何可能对术区牙龈产生压力的食物。\n\n术后第3周~第6周：保持软食，但必须使用非手术侧进食。此阶段要格外小心，避免细小坚硬的食物颗粒（如米粒）意外进入术区。",
+          "char_count": 448,
+          "start_pos": 6383,
+          "end_pos": 6831,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-16",
+          "sequence": 17,
+          "content": "术后第3周~第6周：保持软食，但必须使用非手术侧进食。此阶段要格外小心，避免细小坚硬的食物颗粒（如米粒）意外进入术区。\n\n术后6周~6个月：在非手术侧可正常饮食，但手术侧在整个骨整合与矿化期间（通常需6个月或更长）都应避免直接受力。\n\n4）软组织移植术\n\n原则：保护移植的软组织（通常取自上腭）在受区的存活和血管化。供区（上腭）和受区都需要保护。\n\n术后1~7天：温凉流食物或半流食。低温有助于血管收缩，减少渗血，利于移植组织稳定。避免热食。如果上腭供区有保护板，进食中可稍微减轻不适。\n\n术后第2~3周：过渡到软食，避免摩擦或刺激伤口。\n\n后续阶段：软食期应至少维持到术后一个月，待软组织稳定成活后方可逐渐恢复正常饮食。\n\n5）其他术式+拔牙/种植体取出\n\n原则：这类手术相当于两个创口的叠加，拔牙窝的愈合需求与种植体的稳定需求并存。\n\n饮食指导：可基本参照常规单侧种植的原则，但由于拔牙窝的存在，术后初期的软食阶段可能需要适当延长至3~5天，以利于拔牙窝内血凝块的稳定。更要注意口腔卫生，防止食物残渣滞留于拔牙窝内。\n\n（3）术后饮食类型",
+          "char_count": 471,
+          "start_pos": 6772,
+          "end_pos": 7243,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-17",
+          "sequence": 18,
+          "content": "（3）术后饮食类型\n\n① 流食：是一种食物呈液体状态，在口腔内可无需咀嚼，能直接吞咽的饮食。流食能最大程度地减少对口腔创口的刺激和负担。\n\n汤品类：过滤掉所有固体颗粒的清鸡汤、鱼汤、肉汤、骨头汤、蔬菜汤。\n\n饮品类：牛奶、酸奶（无果粒）、豆浆、杏仁露、营养快线。\n\n米/麦类：稀米汤、藕粉、稀麦片糊。\n\n果蔬类：鲜榨果汁、蔬菜汁（需过滤掉粗纤维）。\n\n甜品类：冰淇淋、布丁、果冻（这些凉食有助于术后初期止痛和减轻水肿）。\n\n营养补充剂：各类蛋白粉、全营养素配方粉，可混合在牛奶或水中饮用，是保证营养的关键。\n\n注：制作要点：建议使用破壁机或料理机将食材打成细腻的糊状，然后用细网筛过滤，确保无任何残渣颗粒.食物必须放凉至室温或微温状态。\n\n② 半流食：是一种介于软食与流食之间，呈糊状或半固体状，质地非常稀、软、烂，需要极轻微的咀嚼或用舌与腭即可碾碎，粗纤维含量少。\n\n主食类：大米粥、小米粥、肉末粥、煮得极烂的面条或面片、土豆泥、红薯泥。\n\n蛋奶/豆制品类：鸡蛋羹、豆腐脑、嫩豆腐。\n\n肉/鱼类：将鱼肉或鸡胸肉等无刺无骨的肉类蒸熟后，用料理机打成肉泥或肉松。",
+          "char_count": 480,
+          "start_pos": 7234,
+          "end_pos": 7714,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-18",
+          "sequence": 19,
+          "content": "蛋奶/豆制品类：鸡蛋羹、豆腐脑、嫩豆腐。\n\n肉/鱼类：将鱼肉或鸡胸肉等无刺无骨的肉类蒸熟后，用料理机打成肉泥或肉松。\n\n蔬菜类：将南瓜、冬瓜、胡萝卜等蒸/煮至极度软烂后，压成泥。\n\n水果类：香蕉泥、熟透的牛油果、苹果泥（可蒸熟后刮取）。\n\n注：制作要点：烹饪方法以蒸、煮、炖为主，将所有食材处理至“入口即化”的程度。避免油炸、烧烤等方式。调味应清淡。\n\n③ 软食：是一种质地柔软、容易咀嚼和消化的饮食。食物虽成形，但用筷子或勺子可以轻松夹断或压碎\n\n主食类：软米饭、馒头、花卷、包子、饺子、馄饨（避免过硬的馅料）、发糕。\n\n肉/鱼/蛋类：清蒸鱼、肉丸（无脆骨）、炒鸡蛋、煮鸡蛋、虾仁。\n\n蔬菜类：切碎煮烂的绿叶蔬菜、去皮的西红柿、茄子等。\n\n水果类：熟透的香蕉、西瓜、去皮去核的桃子、葡萄等。\n\n豆制品类：炒豆腐、炖豆腐。\n\n注：制作要点：食材需切小、切碎。避免带有硬壳、骨、刺、籽的食物。烹饪时多采用水分，延长烹煮时间。\n\n（4）特殊情况的饮食注意事项\n\n1）佩戴腭护板患者：腭护板常用于覆盖上腭的软组织移植供区，起到保护创面、止血、促进愈合的作用。",
+          "char_count": 476,
+          "start_pos": 7656,
+          "end_pos": 8132,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-19",
+          "sequence": 20,
+          "content": "（4）特殊情况的饮食注意事项\n\n1）佩戴腭护板患者：腭护板常用于覆盖上腭的软组织移植供区，起到保护创面、止血、促进愈合的作用。\n\n进食方式：患者进食时不可摘下腭护板，术后初期建议食用温凉的流质或半流质食物（如粥、汤、酸奶），避免过热或刺激性食物，避免食用任何需要咀嚼或可能在护板与创面间产生摩擦的食物，避免用患侧咀嚼，以减少对创口的机械刺激。进食后需轻柔漱口，避免食物残渣滞留。\n\n注意事项：避免吸吮动作，以免在护板下形成负压导致出血。进食后需用温和的漱口水（遵医嘱）轻轻含漱，保持口腔清洁。\n\n2）佩戴过渡义齿患者：过渡义齿在种植愈合期起着恢复部分美观和发音功能的作用。\n\n① 固定的过渡义齿：患者不能自行摘戴，进食时不可用过渡义齿咀嚼食物，饮食范围仅限于半流食和软食，避免任何硬、韧、粘的食物，以防损伤术区，术后的过渡义齿一般是前牙区起美观作用。\n\n② 可摘的过渡义齿，在有美观需求的时候戴用，进食时摘掉，不可戴过渡义齿咀嚼食物以防损伤术区。\n\n\n\n3. 吸烟指导",
+          "char_count": 434,
+          "start_pos": 8069,
+          "end_pos": 8503,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-20",
+          "sequence": 21,
+          "content": "② 可摘的过渡义齿，在有美观需求的时候戴用，进食时摘掉，不可戴过渡义齿咀嚼食物以防损伤术区。\n\n\n\n3. 吸烟指导\n\n吸烟是对种植手术成功率影响较大且最常见的不良嗜好。吸烟可能导致免疫功能低下，影响微循环及组织的新陈代谢，从而降低患者的局部抵抗力，妨碍术后种植体-骨结合的过程。其具体的影响机制可能与吸烟产生的毒副产物，如尼古丁、一氧化碳、氰化氢等有关，尼古丁可抑制红细胞、成纤维细胞和巨噬细胞的增殖，并升高血小板的黏滞度，导致微血栓形成，阻碍新生血管形成和机化过程；一氧化碳可竞争性结合血红蛋白，减少氧气的运输，从而抑制成骨细胞分化；氰化氢则可抑制氧代谢和运输所必需的酶的活性，致使骨愈合和骨结合不良。虽然吸烟影响种植体骨结合的具体机制到目前还不十分清楚，但其导致种植体早期骨结合成功率降低的现象已经被大量文献证实。因此，对于拟接受种植手术的患者，术前戒烟至关重要。有研究显示，成功接受戒烟方案的吸烟患者的种植成功率明显提高，与不吸烟患者接近，而与仍保持吸烟习惯者有显著性差异。\n\n（1）术前戒烟",
+          "char_count": 449,
+          "start_pos": 8446,
+          "end_pos": 8895,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-21",
+          "sequence": 22,
+          "content": "（1）术前戒烟\n\n关于戒烟方案如何制订，目前学术界尚有争议。有学者提出术前戒烟2周，术后戒烟1周或更久即可清除体内因吸烟产生的毒性产物，减少其不利影响。也有临床研究表明，手术前（特别是较复杂的种植手术），患者最好停止吸烟1~2个月，手术后还应戒烟至少8周，这样就可以明显降低吸烟导致的各种手术并发症的出现。\n\n综上所述，建议拟进行种植手术的患者在术前2~4周戒烟较为理想，以尽量减小吸烟对种植手术及术后骨结合过程产生的各种不利影响。不存在所谓的“安全吸烟量”。任何数量的烟草摄入都会对愈合产生负面影响。如果患者实在无法在术前完全戒烟，必须被告知其属于高风险人群，并应尽最大努力将每日吸烟量降至最低（每日控制在1包以下）。\n\n（2）术后吸烟量\n\n术后愈合是一个动态且分阶段的过程。不同阶段，吸烟造成的危害重点不同。然而，现有高质量的临床指南和随机对照试验，均未提供针对术后不同愈合阶段的“每日最大吸烟量”的具体数值。因此，以下指导基于对现有临床建议和风险研究的综合分析，理想目标始终是“零吸烟”。",
+          "char_count": 447,
+          "start_pos": 8888,
+          "end_pos": 9335,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-22",
+          "sequence": 23,
+          "content": "① 术后当日~2周：需完全禁烟。因该阶段是伤口愈合关键期，此时，种植体需要与牙槽骨形成稳定的结合，任何不良刺激都可能影响愈合过程。香烟中的尼古丁等有害物质会引起血管收缩，减少血液供应，阻碍伤口的愈合和组织修复，因此在这一阶段需要绝对禁止抽烟。\n\n② 术后2周~8周：建议完全禁烟；\n\n③ 术后8周~种植修复前：建议完全禁烟，如果患者在此阶段无法坚持戒烟，建议将吸烟量控制在极低水平（每日控制在1包以下），并被告知这仍会对其种植体的长期健康构成威胁；\n\n④ 种植修复后（长期维护期）：建议戒烟，如果患者在此阶段无法坚持戒烟，建议将吸烟量控制在极低水平（每日控制在1包以下），吸烟量与种植体周围骨吸收的程度和种植体失败风险呈显著的剂量-效应关系。\n\n\n\n4. 饮酒指导\n\n酗酒的患者可能出现术后出血、愈合过程长、感染等问题。长期饮酒可能降低种植牙的成功率，并影响其使用寿命。种植牙期间应避免饮酒，酒精会抑制免疫系统，增加感染风险。饮酒可能导致血管扩张，增加术后出血风险。另外酒精可能干扰药物代谢，影响抗生素和止痛药的效果。\n\n （1）术前饮酒指导",
+          "char_count": 471,
+          "start_pos": 9337,
+          "end_pos": 9808,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-23",
+          "sequence": 24,
+          "content": "（1）术前饮酒指导\n\n建议范围从术前至少24~72小时到至少1周戒酒，甚至对于长期大量饮酒者，建议提前4周或更长时间进行戒酒干预。酒精可能影响凝血功能，增加术中出血风险。酒精还可能降低麻醉效果，导致手术过程中疼痛加剧。酒精（包括酒精型饮料）会与某些抗生素如甲硝唑、头孢类药物发生双硫仑样反应，对身体产生严重的不良影响，可能引发胸闷、呕吐甚至休克。 \n\n双硫仑样反应是指某些药物与酒精（乙醇）联用时，抑制了肝脏中的乙醛脱氢酶，导致乙醇的中间代谢产物——乙醛在体内大量蓄积，从而引起中毒反应。\n\n常见致病药物：在口腔种植围手术期，临床医生可能会预防性使用或治疗性使用抗生素。其中，头孢菌素类抗生素（尤其是含有甲硫四氮唑侧链的，如头孢哌酮、头孢美唑等）和甲硝唑是引起双硫仑样反应的常见药物。\n\n临床表现：反应通常在饮酒后数分钟至1小时内出现，表现为面部潮红、头痛、剧烈恶心、呕吐、心悸（心跳加速）、呼吸困难、低血压，严重时可导致休克甚至死亡。其严重程度与饮酒量和药物剂量相关，但即使少量酒精（如存在于某些食物、漱口水中）也可能诱发反应。",
+          "char_count": 465,
+          "start_pos": 9799,
+          "end_pos": 10264,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-24",
+          "sequence": 25,
+          "content": "风险持续时间：该风险不仅存在于服药期间，停药后一段时间内依然存在，因为药物及其代谢产物在体内完全清除需要时间。根据药物不同，这个“危险窗口期”可持续停药后48小时~1周，甚至有文献建议长达2周。因此，对患者的医嘱必须极其明确：在使用可能引起双硫仑样反应的抗生素期间，以及停药后至少7天内，绝对禁止摄入任何含有酒精的食物和饮品。\n\n（2）术后饮酒指导\n\n①术后当日~2周术后尽量不吸烟饮酒，术后1~2天内应完全禁酒（包括酒精型饮料），酒精可能增加出血风险并延缓愈合，并可能与术后药物（如抗生素）产生不良反应。建议至少等待7~10天后再饮酒，以确保伤口稳定。\n\n②术后2周~8周：1个月后可以适量饮酒，同时要确保已停用抗生素、止血药等72小时以上，但最好完全恢复后再饮酒。\n\n③术后8周~种植修复：在医生确认种植体骨结合良好的情况下，无并发症的情况下可逐步恢复正常的饮酒习惯，但要避免长期大量饮酒，因为酒精可能影响骨代谢，降低种植体的长期稳定性。同时饮酒后要加强口腔卫生。\n\n\n\n5. 伤口恢复\n\n【概述】",
+          "char_count": 451,
+          "start_pos": 10266,
+          "end_pos": 10717,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-25",
+          "sequence": 26,
+          "content": "5. 伤口恢复\n\n【概述】\n\n口腔种植外科术后伤口主要涉及口腔黏膜（软组织）和下方的颌骨（硬组织）。手术通过切开、翻起黏骨膜瓣，在牙槽骨内进行备洞、植入种植体、骨移植材料或软组织等操作，最后将黏骨膜瓣复位并缝合。因此，术后伤口是一个复合型伤口，其愈合不仅包括表层黏膜的闭合，更关键的是深层骨组织与种植体或移植材料的整合。一个理想的愈合状态是实现伤口的一期愈合，即切口边缘直接对合生长，无感染、裂开，最终形成线性瘢痕，最大限度减少组织暴露和感染风险。\n\n伤口恢复是一个复杂的生物学过程，大体遵循无干扰愈合和无菌愈合两大核心原则。具体可细分为以下几点：\n\n血供良好：充足的血液供应是携带愈合所需细胞、营养和氧气的基础。手术中对组织的精细操作、避免过度牵拉是保证术后血供的关键。\n\n初期稳定：伤口初期的稳定性至关重要，尤其是血凝块的稳定和瓣的紧密贴合。这是防止感染、促进组织再生的物理屏障。\n\n防止感染：口腔是有菌环境，因此术后感染控制是重中之重。这依赖于术中的无菌操作、术后抗生素的合理使用以及患者的口腔卫生维护。",
+          "char_count": 455,
+          "start_pos": 10704,
+          "end_pos": 11159,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-26",
+          "sequence": 27,
+          "content": "防止感染：口腔是有菌环境，因此术后感染控制是重中之重。这依赖于术中的无菌操作、术后抗生素的合理使用以及患者的口腔卫生维护。\n\n避免压迫：任何对术区的过度物理压力都会破坏血供、导致缝线崩开、伤口裂开，甚至引起下方植骨材料的移位或种植体的微动，从而干扰愈合。\n\n充足的休息与营养：全身状况直接影响局部伤口的恢复速度和质量。\n\n【不同术式的伤口表现】\n\n（1）共性表现\n\n渗血与肿胀：几乎所有口内手术后24~48小时内，伤口有少量渗血或唾液中带血丝均为正常现象，通常通过术后咬棉球压迫止血。术后肿胀是正常的炎症反应，通常在术后48~72小时达到高峰，之后逐渐消退，肿胀程度与手术创伤范围成正比，多颗种植体植入、复杂骨增量手术肿胀会更加明显。\n\n伪膜：术后约2~3天，伤口表面可能会出现一层白色或淡黄色的膜状物，此为“伪膜”。它并非脓液或感染，而是由纤维蛋白、坏死脱落的上皮细胞及白细胞等构成，是伤口正常愈合过程的一部分。伪膜起到保护创面的作用，通常在术后7~14天随着新上皮的生长而逐渐脱落消失。患者切勿自行擦拭或刮除。（有图片）\n\n（2）不同术式伤口表现\n\n1）牙种植术",
+          "char_count": 483,
+          "start_pos": 11098,
+          "end_pos": 11581,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-27",
+          "sequence": 28,
+          "content": "（2）不同术式伤口表现\n\n1）牙种植术\n\n① 非潜入式种植：术中将种植体植入后，直接在种植体上端安装一个穿出牙龈的金属帽，即“愈合基台”。患者口内可看到或舌尖可触到一个圆形的金属基台。这种方式下，软组织围绕基台愈合，无需二次手术暴露种植体。\n\n② 潜入式种植：术中将种植体植入后完全被牙龈瓣覆盖缝合，口内看不到任何种植体相关的部分（有图片）。这种情况下需要等待4~6个月的骨愈合期后，再进行一次小手术（二期手术）切开牙龈（有图片），暴露种植体并安装愈合基台（有图片）。\n\n2）简单骨增量术\n\n常与种植体植入同期进行，用于填充微小骨缺损。术后患者可能会自觉术区牙龈下方有轻微的凸起感或饱满感，这是由于植骨材料填充所致，属于正常现象。愈合过程中，可能会有极少量细沙样的骨粉颗粒从缝线间隙渗出，若无持续大量掉落及伤口裂开，则无需过度担心。\n\n3）复杂骨增量术（GBR、外提升、块状骨移植术）‍",
+          "char_count": 393,
+          "start_pos": 11562,
+          "end_pos": 11955,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-28",
+          "sequence": 29,
+          "content": "3）复杂骨增量术（GBR、外提升、块状骨移植术）‍\n\n正常情况：此类手术创伤较大，术后反应也更明显，患者自觉术区有明显的饱满和隆起感，为正常现象。这类手术通常使用屏障膜（可吸收或不可吸收）来覆盖骨粉或骨块，并可能使用钛钉或膜钉来将其固定在骨面上。这些固定钉直径非常小长度也仅数毫米。在愈合后，由于这些钉被牙龈软组织完全覆盖，患者通常无法用舌头或手指感觉到它们的存在。但在愈合初期，如果软组织较薄或有轻微肿胀消退不均，部分敏感患者可能会隐约感觉到局部的硬点。上颌窦手术患者可能会出现术后数天内轻微的鼻腔渗血或流出带血丝的液体，这为术后正常现象。\n\n异常情况：移植膜暴露、钛钉/膜钉暴露是此类手术的常见并发症。表现为伤口裂开后，可见白色的膜或闪亮的金属钉尖。一旦发生，患者需立即复诊处理。\n\n4）软组织移植术",
+          "char_count": 352,
+          "start_pos": 11930,
+          "end_pos": 12282,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-29",
+          "sequence": 30,
+          "content": "4）软组织移植术\n\n受区：在术后24~48小时内渗出液量大，表面形成一层淡黄色伪膜。术后3天，移植黏膜透过表面渗出物可见呈淡粉红色。从第3天起，表面渗出物开始减少。第7天，黏膜瓣大部分表面明显清洁，呈淡粉色。当获得足够的再血管化之后，黏膜移植物与受区开始建立稳定的血液循环，移植物成活。在术后4~6周，有利黏膜移植逐渐改建。黏膜移植完全愈合后，移植物可发生1/3甚至更高的收缩（口腔种植学）。\n\n供区（通常为上腭）：这是一个特殊的开放性创口。医生通常会在取皮后的创面上放置止血纱布、胶原蛋白海绵或特制的保护板。胶原蛋白片/海绵会与血凝块结合，形成一个保护层。数天后，这个保护层可能会像一块结痂的“肉”一样自行脱落，此时下方已形成新的上皮组织（大约10天左右）。这个过程是正常的，患者不应强行撕脱。完全愈合需要数周时间。\n\n5）位点保存\n\n即拔牙后在牙槽窝内立即植入骨移植材料，防止牙槽骨过度吸收。术后可见拔牙窝被缝合关闭，或上方覆盖有生物膜。患者会感觉拔牙窝不像自然愈合那样是一个深深的 “坑” ，而是被填充物支撑着。愈合过程类似于简单植骨。\n\n6）种植体取出/拔牙（有图片）",
+          "char_count": 488,
+          "start_pos": 12274,
+          "end_pos": 12762,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-30",
+          "sequence": 31,
+          "content": "6）种植体取出/拔牙（有图片）\n\n这两种情况都会在牙槽骨上留下一个拔牙窝。术后拔牙窝内会充满血凝块，这是伤口愈合的起点，至关重要。患者能看到一个暗红色的“坑”，这个坑将在未来数周至数月内逐渐被新骨和软组织填平。保护好血凝块不脱落是术后护理的核心。\n\n（3）其他情况\n\n术后口腔溃疡：可由多种因素诱发，包括遗传、饮食、精神因素、自身免疫、物理创伤等，需根据不同原因进行针对治疗。常见因素有：① 缺少维生素：患者进行种植手术之后，需注意饮食均衡，少吃辛辣刺激性食物，多吃富含VC的食物。② 口腔卫生不良：患者进行种植手术之后，建议患者养成良好的口腔卫生习惯，按时刷牙，也可遵医嘱使用复方氯己定含漱液漱口。③ 物理创伤：术中牵拉不当、器械损伤、缝线线头过长，扎伤黏膜有关（此种情况应尽快复诊处理）。\n\n【缝线】\n\n缝线是用于关闭伤口、维持组织瓣稳定、辅助止血的外科材料。缝线根据其在体内的降解情况分为可吸收缝线和不可吸收缝线。其物理形态可分为单股和多股。不同种类的缝线在颜色、软硬度、操作性能和组织反应上均有差异。\n\n（1）可吸收缝线：",
+          "char_count": 465,
+          "start_pos": 12747,
+          "end_pos": 13212,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-31",
+          "sequence": 32,
+          "content": "（1）可吸收缝线：\n\n在植入体内后，能够通过化学水解或蛋白酶降解过程，逐渐失去强度并最终被身体吸收的缝线。现代口腔种植外科常用的主要是化学合成缝线，如聚乙醇酸（PGA）、聚乳酸-乙醇酸共聚物（Vicryl/Polyglactin 910）、聚对二氧环己酮（PDS）、聚己内酯（Monocryl）等 。目前四门诊种植外科常用可吸收缝线为快薇乔可吸收性缝线（商品名：VICRYL Rapide），常规使用型号根据粗细不同分为可吸收线4-0,可吸收线5-0. 颜色为白色。\n\n1）粗细分类：与所有外科缝线一样，其粗细用USP标准表示，如3-0, 4-0, 5-0, 6-0。数字越大，线越细。口腔常用4-0或5-0。\n\n2）是否需要拆线：理论上不需要，但有时为了避免线尾过长刺激或成为食物残渣附着点，医生也可能在伤口愈合后将其剪除。\n\n3）软硬度与颜色：\n\n① Vicryl（薇乔）：多为紫色或白色未染色。为编织线，质地相对较软，打结牢固，但线体缝隙可能藏匿细菌。\n\n② Monocryl（单乔）：多为紫色或无色。为单股线，表面光滑，组织穿透性好，细菌附着少，但线体相对较硬挺，线结尾端可能有些扎嘴。",
+          "char_count": 497,
+          "start_pos": 13203,
+          "end_pos": 13700,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-32",
+          "sequence": 33,
+          "content": "② Monocryl（单乔）：多为紫色或无色。为单股线，表面光滑，组织穿透性好，细菌附着少，但线体相对较硬挺，线结尾端可能有些扎嘴。\n\n4）临床常用及吸收过程：\n\n① 快吸收线（如 Vicryl Rapide/古氏SA Rapid）： 强度维持时间短，约5~10天后强度显著下降，42~45天左右完全吸收。适用于仅需短期支撑的黏膜伤口。\n\n② 慢吸收线（如 Vicryl/PDS II）：\n\nVicryl（薇乔）：术后2周仍保持约65~75%的强度，3周后强度丢失过半，在56~70天左右被完全吸收。这是口腔种植临床非常常用的缝线之一。\n\nPDS II（普迪思）：吸收更慢，强度维持时间长达6周以上，完全吸收时间约180~210天。常用于需要更长支撑时间的复杂植骨或软组织移植手术。\n\n5）特殊情况处理：\n\n缝线未到复诊时间提前脱落：这是常见情况。患者首先应自行观察伤口。如果伤口边缘已经对合良好，没有明显裂开、无出血、无疼痛，则通常无需特殊处理，表明伤口已初步愈合。如果伤口明显裂开，可以看到下方的骨粉或组织，则需要及时联系医生复诊处理。\n\n（2）不可吸收缝线",
+          "char_count": 481,
+          "start_pos": 13634,
+          "end_pos": 14115,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-33",
+          "sequence": 34,
+          "content": "（2）不可吸收缝线\n\n在体内不能被降解吸收，需要医生在伤口愈合后（通常为术后7~14天）手动拆除的缝线。常用材料包括尼龙（Nylon）、聚丙烯（Polypropylene）、聚四氟乙烯（PTFE）。目前四门诊常规使用聚丙烯不可吸收缝线，常用有4-0、5-0、6-0，颜色为蓝色。\n\n1）粗细分类：同可吸收缝线。\n\n2）软硬度与颜色：\n\n尼龙/聚丙烯：多为蓝色或黑色，为单股线，表面光滑，组织反应轻，但材质较硬，弹性大，线结尾端容易扎嘴或刺激舌头。\n\nPTFE（Gore-Tex）：通常为白色，也是单股线，但其质地极为柔软、无毛细作用、不易附着菌斑，患者舒适度极高，被认为是种植手术的理想缝线之一，但价格昂贵。\n\n3）特殊情况处理：\n\n① 缝线较硬，扎嘴/舌不适：可联系医生看是否能将线尾剪得更短，或在不适处覆盖少量正畸保护蜡以作缓冲。\n\n② 缝线自己开了/断了：处理原则同可吸收缝线脱落，关键是观察伤口是否裂开。\n\n③ 在外地不便回院拆线：可咨询手术医生意见，通常可以在当地正规口腔诊所或医院寻求帮助进行拆线。不可长时间不拆，否则缝线周围会积聚大量菌斑，引起局部炎症红肿，甚至形成“缝线脓肿”。",
+          "char_count": 497,
+          "start_pos": 14106,
+          "end_pos": 14603,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-34",
+          "sequence": 35,
+          "content": "【伤口保护要点】\n\n（1）保证种植体的无干扰愈合：种植体植入后，其与骨组织结合（骨结合）的过程需要在绝对稳定的微环境下进行。因此，术后3~6个月内，应避免任何可能导致种植体微动的行为，如用舌头顶、用手指摇动、外力撞击（尤其避免运动时的撞击）、用术区咀嚼硬物等。\n\n（2）避免伤口受压\n\n饮食指导：避免使用手术侧咀嚼食物，术后应进食温凉、软质或流质食物，避免过热、过硬、辛辣的食物刺激伤口，详细内容见饮食指导部分。\n\n过渡义齿的使用：活动义齿必须由医生进行精确的调改，确保其基托与术区牙龈之间有足够的间隙，完全不接触、不压迫伤口。佩戴不当的活动假牙是导致植骨失败和伤口裂开的常见原因，过渡义齿的佩戴请务必遵从医嘱。\n\n正畸保持器/隐形矫治器使用：原则上，任何覆盖在术区的矫治器或保持器都可能对伤口产生不良压力。患者必须在术前就与种植医生和正畸医生沟通，具体停戴和重新启用时间，务必遵从医嘱。",
+          "char_count": 394,
+          "start_pos": 14605,
+          "end_pos": 14999,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-35",
+          "sequence": 36,
+          "content": "（3）避免伤口出血：术后24小时内是关键期。应避免用力漱口、吐口水、使用吸管、剧烈运动等升高血压或对伤口产生负压的行为。若有明显活动性出血，应使用无菌纱布或棉球压迫术区半小时以上，并及时联系医生，详细内容见出血部分。\n\n（4）避免植骨材料、软组织移位：除了避免物理压迫外，还要避免面部肌肉的剧烈运动，如哈欠大笑、鼓漱吮吸等唇颊过度动作，以减少对缝合组织瓣的牵拉，这对于进行了复杂植骨和软组织移植的患者尤为重要。\n\n（5）特殊术式：上颌窦提升术患者，术后禁止擤鼻，控制打喷嚏和剧烈咳嗽等动作，必要时可张嘴以减小窦腔压力。尽量避免剧烈运动和气压变化，如鼓气、吹奏乐器、潜水、乘坐飞机（尤其是起降阶段）、剧烈运动等。\n\n\n\n6. 运动指导\n\n口腔种植术后合理的运动指导有助于减少肿胀、避免创口出血、种植体移位等风险，以下是不同术式的运动建议：\n\n（1）单颗常规种植术： \n\n①术后24~48h内避免剧烈运动：如跑步、健身、游泳等，以免增加出血或肿胀风险。可以轻微活动：如散步。\n\n②术后48h至一周内可以低强度运动：如慢跑、舒缓瑜伽等。\n\n③术后一周后可视恢复情况进行中强度运动：如骑车、快跑、跳绳等。",
+          "char_count": 498,
+          "start_pos": 15001,
+          "end_pos": 15499,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-36",
+          "sequence": 37,
+          "content": "②术后48h至一周内可以低强度运动：如慢跑、舒缓瑜伽等。\n\n③术后一周后可视恢复情况进行中强度运动：如骑车、快跑、跳绳等。\n\n（2）复杂多颗种植术、简单植骨手术、GBR植骨术、位点保存术后: \n\n①术后一周内避免剧烈运动：如跑步、健身、游泳等，以免增加出血或肿胀风险。可以轻微活动：如散步。前3天尽量避免长时间说话，减少口腔肌肉活动对伤口的牵拉，避免肿胀或出血。\n\n②术后1~2周内可以低强度运动：如慢跑、舒缓瑜伽等。\n\n③术后两周后可视恢复情况进行中强度运动：如骑车、快跑、跳绳等。\n\n（3）在复杂种植手术，如上颌窦外提升术、无牙颌手术、自体骨移植术后患者： \n\n①术后一周内严禁剧烈运动：如跑步、健身、游泳、潜水等，以免增加出血或肿胀风险。可以轻微活动：如散步。前5~7天尽量避免长时间说话，减少口腔肌肉活动对伤口的牵拉，避免肿胀或出血。\n\n②术后2~4周内可以低强度运动：如慢跑、舒缓瑜伽等。上颌窦外提升术患者禁止游泳、潜水，避免水压对上颌窦的影响。\n\n③术后4周后可视恢复情况进行中强度运动：如骑车、快跑、跳绳等。\n\n\n\n7. 过渡义齿使用指导",
+          "char_count": 476,
+          "start_pos": 15438,
+          "end_pos": 15914,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-37",
+          "sequence": 38,
+          "content": "③术后4周后可视恢复情况进行中强度运动：如骑车、快跑、跳绳等。\n\n\n\n7. 过渡义齿使用指导\n\n种植过渡义齿，也称种植暂时性义齿，是指在种植治疗的某个阶段，为满足患者在最终修复体完成前的短期美观、发音和部分咀嚼功能需求而制作的临时性修复装置。根据使用时机，过渡义齿可分为：拔牙后种植手术前使用的过渡义齿、种植手术后未利用种植体支持的过渡义齿以及种植手术后利用种植体支持的过渡义齿。根据患者能否自行摘戴，分为可摘过渡义齿和固定过渡义齿。其行使的作用如下：\n\n功能作用：种植过渡义齿具有一定的咀嚼功能，能暂时满足患者的咀嚼要求；可以修复缺失的前牙或后牙，以保持美观；前牙区过渡义齿还可恢复患者的发音功能。\n\n维持和稳定作用：种植过渡义齿在种植外科之后的种植体愈合期和义齿修复的过程中，可起到保持缺牙间隙，维持咬合面的稳定性，防止邻牙倾斜、移位以及对颌牙伸长的作用。种植过渡义齿可维持唇颊软组织正常的丰满度。牙列缺失时，过渡义齿可维持口颌系统与神经肌肉、颞下颌关节的稳定和平衡。",
+          "char_count": 436,
+          "start_pos": 15868,
+          "end_pos": 16304,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-38",
+          "sequence": 39,
+          "content": "重建咬合关系：可以使用种植过渡义齿建立新的咬合关系或咬合垂直距离。对于需要咬合重建的患者，可以将种植过渡义齿覆盖于余留天然牙颌面上，指导患者适应并依赖其所建立的咬合关系为止。\n\n牙龈塑形：美学区种植义齿可通过调改种植过渡义齿穿龈部分的形态和桥体下方的凸度，达到牙龈塑形和修整牙龈轮廓的作用。\n\n自洁作用：种植体植入后，若需要做固定性种植过渡义齿，即单冠、联冠和桥，该修复体可保证种植体的自洁作用。由于戴用时间较长，要求这类修复体表面高度抛光，边缘密合无悬突。\n\n诊断信息作用：种植过渡义齿可提供美学、形态、位置等一系列信息。最终的种植义齿制作参考种植过渡义齿，达到理想的人工牙形态、排列位置和美观效果。缺牙多或无牙颌等需要重建咬合的患者，就可以通过多次调改种植过渡义齿的龈颌高度和位置至理想咬合状态，经过评估，所重建的咬合关系和垂直距离患者能够适应并接受，即刻作为制作最终种植义齿的参考。\n\n【可摘式过渡义齿】\n\n（1）压膜过渡义齿：（有图片）",
+          "char_count": 422,
+          "start_pos": 16306,
+          "end_pos": 16728,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-39",
+          "sequence": 40,
+          "content": "【可摘式过渡义齿】\n\n（1）压膜过渡义齿：（有图片）\n\n压模过渡义齿属于牙支持式义齿，美观性能较好，且对种植术区不产生压力，适用于缺牙间隙较小的患者，制作简单快速。然而，由于义齿覆盖牙咬合面，可能导致咬合面的快速磨损，且因为影响患者咀嚼而不宜长期使用。此外由于没有与软组织接触，无法对软组织进行诱导塑形。注意事项如下：\n\n应根据医嘱进行佩戴，一般手术后至少2周内应避免佩戴此类义齿。过早佩戴会对缝合的软组织和下方的种植体或植骨材料产生压迫，严重者影响愈合。\n\n佩戴压膜过渡义齿后，不能用其进食，不能喝热水及有色饮料，避免变形和染色；进食后用流动清水冲洗义齿表面，去除食物残渣和软垢，可用软毛牙刷轻刷义齿表面及组织面。切勿使用牙膏清洗，牙膏中的摩擦剂可能划伤义齿表面，使其更易产生菌斑和污垢。\n\n不佩戴时，应将其清洗干净后浸泡在冷水中，禁用热水或酒精或含氯消毒液会使义齿变形或褪色。\n\n夜间睡觉时除特殊情况（如医嘱：夜间需持续佩戴义齿，压迫伤口）摘下义齿，避免长期压迫牙龈组织，导致炎症或义齿变形。\n\n勿将义齿置于高温环境（如汽车内，暖气旁），防止材质变形。\n\n如义齿松动或不适，及时复诊。",
+          "char_count": 494,
+          "start_pos": 16702,
+          "end_pos": 17196,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-40",
+          "sequence": 41,
+          "content": "勿将义齿置于高温环境（如汽车内，暖气旁），防止材质变形。\n\n如义齿松动或不适，及时复诊。\n\n（2）可摘局部义齿或总义齿：（有图片）\n\n可摘过渡义齿利用卡环、树脂基托等固位，制作简单，花费少，适用范围广。当患者存在分散的多颗牙确实或采用策略性拔牙方案，医生甚至可以利用患者原有的活动义齿，通过增加人工牙或使用软衬材料等方式调整后继续使用。一般在术后2周戴入，避免影响软组织愈合。它能够较好的恢复缺牙区的外形、丰满度及功能, 并且易于调改。如果术前有局部义齿或总义齿，术后需要调改，缓冲组织面，避免压迫伤口，1周以内尽量不佩戴义齿（陆）。注意事项如下：\n\n告知患者摘戴义齿的正确方法。注意摘戴义齿的方向；用手帮助义齿就位而非咬合就位，防止卡环或义齿变形、折断。\n\n初戴义齿可能会出现异物感、恶心、咀嚼不便、口水增多、发音不清等不适的情况，告知患者耐心使用，通常情况下1周～1 个月即可以适应。\n\n不建议用前牙切咬食物。选择食物时，应循序渐进从软质食物向正常食物过渡，由小块逐渐到较大块，双侧均匀进行咀嚼，避免单侧咀嚼。注意，佩戴隐形义齿的患者，吃饭时应将义齿取下，不建议佩戴义齿进食。",
+          "char_count": 490,
+          "start_pos": 17152,
+          "end_pos": 17642,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-41",
+          "sequence": 42,
+          "content": "每次用餐后都应将义齿取下，用流动凉水冲洗多余的食物残渣，并进行漱口去除口内食物残渣，以防义齿组织面有食物碎渣而导致疼痛，以及口内余留牙的继发龋坏。\n\n睡觉前将义齿取下，清洁后浸泡在冷水中。可以定期使用义齿清洁片进行浸泡清洁，温水中加入义齿清洁片，并将义齿放入水中，浸泡整夜，第2天用流水彻底冲洗后戴入口内。\n\n可以用软毛牙刷来清洁义齿，要注意不要太用力，以免磨损义齿基托表面，软毛牙刷轻轻刷洗义齿，去除附着的色素等。\n\n不得用热水或酒精进行清洁消毒，以免义齿变形或加速老化。\n\n初戴义齿，如果出现压痛、溃疡、咬腮、咀嚼不得力或卡环过松等，嘱患者暂停戴用义齿，不要自行修改，应及时复诊，复诊前1天需戴上，以便医生更准确地找到压痛点。若出现压痛溃疡时，复诊前需佩戴义齿，若出现咬腮等问题需复诊时检查原因，无需停戴义齿。\n\n【固定式过渡义齿】",
+          "char_count": 368,
+          "start_pos": 17644,
+          "end_pos": 18012,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-42",
+          "sequence": 43,
+          "content": "【固定式过渡义齿】\n\n固定式过渡义齿通过粘接剂或螺丝固定在邻牙或种植体上，患者不能自行取下。它提供了更好的稳定性和咀嚼效率，美观效果也更佳，但对技术和适应证的要求更高。固定式过渡性义齿通常可在种植Ⅰ期术后即刻戴入，针对行软硬组织增量术的患者应在拆线时检查创口愈合情况，确保软组织愈合良好，无感染及黏膜破裂，方可戴入过渡性义齿。\n\n（1）种植体支持的临时修复体（有图片）\n\n其是在基台上制作的修复体，分为单冠、联冠和桥。当种植体植入后，由种植体支持的过渡义齿分为即刻戴入和经过一段骨结合期后再戴入两种。虽然经典的种植体骨结合理论要求种植体植入后有3~6个月无负重愈合期，以保证种植体和骨之间形成骨结合，但研究表明，只要种植体不存在超过100μm 的微小动度，即刻负重的种植体仍可形成骨结合。",
+          "char_count": 344,
+          "start_pos": 18003,
+          "end_pos": 18347,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-43",
+          "sequence": 44,
+          "content": "① 即刻或早期修复：一般用于牙列缺损中牙缺失数量较少时，尤其是美学区，与对颌牙无咬接触，主要恢复患者美观及发音功能，患者可以看到预期的修复效果。此外，过渡义齿可对种植体周围软组织进行支持和塑形，使最终修复体从过渡义齿塑造的龈沟中穿龈而出获得更好的美观效果，而不是试图强迫义齿戴入由愈合基台塑造的圆形空间。建议过渡义齿使用螺丝固位，既能方便检查种植体的稳定性，也便于调整过渡义齿的形态从而对种植体周围软组织进行成型。\n\n② 即刻或早期负重：一般用于牙列缺失的种植修复，以恢复患者的咀嚼功能及满足患者的美观需求。要求种植体能获得合适的初期稳定性，种植术区有充足的骨量且未进行引导骨再生术。\n\n日常维护：术后2个月内为高危期，前牙美学区的临时修复体禁止使用其咀嚼，无牙颌的即刻修复体应进食软食，以免影响种植体骨结合；保持口腔卫生，种植体支持的临时修复体的清洁需根据修复阶段特点调整。",
+          "char_count": 388,
+          "start_pos": 18349,
+          "end_pos": 18737,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-44",
+          "sequence": 45,
+          "content": "术后早期：此阶段临时修复体刚戴入，需避免刺激创口。拆线前避免直接刷牙触碰手术创口，可使用棉签蘸生理盐水轻柔擦拭创口周围。在缝线拆除/脱落前尽量不使用冲牙器冲洗术区。①机械清洁：术后如果没有活动性出血可以开始刷牙清洁修复体，但需注意避免刷毛直接接触伤口，应使用软毛牙刷动作轻柔清洁修复体颊舌侧，近牙龈位置使用漱口水清洁。邻面区域需用大小合适的邻间隙刷或牙线清理，确保无食物残渣滞留。②使用漱口水：饭后可用医用漱口水含漱（如0.12%氯己定），减少细菌滋生，但需遵医嘱控制使用时长，避免长期使用导致牙齿着色。\n\n过渡期清洁：术后复查见软组织愈合良好的情况下可以正常刷牙和使用冲牙器、间隙刷等清洁工具。每日早晚使用手动或电动软毛牙刷刷牙，配合单束牙刷深入清洁种植体颈部等狭窄区域；邻面清洁推荐使用牙线或牙线穿引器，桥体修复者需重点清理连接体下方，必要时使用脉冲式冲牙器冲洗死角。\n\n（2）固定桥（以邻牙为支持）",
+          "char_count": 402,
+          "start_pos": 18739,
+          "end_pos": 19141,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-45",
+          "sequence": 46,
+          "content": "（2）固定桥（以邻牙为支持）\n\n当种植体旁边的天然牙本身也需要修复或有足够强度时，可以制作一个跨越种植区、两端由天然牙支持的临时固定桥。材料多为自凝或热凝丙烯酸树脂，有时会用金属丝进行内部加强以防断裂。固定方式是使用临时粘接剂将其粘固在经过预备的两侧天然牙上，粘接剂的强度需适中，既要保证在使用期内不脱落，又要在制作最终修复体时易于取下。这种过渡性义齿固位及稳定性良好, 不但能满足外观和功能的需求,还有助于缺牙区软组织的愈合成形，对最终修复的美学效果和功能具有一定的指导作用。\n\n日常维护：进食后及时冲洗，使用冲牙器、牙线穿引器等工具清理桥体下方，避免食物残渣滞留；避免啃咬硬物（坚果、骨头等），用牙开瓶盖等；前牙固定桥切勿参与啃咬，后牙修复体避免单侧咀嚼；定期复查是否松动。\n\n（2）粘接桥式过渡义齿",
+          "char_count": 352,
+          "start_pos": 19127,
+          "end_pos": 19479,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-46",
+          "sequence": 47,
+          "content": "（2）粘接桥式过渡义齿\n\n通常由一个金属或高强度纤维（如玻璃纤维）框架和复合树脂组成的桥体构成 。框架会伸出“翼板”，通过专用的树脂粘接剂，将“翼板”牢固地粘接在邻牙未经或仅轻微预备的内侧（舌/腭侧）牙面上。这种方式最大限度地保全了邻牙的组织。其是通过粘接剂将修复体粘贴于基牙上，随着微创修复理念的兴起，粘接桥因其不磨牙或少量磨牙、椅旁操作时间短、异物感小、美观性能好，对种植术区不产生压力，越来越多的应用于种植过渡修复。此种修复方式尤其适用于前牙区缺牙间隙较小且挤压牙体及牙周情况良好，患者无不良咬合关系或咬合习惯，邻牙覆合覆盖正常,  能保证腭侧固位翼的强度,并能提供足够的粘接固位面积的情况。Ⅲ°深覆合、重度磨耗等造成可利用粘接面积不足时慎用。其作用与固定桥相同, 但由于粘接面积有限, 容易脱落。",
+          "char_count": 352,
+          "start_pos": 19468,
+          "end_pos": 19820,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-47",
+          "sequence": 48,
+          "content": "美学区的种植修复中，如果不能进行即刻修复，患者又有较高美学需要的情况下，可以采用粘接桥的临时修复形式。相比于各种类型的活动修复，粘接桥美观效果较好，不需要取下，并有一定的引导牙龈成型的效果，但应避免咬物，并且需要一定的舌侧修复空间。术后可即刻或延期戴入粘接桥临时修复体，在二期手术前拆下，进行种植支持式过渡义齿修复或正式修复。\n\n日常维护：进食后及时冲洗，使用冲牙器清理桥体下方，避免食物残渣滞留；避免啃咬硬物（坚果、骨头等），用牙开瓶盖等；前牙粘接桥切勿参与啃咬，后牙修复体避免单侧咀嚼；定期复查粘接界面是否松动。\n\n【腭护板】\n\n腭护板，在不同临床情境下也被称为腭托、腭部支架或阻塞器，是一种覆盖于上腭部的个性化定制修复或保护装置。虽然其在口腔颌面外科领域应用广泛，如用于腭裂修复、上颌骨切除术后的缺损修复，但在口腔种植软组织移植术后，其一个覆盖并保护上腭软组织供区的薄板状装置。\n\n（1）作用",
+          "char_count": 399,
+          "start_pos": 19822,
+          "end_pos": 20221,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-48",
+          "sequence": 49,
+          "content": "（1）作用\n\n① 物理屏障与机械保护：核心的作用，腭护板形成一个坚固的屏障，将上腭的术后创面与口腔内的复杂环境隔离开。它能够有效保护术后创面和血凝块，避免其受到来自舌体运动、食物摩擦等机械性刺激和损伤。这种稳定的环境是组织初期愈合的先决条件。\n\n② 加压止血与稳定血凝块：手术结束时，医生常在创面与护板之间放置止血纱布或明胶海绵等敷料，腭护板通过其精确的贴合度对创面施加均匀、持续的压力。这种压力不仅能有效压迫创口、促进止血、减少术后渗血，还能帮助初始形成的血凝块稳定附着于创面，为后续的肉芽组织生长和上皮化提供基础。\n\n③ 促进愈合与防止感染：通过隔离创面，腭护板能有效防止唾液、细菌和食物残渣的污染。有效降低了术后感染的风险，为创面在一个相对洁净的环境中愈合提供了保障。\n\n④ 提升患者舒适度与生活质量：腭护板显著减轻了患者的术后不适感。开放的创面直接暴露于口腔中会引起剧烈的疼痛，尤其是在进食、饮水和说话时。腭护板的覆盖作用大大减轻了这些刺激，提高了患者的术后舒适度和满意度。\n\n（2）佩戴时间\n\n① 时机：通常在手术结束时立即戴上。",
+          "char_count": 470,
+          "start_pos": 20216,
+          "end_pos": 20686,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-49",
+          "sequence": 50,
+          "content": "（2）佩戴时间\n\n① 时机：通常在手术结束时立即戴上。\n\n② 时长：佩戴时间并无统一标准，需严格遵循医嘱。一种常见的方案是术后连续佩戴24~48小时不取下，以作为创面的“压力绷带”。部分临床实践建议，48小时后，可根据伤口情况决定是否继续佩戴，或仅在进食时佩戴。总佩戴时间可能从几天到1~2周不等，直至创面初步愈合。\n\n（3）清洁方法\n\n当被允许取下后，应每日/每餐后清洁护板。使用软毛牙刷和清水刷洗护板的内外面，无需使用牙膏，因其磨料可能划伤护板表面，使其更容易积聚菌斑和软垢。也可用生理盐水擦洗。严禁使用热水清洗或浸泡，以免导致护板变形。\n\n\n\n8. 交通指导\n\n【常规种植外科手术】\n\n术后交通无特殊。\n\n【特殊情况】\n\n（1）上颌窦提升植骨术患者：术后患者应在10天内避免乘坐飞机等引起压力变化的交通工具（不同大夫根据术中情况要求不一样，具体时间需和主刀大夫确认），避免对上颌窦黏膜造成压力。 \n\n（2）术中使用特殊用药患者：镇静药马来酸咪达唑仑片患者，术后当天避免开车等使用驾驶和机械操作能力等操作。\n\n\n\n9. 用药指导\n\n四门诊所有的口服药、漱口水均为国产品牌，非进口、非原研药。",
+          "char_count": 497,
+          "start_pos": 20659,
+          "end_pos": 21156,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-50",
+          "sequence": 51,
+          "content": "9. 用药指导\n\n四门诊所有的口服药、漱口水均为国产品牌，非进口、非原研药。\n\n【抗菌药物】\n\n预防性应用抗菌药物的主要目的是防止愈合初期软组织和骨组织发生感染。研究表明，种植术前应用抗菌药物有利于种植治疗的成功，这可能是因为相对更加无菌的局部环境有利于防止感染发生。美国外科医生协会制定的关于手术切口和感染风险度的分类方法中，将各种手术的污染程度和发生感染的概率分为Ⅰ~Ⅳ四个等级，其中Ⅱ、Ⅲ和Ⅳ类建议预防性应用抗菌药物。种植手术属于Ⅱ类-清洁-污染切口的手术，而且种植手术又属于外源性植人物手术，一旦发生植人物感染，会导致较为严重的后果，因此建议预防性使用抗菌药物。\n\n另外，手术时问长短也与术后感染的发生密切相关，且被认为是影响术后感染发生率二大危险因素（第一危险因素为术区细菌污染）。通常，1小时以内的手术发生术后感染的概率为1.3%，而历时3小时的手术发生感染的概率会超过4%。有研究推测，手术时间每增加1小时，发生感染的概率增加一倍。因此，对于可能涉及骨扩增等复杂外科技术、需要较术时间的种植手术，也应该考虑预防性使用抗菌药物以防止术后感染的发生。\n\n（1）种类选择",
+          "char_count": 489,
+          "start_pos": 21118,
+          "end_pos": 21607,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-51",
+          "sequence": 52,
+          "content": "（1）种类选择\n\n抗菌药物种类的选择预防性使用抗菌药物必须能有效针对最有可能导致感染的菌。大多数情况下，引发感染的细菌来自于术区本身。口腔感染属混合性感染，口腔内存在复杂的微生物群落，包括需氧菌、兼性厌氧菌和厌氧菌，厌菌与需氧菌之比为2:1，但是厌氧菌的繁殖依赖于需氧菌为其提供一个相对厌氧的环境。相关研究证实，链球菌是口腔内感染早期阶段的主要病原菌，随后链球菌的繁殖会为厌氧菌的人侵提供条件，因此，理想的抗菌药物治疗需能有效针对上述两类病原菌，在口腔种植手术中，使用广谱抗生素和厌氧抗生素的目的是为了预防和治疗可能发生的感染。\n\n决定抗菌药物选择的另一个因素是，抗菌药物的副作用应尽可能小，包括恶心、过敏反应等。抗菌药物的杀菌能力是选菌药物的第三个依据，与抑菌剂相比，选用杀菌剂对于术前预防性使用抗菌药物而言具有更优点。\n\n1）β-内酰胺类抗菌药物：最常用的β-内酰胺类抗菌药物是青霉素类和头孢菌素类抗菌药物，种植外科手术前半小时可以口服阿莫西林作为常规预防性用药，对于高风险手术、也可以术前静脉应用头孢唑啉。四门诊常用药物为头孢呋辛酯片、阿莫西林胶囊。",
+          "char_count": 478,
+          "start_pos": 21600,
+          "end_pos": 22078,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-52",
+          "sequence": 53,
+          "content": "2）硝基咪唑类：包括甲硝唑、替硝唑、奥硝唑等，属于杀菌性抗菌药物，对厌氧菌解耦原虫有独特的杀灭作用，因此，在口腔手术中经常使用，有口服剂型和静脉剂型，可以与β-内酰胶类抗菌药物联合使用。四门诊常用药物为替硝唑片。\n\n3）林可霉素类：包括林可霉素和克林霉素等，其中克林霉素在口腔科的应用越来越多，主要因为其具有抗厌氧菌的能力，而该药同样具有抗需氧菌的能力（如链球菌、葡萄球菌），另外还能有效对抗脆弱类杆菌。有时，可将克林霉素针剂（3mg/2ml）加入上颌窦植骨材料中用于预防感染。\n\n4）四环素类：20世纪50年代起，四环素即被应用于临床，该药物属于广谱抗菌药物，对链球菌、葡萄球菌、口腔厌氧菌和革兰氏阴性需氧杆菌均有效，是种植和牙周手术的理想补充用药。\n\n5）喹诺酮类：喹诺酮类药物属广谱杀菌性抗菌药物，对治疗口腔感染有确切效果，第三、四代喹诺酮类药物可有效杀灭厌氧菌，可以用于预防和治疗上颌窦植骨后感染。",
+          "char_count": 403,
+          "start_pos": 22080,
+          "end_pos": 22483,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-53",
+          "sequence": 54,
+          "content": "6）大环内酯类：常用的代表性药物是红霉素，多大部分链球菌、葡萄球菌都有效，对一些厌氧菌也有效，当患者对β-内酰胺类抗菌药物过敏时可替代性选用红霉素。四门诊常用药物为罗红霉素片、阿奇霉素片。\n\n（2）使用时间\n\n抗菌药物达到足够的组织浓度是其发挥有效作用的先决条件，某种抗菌药物的预防性应用应能使血清浓度达到该抗菌药物针对某种病原菌的最小抑菌浓度3~4倍，如果抗菌药物在术区已经发生细菌污染后才达到有效浓度，就不能起到有效预防感染的作用。因此，建议在术前0.5~1小时应用抗菌药物，首量可以加倍，以确保手术时达到最佳的药物浓度。对于体格健康的患者而言，手术后持续应用抗菌药物常常不能降低外科切口感染的发生率，而短期内的有效剂量的抗菌药物应用通常就已经能达到目的。因此，是否延长抗菌药物的使用时间应该根据患者健康情况、手术复杂程度、手术并发症的风险和危害大小来综合考虑。\n\n1）术前\n\n所有术式：头孢呋辛酯片0.25g（或阿莫西林胶囊0.5g，如果青霉素、头孢类过敏患者可以服用罗红霉素片0.15g）；替硝唑1g。\n\n如患者患有高血压、糖尿病，以下药物术前需正常服用：",
+          "char_count": 482,
+          "start_pos": 22485,
+          "end_pos": 22967,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-54",
+          "sequence": 55,
+          "content": "如患者患有高血压、糖尿病，以下药物术前需正常服用：\n\n①降压药：硝苯地平、氨氯地平、缬沙坦、氯沙坦、依那普利、美托洛尔等：正常服用，不可停药（血压波动可能增加心脑血管风险，且高血压会增加术中出血概率），术前当天可正常用少量水送服，监测术前血压（需控制在140/90mmHg以下）。\n\n②降糖药：二甲双胍、格列美脲、阿卡波糖、西格列汀、胰岛素等：正常服用，避免血糖过高或过低（高血糖会增加术后感染风险，低血糖会影响术中状态）。术前需监测空腹血糖（建议控制在8mmol/L以下）。\n\n如患者服用以下药物需术前停药：\n\n①抗凝药：华法林、利伐沙班、达比加群、阿司匹林（大剂量，如100mg/日以上用于抗凝时）、氯吡格雷、替格瑞洛。\n\n停药时长：\n\n华法林：术前5~7天停用（遵医嘱）。\n\n利伐沙班/达比加群：术前24~48小时停用（根据肾功能调整）。\n\n氯吡格雷/替格瑞洛：术前7天停用（遵医嘱）。\n\n阿司匹林（抗凝用途）：术前7天停用（若为小剂量100mg/日用于心血管保护，需医生评估是否可不停）。",
+          "char_count": 448,
+          "start_pos": 22942,
+          "end_pos": 23390,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-55",
+          "sequence": 56,
+          "content": "阿司匹林（抗凝用途）：术前7天停用（若为小剂量100mg/日用于心血管保护，需医生评估是否可不停）。\n\n②中药：以“活血化瘀”为主的中药（如丹参、川芎、桃仁、红花组成的方剂，用于调理心脑血管、痛经等），术前7天停用（避免出血）。\n\n必须提供中药处方给种植科医生，由中西医医生共同判断，不可自行判断“无风险”。\n\n③保健品：一般无影响，可正常服用，如不确认，可向手术医生咨询。\n\n注意：\n\n①停药期间需监测凝血功能，避免剧烈运动、外伤，防止出血；必须由心血管科医生与种植科医生共同评估停药风险（如是否有血栓风险），不可自行停药。\n\n②患者不可自行调整用药：所有停药、减量、换药均需医生（种植科+基础疾病科）共同评估，自行停药可能导致心梗、脑梗、血糖失控等严重风险。\n\n2）术后\n\n① 单颗牙种植术：术后需要服用抗生素3天，饭后服用。\n\n头孢呋辛酯片每天2次，间隔12h/次，每次0.25g（或阿莫西林胶囊每天3次，间隔8h/次，每次0.5g，如果青霉素、头孢类过敏患者可以服用罗红霉素片每天2次，间隔12h/次，每次0.15g）；\n\n替硝唑每天1次，每次1g。",
+          "char_count": 479,
+          "start_pos": 23340,
+          "end_pos": 23819,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-56",
+          "sequence": 57,
+          "content": "替硝唑每天1次，每次1g。\n\n② 多颗种植体植入术、简单植骨手术、GBR植骨术、位点保存术:需要服用3天抗生素，糖尿病患者需连续服用5天，饭后服用。\n\n头孢呋辛酯片每天2次，间隔12h/次，每次0.25g（或阿莫西林胶囊每天3次，间隔8h/次，每次0.5g，如果青霉素、头孢类过敏患者可以服用罗红霉素片每天2次，间隔12h/次，每次0.15g）；\n\n替硝唑每天1次，每次1g。\n\n③ 在复杂种植手术中，上颌窦外提升术、自体骨移植术、无牙颌手术后患者：需要服用5天抗生素，糖尿病患者需服用7天抗生素，饭后服用。\n\n头孢呋辛酯片每天2次，间隔12h/次，每次0.25g（或阿莫西林胶囊每天3次，间隔8h/次，每次0.5g，如果青霉素、头孢类过敏患者可以服用罗红霉素片每天2次，间隔12h/次，每次0.15g）；\n\n替硝唑每天1次，每次1g。\n\n④ 特殊情况：如患者脸部肿胀、伤口红肿，抗生素可以加服至7天。若7天后仍然肿胀明显、疼痛加剧需及时就医。\n\n【止疼药物】",
+          "char_count": 430,
+          "start_pos": 23806,
+          "end_pos": 24236,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-57",
+          "sequence": 58,
+          "content": "④ 特殊情况：如患者脸部肿胀、伤口红肿，抗生素可以加服至7天。若7天后仍然肿胀明显、疼痛加剧需及时就医。\n\n【止疼药物】\n\n疼痛作为种植外科术后常见不适症状，发生率达68.5%，术后疼痛管理是患者最关心的问题之一。大多数患者在术后会经历轻到中度疼痛，少数患者可能经历重度疼痛。疼痛在术后1天时最严重，可持续至术后3天。有效的疼痛管理不仅能提升患者舒适度和就医体验，还能促进其术后合作与恢复。在口腔种植术中，使用止疼药可以有效缓解术后疼痛、提高患者舒适度，促进术后恢复，同时减少疼痛所导致的并发症。口腔种植术后疼痛可分为伤害性疼痛、炎症性疼痛和神经病理性疼痛。\n\n伤害性或炎症性疼痛：通常情况下，种植术后疼痛多为伤害性或炎症性疼痛，持续时间很短，炎症性疼痛通常以隐痛或跳痛为特征。\n\n神经病理性疼痛：通常为中至重度的持续性疼痛，以灼痛、刺痛、针刺样和电击样疼痛为主要症状。神经病理性疼痛一旦发生，即使不再接受外界的有害刺激，疼痛也可持续存在。其与下牙槽神经损伤以及外周敏化和中枢敏化的发生有关。\n\n（1）种类选择",
+          "char_count": 455,
+          "start_pos": 24176,
+          "end_pos": 24631,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-58",
+          "sequence": 59,
+          "content": "（1）种类选择\n\n目前的循证文献仍不能提出种植术后疼痛最佳的止痛方案，因此仍建议开具NSAID短期处方（小于3 d）以管理术后疼痛。四门诊开具的止疼药物为：布洛芬缓释胶囊、洛索洛芬钠片、洛芬待因片。\n\n1）非甾体抗炎药 (NSAIDs) ：如布洛芬、萘普生、双氯芬酸、依托考昔等。它们通过抑制环氧合酶(COX)来减少前列腺素的合成，兼具抗炎和镇痛双重作用，是口腔种植术后轻中度疼痛管理的一线首选药物。\n\n2）对乙酰氨基酚：一种中枢性镇痛药，具有良好的解热镇痛效果，但不具备显著的抗炎作用。其安全性较高，常与NSAIDs联合使用，以增强镇痛效果并减。少单一药物的剂量。\n\n3）阿片类药物：这类药物作用于中枢神经系统的阿片受体，提供强效镇痛，主要用于中重度疼痛，如曲马多、可待因、羟考酮等。然而，由于其潜在的恶心、呕吐、便秘、嗜睡及成瘾风险，通常不作为常规口腔种植手术后的首选，仅在多模式镇痛方案无效的重度疼痛时短期使用。",
+          "char_count": 409,
+          "start_pos": 24624,
+          "end_pos": 25033,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-59",
+          "sequence": 60,
+          "content": "4）其他辅助镇痛药物：①局部麻醉药：尤其是长效局麻药如布比卡因，在手术结束时使用，可提供长达6~9小时的术后镇痛，显著降低术后即刻的疼痛感和对全身性止痛药的需求。②糖皮质激素药物：如皮质醇、泼尼松龙和地塞米松等。它们具有强大的抗炎和抗水肿作用，可有效减轻术后肿胀和疼痛。通常在预计创伤较大的复杂手术（如广泛植骨）中使用，但其对骨愈合的潜在影响存在争议，故不推荐作为常规用药。\n\n（2）使用时间\n\n1）术前：在疼痛刺激发生前（即术前）给予镇痛药物，可以有效抑制中枢敏化，从而显著降低术后疼痛的强度和持续时间。通常建议在术前30~90分钟服药。\n\n2）术后：在术后初期（尤其是前24~48小时），疼痛最为剧烈。建议患者严格按照医生处方的时间间隔规律服药，而不是等到感觉疼痛难忍时再服。这样可以维持血液中稳定的药物浓度，将疼痛水平持续控制在可耐受范围。麻醉消退前服用第一剂术后止痛药是关键。\n\n① 单颗牙种植术：通常开具以下两种止疼药的其中一种，以布洛芬缓释胶囊为主。",
+          "char_count": 431,
+          "start_pos": 25035,
+          "end_pos": 25466,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-60",
+          "sequence": 61,
+          "content": "① 单颗牙种植术：通常开具以下两种止疼药的其中一种，以布洛芬缓释胶囊为主。\n\n布洛芬缓释胶囊：每天2次，间隔12h/次，每次0.3g，饭后半小时，口服。缓释剂型药效可持续12小时，24小时内服用不超过两次，连续服用3天。\n\n洛索洛芬钠片：每天3次，间隔8h/次，每次60mg，饭后半小时，口服，24小时内服用不超过240mg，连续服用3天。\n\n② 多颗种植体植入术、简单植骨手术、GBR植骨术、位点保存术: 通常开具以下两种止疼药的其中一种，以布洛芬缓释胶囊为主。\n\n布洛芬缓释胶囊：每天2次，间隔12h/次，每次0.3g，饭后半小时，口服。缓释剂型药效可持续12小时，24小时内服用不超过两次，连续服用3～5天。\n\n洛索洛芬钠片：每天3次，间隔8h/次，每次60mg，饭后半小时，口服，24小时内服用不超过240mg，连续服用3～5天。\n\n③ 在复杂种植手术中，上颌窦外提升术、自体骨移植术、无牙颌手术后患者：通常开具以下两种止疼药的其中一种，以布洛芬缓释胶囊为主，针对术前评估为重度疼痛风险的患者，可采用洛索洛芬钠。",
+          "char_count": 460,
+          "start_pos": 25429,
+          "end_pos": 25889,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-61",
+          "sequence": 62,
+          "content": "布洛芬缓释胶囊：每天2次，间隔12h/次，每次0.3g，饭后半小时，口服。缓释剂型药效可持续12小时，24小时内服用不超过两次，连续服用3～5天。\n\n洛索洛芬钠片：每天3次，间隔8h/次，每次60mg，饭后半小时，口服，24小时内服用不超过240mg，连续服用3～5天。\n\n洛芬待因片：医生评估患者为中度、重度疼痛时遵医嘱服用此药物，每天3次，间隔8h/次，每次1片（含布洛芬0.2g、磷酸可待因12.5mg），饭后半小时，口服，24小时内不超过6片，服用不超过5天。\n\n【其他药物】\n\n（1）降压药物：在口腔种植术中，若是高血压患者，或患者因紧张、疼痛导致血压骤升，可以使用短效降压药控制患者血压，降低术中及术后的出血风险，保障手术的安全，并减少心血管并发症。若患者有高血压病史，在术中血压160/90mmHg以上，可以遵医嘱舌下含服硝酸甘油片、硝酸甘油喷雾等（青光眼患者禁用硝酸甘油喷雾）。",
+          "char_count": 397,
+          "start_pos": 25891,
+          "end_pos": 26288,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-62",
+          "sequence": 63,
+          "content": "常见的不良反应：①头痛（多为搏动性）、面部潮红、头晕。②直立性低血压（如站立时眼前发黑、乏力），部分患者可能出现心悸。③偶见皮疹、瘙痒等过敏症状，罕见严重过敏反应（如呼吸困难、喉头水肿）。④剂量过大时可能导致血压过度降低，引发晕厥。\n\n术后指导：嘱患者术后注意监测血压、心率，避免突然站立，预防直立性低血压。避免同时使用其他降压药，术后避免剧烈运动、情绪激动等诱发心绞痛的因素。若出现频繁头痛、持续低血压、胸痛加重等情况，需及时到综合医院就诊。\n\n（2）镇静药物：在口腔种植术中，若是高血压患者因紧张、疼痛导致血压骤升，可以遵医嘱给患者服用马来酸咪达唑仑片，可以缓解患者紧张、焦虑情绪，提高治疗配合度，降低血压波动过大的风险，改善手术条件。若患者有高血压病史伴紧张不安，在术中血压170/90mmHg以上，可以遵医嘱含服咪达唑仑片（此药物为镇静药，需家属陪同）。四门诊常用术中镇静药物为马来酸咪达唑仑，是临床上常用的一种镇静、催眠、麻醉药物。临床上适用于比如麻醉前的诱导、ICU病人的镇静、减轻患者疼痛，以及特殊疾病的使用。",
+          "char_count": 462,
+          "start_pos": 26290,
+          "end_pos": 26752,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        },
+        {
+          "chunk_id": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx::chunk-63",
+          "sequence": 64,
+          "content": "常见的不良反应：①低血压。②急性谵妄、朦胧、失定向、惊厥、焦虑、神经质或不安宁等。此外还有心跳增快、不规则、静脉炎、皮肤红肿、皮疹、过度换气、呼吸急促等。较少见的症状有：视物模糊、轻度头痛、头昏、咳嗽、飘飘然；手脚无力、麻、痛或针刺样感等。\n\n术后指导：因服用马来酸咪达唑仑片可能引起顺行性遗忘，注意力不集中、肌肉功能受损对驾驶和机械操作能力产生不良影响等副作用，最易发生在服药后最初数小时内。因此为了降低该风险，病人当天应避免开车、精密仪器操作等，并应保证能够有7~8小时不受干扰的睡眠。术后为防止因药物残留效应而导致患者产生不适，术中应用马来酸咪达唑仑片病人身边需有家属陪同，24小时内切不可让病人独自活动。",
+          "char_count": 306,
+          "start_pos": 26754,
+          "end_pos": 27060,
+          "metadata": {
+            "source": "D:\\大三上\\口腔智能体\\GPT重做版\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\sanora_agent-master-19e52f502fe8016345db284befef3c13c28ce56b\\src\\graphs\\knowledge\\packs\\mouth_cavity_v2\\knowledge_base\\术后居家维护.docx",
+            "page_mapping": [
+              0
+            ]
+          },
+          "page_mapping": [
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

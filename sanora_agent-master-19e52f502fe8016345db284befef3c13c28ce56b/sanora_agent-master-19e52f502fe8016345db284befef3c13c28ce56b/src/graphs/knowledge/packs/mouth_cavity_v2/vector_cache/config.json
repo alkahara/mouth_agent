@@ -1,0 +1,38 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 70,
+  "embedding_model": "text-embedding-v4",
+  "files": [
+    {
+      "path": "临床表现.docx",
+      "mtime_ns": 1789644015841335600,
+      "size": 18863
+    },
+    {
+      "path": "出血原因.docx",
+      "mtime_ns": 1789644015877032800,
+      "size": 18213
+    },
+    {
+      "path": "发生时间.docx",
+      "mtime_ns": 1789644015891090900,
+      "size": 17806
+    },
+    {
+      "path": "处理方法.docx",
+      "mtime_ns": 1789644015904731700,
+      "size": 23828
+    },
+    {
+      "path": "常用术后问答对(更新至12月11日).docx",
+      "mtime_ns": 1789644015936099200,
+      "size": 38857
+    },
+    {
+      "path": "术后居家维护.docx",
+      "mtime_ns": 1789644015952658400,
+      "size": 70634
+    }
+  ],
+  "chunk_count": 101
+}

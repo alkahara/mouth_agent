@@ -1,0 +1,208 @@
+<navigation-bar title="口腔智能体" back="{{false}}" color="#ffffff" background="#0f172a">
+  <view slot="left" class="nav-debug-slot">
+    <view
+      class="debug-button {{debugPanelVisible ? 'debug-button--active' : ''}}"
+      bindtap="toggleDebug"
+      role="button"
+      aria-label="Debug"
+    ><image class="debug-icon" src="/pages/index/debug.svg"></image></view>
+  </view>
+  <view slot="right" class="nav-account-slot" bindtap="handleLogout" role="button" aria-label="退出登录">退出</view>
+</navigation-bar>
+
+<view class="page-shell">
+  <scroll-view
+    class="message-scroll"
+    scroll-y
+    enhanced
+    scroll-with-animation
+    scroll-into-view="{{scrollIntoView}}"
+  >
+    <view class="empty-state" wx:if="{{messages.length === 0 && !isLoading}}">
+      输入内容开始与口腔智能体对话
+    </view>
+
+    <view class="message-group" wx:for="{{messages}}" wx:key="id" id="{{item.id}}" wx:for-item="message" wx:for-index="messageIndex">
+      <view class="message-row {{message.isAssistant ? 'message-row--assistant' : 'message-row--user'}}">
+        <view class="avatar">{{message.isAssistant ? 'AI' : '我'}}</view>
+        <view class="message-body">
+          <view class="message-bubble">{{message.text}}</view>
+          <view class="message-time">{{message.timestamp}}</view>
+        </view>
+      </view>
+
+      <view class="video-card" wx:if="{{message.videoUrl}}">
+        <video
+          wx:if="{{message.isDirectVideo}}"
+          id="{{message.id}}"
+          class="direct-video"
+          src="{{message.videoUrl}}"
+          controls
+          show-center-play-btn
+          show-fullscreen-btn
+          enable-progress-gesture
+          object-fit="contain"
+          data-message-id="{{message.id}}"
+          bindtimeupdate="onVideoTimeUpdate"
+          bindplay="onVideoPlay"
+          bindpause="onVideoPause"
+          bindended="onVideoEnded"
+        ></video>
+        <view
+          wx:else
+          class="video-thumb"
+          hover-class="video-thumb--hover"
+          hover-stay-time="80"
+          data-url="{{message.videoUrl}}"
+          data-password="{{message.videoPassword}}"
+          bindtap="openInlineVideo"
+          role="button"
+          aria-label="播放视频"
+        >
+          <view class="video-thumb__icon"></view>
+          <view class="video-thumb__label">点击播放视频教程</view>
+        </view>
+        <view class="video-password" wx:if="{{message.videoPassword}}">
+          <text>视频密码：{{message.videoPassword}}</text>
+          <button class="copy-button" data-password="{{message.videoPassword}}" bindtap="copyVideoPassword">复制</button>
+        </view>
+      </view>
+
+      <view class="option-panel" wx:if="{{message.hasOptions}}">
+        <view class="multi-summary" wx:if="{{message.multiSelect}}">
+          {{message.selectionSummary}}
+        </view>
+        <view class="option-grid">
+          <view
+            class="option-card {{option.selected ? 'option-card--selected' : ''}} {{(isLoading || option.disabled) ? 'option-card--disabled' : ''}}"
+            wx:for="{{message.options}}"
+            wx:key="key"
+            wx:for-item="option"
+            wx:for-index="optionIndex"
+            hover-class="option-card--hover"
+            hover-stay-time="80"
+            data-message-index="{{messageIndex}}"
+            data-option-index="{{optionIndex}}"
+            bindtap="handleOptionTap"
+          >
+            <image
+              wx:if="{{option.imageUrl && option.localImageUrl}}"
+              class="option-image"
+              src="{{option.localImageUrl}}"
+              mode="aspectFill"
+            ></image>
+            <view
+              wx:elif="{{option.imageUrl && !option.imageError}}"
+              class="option-image option-image--placeholder"
+            >图片加载中…</view>
+            <view
+              wx:elif="{{option.imageUrl && option.imageError}}"
+              class="option-image option-image--placeholder"
+            >图片加载失败</view>
+            <view class="option-label">
+              <text class="option-key">{{option.key}}.</text>
+              <text class="option-text">{{option.label}}</text>
+            </view>
+          </view>
+        </view>
+        <button
+          wx:if="{{message.multiSelect}}"
+          class="confirm-button"
+          disabled="{{isLoading || message.selectedCount === 0}}"
+          data-message-index="{{messageIndex}}"
+          bindtap="handleMultiSelectConfirm"
+        >{{message.confirmButtonText}}（{{message.selectedCount}}）</button>
+      </view>
+    </view>
+
+    <view class="loading-card" wx:if="{{isLoading}}" id="loading-anchor">
+      <view class="loading-dot"></view>
+      正在等待智能体回复…
+    </view>
+    <view class="error-card" wx:if="{{error}}">{{error}}</view>
+    <view id="bottom-anchor" class="bottom-anchor"></view>
+  </scroll-view>
+
+  <view class="composer">
+    <textarea
+      class="composer-input"
+      value="{{draft}}"
+      disabled="{{isLoading}}"
+      maxlength="4000"
+      auto-height
+      confirm-type="send"
+      show-confirm-bar="{{false}}"
+      cursor-spacing="20"
+      placeholder="输入你的问题"
+      bindinput="handleDraftInput"
+      bindconfirm="handleSend"
+    ></textarea>
+    <view
+      wx:if="{{isIOS}}"
+      class="reset-button {{!canReassess || isLoading ? 'reset-button--disabled' : ''}}"
+      bindtap="handleReassessTap"
+      role="button"
+      aria-label="重新评估"
+    ><image class="reset-icon" src="/pages/index/reset.svg"></image></view>
+    <button
+      wx:elif="{{canSend}}"
+      class="composer-button send-button"
+      disabled="{{isLoading}}"
+      bindtap="handleSend"
+    >发送</button>
+    <view
+      wx:else
+      class="reset-button {{!canReassess || isLoading ? 'reset-button--disabled' : ''}}"
+      bindtap="handleReassessTap"
+      role="button"
+      aria-label="重置"
+    ><image class="reset-icon" src="/pages/index/reset.svg"></image></view>
+  </view>
+</view>
+
+<view
+  class="debug-panel"
+  wx:if="{{debugPanelVisible}}"
+  catchtouchmove="stopPropagation"
+  style="top: {{navbarHeight}}px;"
+>
+  <view class="debug-panel__arrow"></view>
+  <view class="slot-header">
+    <text>槽位收集进度</text>
+    <text class="slot-count">{{filledSlotCount}} / 6 项（{{slotProgress}}%）</text>
+  </view>
+  <view class="progress-track">
+    <view class="progress-value" style="{{slotProgressStyle}}"></view>
+  </view>
+  <view class="slot-list">
+    <view class="slot-item {{item.filled ? 'slot-item--filled' : ''}}" wx:for="{{slotItems}}" wx:key="key">
+      <text class="slot-dot">{{item.filled ? '✓' : '·'}}</text>
+      <text>{{item.label}}</text>
+      <text wx:if="{{item.filled}}">：{{item.valueLabel}}</text>
+    </view>
+  </view>
+  <view class="triage-card" wx:if="{{triageVisible}}" style="border-left-color: {{riskColor}};">
+    <text class="risk-badge" style="background: {{riskColor}};">{{riskLabel}}</text>
+    <view class="care-label">护理方案</view>
+    <view class="care-plan">{{carePlanId}}</view>
+  </view>
+</view>
+
+<view class="dialog-mask" wx:if="{{showOtherDialog}}" bindtap="closeOtherDialog">
+  <view class="dialog" catchtap="stopPropagation">
+    <view class="dialog-title">{{otherDialogTitle}}</view>
+    <view class="dialog-hint">{{otherDialogHint}}</view>
+    <textarea
+      class="dialog-input"
+      value="{{otherInput}}"
+      maxlength="4000"
+      focus
+      placeholder="请输入…"
+      bindinput="handleOtherInput"
+    ></textarea>
+    <view class="dialog-actions">
+      <button class="dialog-cancel" bindtap="closeOtherDialog">取消</button>
+      <button class="dialog-submit" disabled="{{!otherCanSubmit}}" bindtap="submitOtherInput">提交</button>
+    </view>
+  </view>
+</view>

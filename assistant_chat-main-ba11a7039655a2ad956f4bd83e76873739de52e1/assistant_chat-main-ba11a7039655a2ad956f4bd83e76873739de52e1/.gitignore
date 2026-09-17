@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.env.*
+gateway.stdout.log
+gateway.stderr.log
+.DS_Store
+web/node_modules/
+web/dist/

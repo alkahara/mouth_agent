@@ -1,0 +1,19 @@
+# Packages required by the agentic knowledge graphs and knowledge packs
+aiohttp
+beautifulsoup4
+click
+dashscope
+docx2txt
+faiss-cpu
+json-repair
+langchain-text-splitters
+numpy
+pandas
+pyprojroot
+pypdf
+rank-bm25
+requests
+tabulate
+tenacity
+tiktoken
+tqdm

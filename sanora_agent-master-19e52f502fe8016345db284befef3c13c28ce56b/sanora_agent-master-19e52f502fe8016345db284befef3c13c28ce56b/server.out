@@ -1,0 +1,10 @@
+nohup: ignoring input
+14:40:46 | INFO     | root                           | 日志系统已初始化，日志目录: /home/lele/workspace/rooyee/rooyee_agent/logs
+Traceback (most recent call last):
+  File "/home/lele/workspace/rooyee/rooyee_agent/run_server.py", line 24, in <module>
+    from src.main import app
+  File "/home/lele/workspace/rooyee/rooyee_agent/src/main.py", line 9, in <module>
+    from .config import config
+  File "/home/lele/workspace/rooyee/rooyee_agent/src/config.py", line 2, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
