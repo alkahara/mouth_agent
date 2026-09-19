@@ -586,3 +586,198 @@ graph TD;
 	classDef last fill:#bfb6fc
 
 2026-09-17 20:17:16 - graph.mouth_cavity_v2_knowledge - INFO - [base.py:79] - Initialized MouthCavityV2Knowledge for app 口腔术后助手
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 我刚拔完牙，止血棉需要咬多久？
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: 无
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:340] - 🎯 识别到 Flow: bleeding
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:341] - ═══════════════════════════════════════
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=[]
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=ask_slot, slot_id=is_surgical_area
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:73] - 📝 AskSlot Operator 开始
+2026-09-17 20:18:45 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:197] - 📤 生成问题: 您及时联系我们是正确的选择，请放心，我会帮助您评估情况并指导处理。
+
+请问出血部位是否为手术区域？...
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 我出血了
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: 无
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:340] - 🎯 识别到 Flow: bleeding
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:341] - ═══════════════════════════════════════
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=[]
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=ask_slot, slot_id=is_surgical_area
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:73] - 📝 AskSlot Operator 开始
+2026-09-17 20:27:13 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:197] - 📤 生成问题: 别担心，出血情况是可以控制的，请先保持镇定，我来帮助您。
+
+请问出血部位是否为手术区域？...
+2026-09-17 20:27:16 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:27:16 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:27:16 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 是
+2026-09-17 20:27:16 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:27:16 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:16 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'answer_slot', 'target_flow': 'bleeding', 'reasoning': "用户最新消息为'是'，是对上一条AI提问'请问出血部位是否为手术区域？'的直接回答，确认了出血部位为手术区域，属于对当前待收集槽位（is_surgical_area）的回应，因此判断为与当前flow相关的槽位回答。"}
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.answer_slot
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:18 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:555] - 📤 调用 LLM 解析用户输入（结构化输出）...
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:565] - 📥 结构化输出成功: {'slot_updates': {'is_surgical_area': {'value': 'yes', 'raw': '是', 'confidence': 0.95}}, 'patient_emotion': 'calm', 'slot_valid': True, 'reasoning': '用户明确回答‘是’，直接对应‘出血部位是否为手术区域’的肯定回答，语义清晰，无歧义。该回答有效且完整，置信度高。情绪表现为冷静、配合，无焦虑或急迫表达。'}
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:601] - 📊 LLM 解析结果: slot_updates={'is_surgical_area': {'value': 'yes', 'raw': '是', 'confidence': 0.95}}, valid=True
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:615] - 📊 槽位标准化: {'is_surgical_area': {'value': 'yes', 'raw': '是', 'confidence': 0.95}} -> {'is_surgical_area': {'value': 'yes', 'raw': '是', 'confidence': 0.95}}
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=['is_surgical_area']
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=ask_slot, slot_id=cause_trigger
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:73] - 📝 AskSlot Operator 开始
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:197] - 📤 生成问题: 近期是否有咬硬物、漱口过猛、缝线松动、佩戴义齿/保持器或服用抗凝药等诱因？如果有，请描述具体情况。...
+2026-09-17 20:27:19 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes'}
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - DEBUG - [mouth_cavity_v2_graph.py:191] - 📦 恢复槽位状态: ['is_surgical_area']
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 无
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:23 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'response_to_slot', 'target_flow': 'bleeding', 'reasoning': "用户最新消息为空，但根据上下文，当前处于 '术后出血' 流程的槽位收集阶段，待收集的槽位是 'cause_trigger'。用户前一条消息已回答 '无' 诱因，表明其正在回应当前问题。虽然当前无新消息输入，但根据流程状态和历史对话，用户意图是完成当前槽位的填写，因此判断为与当前 flow 相关的响应。"}
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.response_to_slot
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:25 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:555] - 📤 调用 LLM 解析用户输入（结构化输出）...
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:565] - 📥 结构化输出成功: {'slot_updates': {'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}}, 'patient_emotion': 'calm', 'slot_valid': True, 'reasoning': "用户回答'无'明确针对当前待收集槽位'cause_trigger'，属于有效否定回答。根据规则，'无'应解析为'value: none'，置信度高（0.95），符合标准。情绪判断为'calm'，因用户用词简洁、无焦虑表达。"}
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:601] - 📊 LLM 解析结果: slot_updates={'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}}, valid=True
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:615] - 📊 槽位标准化: {'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}} -> {'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}}
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=['is_surgical_area', 'cause_trigger']
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=ask_slot, slot_id=latest_time
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:73] - 📝 AskSlot Operator 开始
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:197] - 📤 生成问题: 请问出血发生在术后多久？（例如：手术后12小时/3天/一周）...
+2026-09-17 20:27:26 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes', 'cause_trigger': 'none'}
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - DEBUG - [mouth_cavity_v2_graph.py:191] - 📦 恢复槽位状态: ['is_surgical_area', 'cause_trigger']
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 2h
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:30 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'answer_slot', 'target_flow': 'bleeding', 'reasoning': "用户最新消息为'2h'，是在回答当前正在收集的槽位问题'请问出血发生在术后多久？'，属于对'latest_time'槽位的直接回答，与当前flow'术后出血'直接相关，因此判断为flow_related。"}
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.answer_slot
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:31 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:555] - 📤 调用 LLM 解析用户输入（结构化输出）...
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:565] - 📥 结构化输出成功: {'slot_updates': {'latest_time': {'value': '2h', 'raw': '2h', 'confidence': 0.95}}, 'patient_emotion': 'calm', 'slot_valid': True, 'reasoning': "用户回答'2h'明确指出了术后时间，符合'术后多久'的询问，属于有效回答。虽然时间单位为'2h'（2小时），未使用标准表述如'2小时'，但语义清晰可理解，置信度高。用户未表现出焦虑或急迫情绪，语气简洁，因此判断为'calm'。"}
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:601] - 📊 LLM 解析结果: slot_updates={'latest_time': {'value': '2h', 'raw': '2h', 'confidence': 0.95}}, valid=True
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:615] - 📊 槽位标准化: {'latest_time': {'value': '2h', 'raw': '2h', 'confidence': 0.95}} -> {'latest_time': {'value': 'early', 'raw': '2h', 'confidence': 0.95, 'normalized': True}}
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=['is_surgical_area', 'cause_trigger', 'latest_time']
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=ask_slot, slot_id=surgery_type
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:73] - 📝 AskSlot Operator 开始
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:197] - 📤 生成问题: 本次接受了什么手术或治疗？（可多选，最多4项）...
+2026-09-17 20:27:33 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes', 'cause_trigger': 'none', 'latest_time': 'early'}
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - DEBUG - [mouth_cavity_v2_graph.py:191] - 📦 恢复槽位状态: ['is_surgical_area', 'cause_trigger', 'latest_time']
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: E,H,I,L
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:41 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'answer_slot', 'target_flow': 'bleeding', 'reasoning': "用户最新消息 'E,H,I,L' 是对当前待收集槽位 'surgery_type' 的回答，明确提供了手术类型信息（如种植、拔牙、智齿、牙槽突修整等），属于在回答当前 flow 的问题，因此意图类型为 flow_related。"}
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.answer_slot
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:42 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:555] - 📤 调用 LLM 解析用户输入（结构化输出）...
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:565] - 📥 结构化输出成功: {'slot_updates': {'surgery_type': {'value': 'E,H,I,L', 'raw': 'E,H,I,L', 'confidence': 0.95}}, 'patient_emotion': 'calm', 'slot_valid': True, 'reasoning': "用户明确回答 'E,H,I,L'，对应手术类型选项中的 '上颌前牙种植'（E）、'下颌后牙种植'（H）、'拔牙即刻种植术'（I）、'骨柱植骨术'（L）。该回答直接、清晰地回应了当前待收集槽位 'surgery_type'，属于有效回答。虽然未使用完整名称，但选项字母与标准选项一一对应，可准确解析。用户语气简洁，无焦虑或急迫表达，情绪为 'calm'。"}
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:601] - 📊 LLM 解析结果: slot_updates={'surgery_type': {'value': 'E,H,I,L', 'raw': 'E,H,I,L', 'confidence': 0.95}}, valid=True
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:615] - 📊 槽位标准化: {'surgery_type': {'value': 'E,H,I,L', 'raw': 'E,H,I,L', 'confidence': 0.95}} -> {'surgery_type': {'value': 'vascular', 'raw': 'E,H,I,L', 'confidence': 0.95, 'surgery_keys': ['E', 'H', 'I', 'L'], 'debug_info': {'user_input': 'E,H,I,L', 'parsed_surgeries': ['E', 'H', 'I', 'L'], 'matched_vascular': ['L'], 'matched_non_vascular': ['E', 'H', 'I'], 'final_judgment': "涉血管(vascular) → 走'是'的逻辑"}, 'normalized': True}}
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=['is_surgical_area', 'cause_trigger', 'latest_time', 'surgery_type']
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=ask_slot, slot_id=bleeding_severity
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:73] - 📝 AskSlot Operator 开始
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [ask_slot_operator.py:197] - 📤 生成问题: 当前出血表现更接近哪种情况？A. 轻微渗血；B. 伤口持续鲜红出血；C. 其他表现。...
+2026-09-17 20:27:44 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes', 'cause_trigger': 'none', 'latest_time': 'early', 'surgery_type': 'vascular'}
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - DEBUG - [mouth_cavity_v2_graph.py:191] - 📦 恢复槽位状态: ['is_surgical_area', 'cause_trigger', 'latest_time', 'surgery_type']
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 轻微渗血
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:46 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'answer_slot', 'target_flow': 'bleeding', 'reasoning': "用户最新消息为'轻微渗血'，是对当前正在收集的槽位'bleeding_severity'的直接回答。虽然该消息中包含'渗血'一词，但结合上下文，用户是在描述当前出血的严重程度，属于对当前flow（术后出血）的槽位信息补充，因此应归类为flow_related，具体为回答槽位问题。"}
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.answer_slot
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:27:48 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:555] - 📤 调用 LLM 解析用户输入（结构化输出）...
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:565] - 📥 结构化输出成功: {'slot_updates': {'bleeding_severity': {'value': 'minor', 'raw': '轻微渗血', 'confidence': 0.95}}, 'patient_emotion': 'calm', 'slot_valid': True, 'reasoning': "用户明确回答'轻微渗血'，与选项A（轻微渗血）完全匹配，属于对当前待收集槽位'bleeding_severity'的有效回答。回答清晰、直接，无歧义，置信度高。情绪表现为平静、配合，无焦虑或急迫语气。"}
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:601] - 📊 LLM 解析结果: slot_updates={'bleeding_severity': {'value': 'minor', 'raw': '轻微渗血', 'confidence': 0.95}}, valid=True
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:615] - 📊 槽位标准化: {'bleeding_severity': {'value': 'minor', 'raw': '轻微渗血', 'confidence': 0.95}} -> {'bleeding_severity': {'value': 'minor', 'raw': '轻微渗血', 'confidence': 0.95}}
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:622] - 🌳 决策树输入: slots=['is_surgical_area', 'cause_trigger', 'latest_time', 'surgery_type', 'bleeding_severity']
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:627] - 🌳 决策树输出: action=respond, slot_id=N/A
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:628] - ═══════════════════════════════════════
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - INFO - [final_operator.py:61] - ✅ Final Operator 开始
+2026-09-17 20:27:49 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'final_operator' using model: qwen3-flash with params: {'temperature': 0.7}
+2026-09-17 20:27:53 - graph.mouth_cavity_v2_knowledge - INFO - [final_operator.py:152] - 📤 生成最终响应: risk_level=RiskLevel.NONE, care_plan_id=mild_oze_early
+2026-09-17 20:27:53 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes', 'cause_trigger': 'none', 'latest_time': 'early', 'surgery_type': 'vascular', 'bleeding_severity': 'minor'}
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - DEBUG - [mouth_cavity_v2_graph.py:191] - 📦 恢复槽位状态: ['is_surgical_area', 'cause_trigger', 'latest_time', 'surgery_type', 'bleeding_severity']
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 流血量很多
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:28:12 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'symptom_description', 'target_flow': 'bleeding', 'reasoning': "用户最新消息'流血量很多'是对当前术后出血情况的进一步描述，尽管之前已提示为'轻微渗血'，但用户在此强调'流血量很多'，属于对当前flow（术后出血）症状的补充说明，意图仍聚焦于出血情况的评估与处理。当前分诊流程状态为'已完成，RAG问答模式'，但用户问题与口腔术后相关（出血量），因此应归类为flow_related。"}
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.symptom_description
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:253] - ✅ Flow 已完成，当前意图: flow_related
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:281] - 📋 用户意图与当前 flow 相关，尝试解析槽位更新并重新评估
+2026-09-17 20:28:13 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:325] - 📥 结构化输出成功: {'slot_updates': {'bleeding_severity': {'value': 'active', 'raw': '流血量很多', 'confidence': 0.95}}, 'patient_emotion': 'urgent', 'slot_valid': True, 'reasoning': "用户最新回答'流血量很多'明确否定了之前'轻微渗血'的判断，表明出血情况已从轻微渗血升级为持续鲜红出血，符合'伤口持续鲜红出血'的特征。该回答直接回应了出血严重程度的评估，是针对当前待收集槽位的有效反馈。虽然系统此前已基于'轻微渗血'给出低风险判断，但用户主动修正病情描述，表明其对当前状况存在明显担忧，情绪为'urgent'。"}
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:358] - 📊 LLM 解析结果: {'bleeding_severity': {'value': 'active', 'raw': '流血量很多', 'confidence': 0.95}}
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:370] - 🔄 更新槽位: {'bleeding_severity': {'value': 'active', 'raw': '流血量很多', 'confidence': 0.95}}
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:376] - 🌳 重新评估结果: action=ask_slot, risk=N/A
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:399] - 📚 使用 RAG 回答后续问题
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:400] - ═══════════════════════════════════════
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [rag_operator.py:61] - 📚 RAG Operator 开始
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - INFO - [rag_operator.py:83] - 📖 检索到 5 篇文档
+2026-09-17 20:28:15 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'rag_operator' using model: qwen3-flash with params: {'temperature': 0.7}
+2026-09-17 20:28:20 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes', 'cause_trigger': 'none', 'latest_time': 'early', 'surgery_type': 'vascular', 'bleeding_severity': 'minor'}
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - DEBUG - [mouth_cavity_v2_graph.py:191] - 📦 恢复槽位状态: ['is_surgical_area', 'cause_trigger', 'latest_time', 'surgery_type', 'bleeding_severity']
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:283] - ═══════════════════════════════════════
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:284] - 🎯 Intent Router Node 开始
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:293] - 📝 用户消息: 那怎么办
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:294] - 📌 当前 Flow: bleeding
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'intent_router_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:28:27 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:432] - 📤 调用 LLM 判断意图（结构化输出）...
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:443] - 📥 结构化输出成功: {'intent_type': 'flow_related', 'intent_subtype': 'flow_related', 'target_flow': '', 'reasoning': "用户最新消息为'那怎么办'，是在回应之前关于'流血量很多'的严重情况所提出的紧急处理建议。该问题聚焦于当前术后出血的应对措施，属于对护理建议的进一步追问，与口腔术后护理、出血处理直接相关。当前分诊流程状态为'已完成，RAG 问答模式'，但用户问题仍属于术后相关话题（出血处理），因此应归类为 flow_related。"}
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:483] - 🎯 意图判断结果: flow_related.flow_related
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [intent_router_node.py:484] - ═══════════════════════════════════════
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:235] - ═══════════════════════════════════════
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:236] - 🧠 Manager Node 开始 (混合模式：LLM解析 + 决策树控制)
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:253] - ✅ Flow 已完成，当前意图: flow_related
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:281] - 📋 用户意图与当前 flow 相关，尝试解析槽位更新并重新评估
+2026-09-17 20:28:29 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'manager_node' using model: qwen3-flash with params: {'temperature': 0.1}
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:325] - 📥 结构化输出成功: {'slot_updates': {'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}, 'latest_time': {'value': 'early', 'raw': '2h', 'confidence': 0.9}}, 'patient_emotion': 'anxious', 'slot_valid': True, 'reasoning': "用户最新回答'那怎么办'虽未直接回答具体槽位，但结合上下文，其情绪明显焦虑（'那怎么办'是典型的求助语气），且在前一轮对话中已明确提及'流血量很多'，表明当前出血情况已超出轻微渗血范畴，属于严重出血（active bleeding）。因此，系统应继续推进至关键槽位收集。虽然用户未直接回答'是否能压迫止血'或'压迫后是否再次出血'，但其提问'那怎么办'可视为对止血措施的求助，暗示当前无法自行控制出血，符合'无法压迫'或'压迫无效'的临床表现。根据特殊处理规则，若用户表达'无法压迫'或'压迫后仍出血'，应优先判断为'cannot'或'tried_but_bleeding'。此处虽未明确说'不能压迫'，但用户处于极度焦虑状态，且已出现大量出血，系统应默认其无法有效压迫止血，故可合理推断：'是否可以压迫止血' = 'cannot'。同时，'压迫后是否再次出血'也应视为'yes'（即仍出血），因用户未表示出血已停止。因此，系统应继续收集后续槽位，但当前用户回答本身不直接提供新信息，故仅对已有槽位进行合理推断与确认。"}
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:358] - 📊 LLM 解析结果: {'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}, 'latest_time': {'value': 'early', 'raw': '2h', 'confidence': 0.9}}
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:370] - 🔄 更新槽位: {'cause_trigger': {'value': 'none', 'raw': '无', 'confidence': 0.95}, 'latest_time': {'value': 'early', 'raw': '2h', 'confidence': 0.9}}
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:376] - 🌳 重新评估结果: action=respond, risk=RiskLevel.NONE
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:384] - ✅ 风险等级已更新: RiskLevel.NONE
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [manager_node.py:385] - ═══════════════════════════════════════
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [rag_operator.py:61] - 📚 RAG Operator 开始
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - INFO - [rag_operator.py:83] - 📖 检索到 5 篇文档
+2026-09-17 20:28:33 - graph.mouth_cavity_v2_knowledge - DEBUG - [base.py:293] - Node 'rag_operator' using model: qwen3-flash with params: {'temperature': 0.7}
+2026-09-17 20:28:38 - graph.mouth_cavity_v2_knowledge - INFO - [mouth_cavity_v2_graph.py:260] - [DEBUG] 最终槽位状态: {'is_surgical_area': 'yes', 'cause_trigger': 'none', 'latest_time': 'early', 'surgery_type': 'vascular', 'bleeding_severity': 'minor'}
